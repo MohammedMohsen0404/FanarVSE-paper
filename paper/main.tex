@@ -6,6 +6,7 @@
 \usepackage{amsmath,amsfonts,amsthm}
 \usepackage{array}
 \usepackage{xr}
+\usepackage{xurl}
 \externaldocument{supplementary}
 
 \renewcommand{\topfraction}{0.9}\renewcommand{\bottomfraction}{0.8}\renewcommand{\textfraction}{0.07}\renewcommand{\floatpagefraction}{0.75}
@@ -680,7 +681,7 @@ Coding theory supplies three tools that a GPU vector index can use directly: an 
 \bibliography{refs}
 
 \section*{Data Availability}
-The DBpedia OpenAI-ada-002 embeddings and the GloVe-100 dataset are publicly available, as are the extra sets of Section~\ref{sec:more}: DBpedia OpenAI text-embedding-3-large (Qdrant/dbpedia-entities-openai3-text-embedding-3-large-1536-100K), arXiv InstructorXL title embeddings (Qdrant/arxiv-titles-instructorxl-embeddings), SigLIP embeddings of ImageNet-1k (mlnomad/imagenet-1k-224-clip-embeddings) and DINOv2-giant embeddings of the Metropolitan Museum's open-access images (metmuseum/openaccess-embeddings-dinov2-giant, CC0), all on Hugging Face; query selection and ground truth are produced by our scripts. The FanarVSE source code will be released upon publication. It includes the Triton kernels (trellis decoding and scan, threshold-and-emit selection with cell-residual constants, the synchronisation-free batch path, small-batch and probe-mask selection, fused tiered refinement, zero-copy exact reads, fused Viterbi encoder, and the int8 stage-1 and lookup-table stage-2 kernels of the throughput mode), the index builder, and the scripts that produce every table and figure (including the \texttt{ctypes} binding used to call cuVS IVF-RaBitQ), together with ground-truth files and the raw result logs (JSON) for every number in this paper.
+The DBpedia OpenAI-ada-002 embeddings and the GloVe-100 dataset are publicly available, as are the extra sets of Section~\ref{sec:more}: DBpedia OpenAI text-embedding-3-large (Qdrant/dbpedia-entities-openai3-text-embedding-3-large-1536-100K), arXiv InstructorXL title embeddings (Qdrant/arxiv-titles-instructorxl-embeddings), SigLIP embeddings of ImageNet-1k (mlnomad/imagenet-1k-224-clip-embeddings) and DINOv2-giant embeddings of the Metropolitan Museum's open-access images (metmuseum/openaccess-embeddings-dinov2-giant, CC0), all on Hugging Face; query selection and ground truth are produced by our scripts. The FanarVSE library is available at \url{https://github.com/MohammedMohsen0404/FanarVSE}. The experiment code is available at \url{https://github.com/MohammedMohsen0404/FanarVSE-paper}: the Triton kernels (trellis decoding and scan, threshold-and-emit selection with cell-residual constants, the synchronisation-free batch path, small-batch and probe-mask selection, fused tiered refinement, zero-copy exact reads, fused Viterbi encoder, and the int8 stage-1 and lookup-table stage-2 kernels of the throughput mode), the index builder, and the scripts that produce every table and figure (including the \texttt{ctypes} binding used to call cuVS IVF-RaBitQ), together with ground-truth files and the raw result logs (JSON) for every number in this paper.
 
 \section*{Ethics}
 The work uses public, non-personal embedding datasets and involves no human subjects.
