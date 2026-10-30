@@ -4,7 +4,7 @@ Research archive: code and raw results for the paper **"FanarVSE: Fast, Memory-L
 
 FanarVSE is a GPU vector index that keeps about 570 bytes per vector on the GPU (under 8 bytes in its host-resident mode) and reads full-precision vectors only for the few candidates whose error bars overlap the top-k boundary. On one million OpenAI embeddings and a 6 GB laptop GPU it reaches recall@10 0.992 at 22,649 queries per second; its optional throughput mode reaches 0.99 at 83,600 queries per second at a batch of 2,000.
 
-This repository is the reproducibility archive of the paper: the experiment scripts and raw results exactly as they produced the published numbers. It is not maintained and does not take pull requests. For the FanarVSE library, which is developed and accepts contributions, see the **FanarVSE** repository.
+This repository is the reproducibility archive of the paper: the experiment scripts and raw results exactly as they produced the published numbers. It is not maintained and does not take pull requests. For the FanarVSE library, which is developed and accepts contributions, see the [FanarVSE](https://github.com/MohammedMohsen0404/FanarVSE) repository.
 
 ## Repository layout
 
