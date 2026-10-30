@@ -1,0 +1,60 @@
+﻿  324 | # define _POSIX_C_SOURCE        202405L
+      |          ^
+1 warning generated.
+In file included from /tmp/tmppc7o2xl0/main.c:4:
+In file included from /home/mohmmed_mohsen/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/include/python3.12/Python.h:12:
+/home/mohmmed_mohsen/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/include/python3.12/pyconfig.h:1877:9: warning: '_POSIX_C_SOURCE' macro redefined [-Wmacro-redefined]
+ 1877 | #define _POSIX_C_SOURCE 200809L
+      |         ^
+/home/mohmmed_mohsen/fanar_t/lib/python3.12/site-packages/ziglang/lib/libc/include/generic-glibc/features.h:324:10: note: previous definition is here
+  324 | # define _POSIX_C_SOURCE        202405L
+      |          ^
+1 warning generated.
+{"os": "Linux", "what": "FanarDB np8 K200", "recall@10": 0.962, "QPS": 10571.1, "QPS_std": 348.8, "reads_mean": 5.73}
+{"os": "Linux", "what": "FanarDB np32 K200", "recall@10": 0.9846, "QPS": 7240.2, "QPS_std": 37.6, "reads_mean": 5.74}
+{"os": "Linux", "what": "FanarDB np32 K400", "recall@10": 0.9922, "QPS": 5383.3, "QPS_std": 8.3, "reads_mean": 5.85}
+In file included from /tmp/tmpnsos_gn7/main.c:4:
+In file included from /home/mohmmed_mohsen/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/include/python3.12/Python.h:12:
+/home/mohmmed_mohsen/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/include/python3.12/pyconfig.h:1877:9: warning: '_POSIX_C_SOURCE' macro redefined [-Wmacro-redefined]
+ 1877 | #define _POSIX_C_SOURCE 200809L
+      |         ^
+/home/mohmmed_mohsen/fanar_t/lib/python3.12/site-packages/ziglang/lib/libc/include/generic-glibc/features.h:324:10: note: previous definition is here
+  324 | # define _POSIX_C_SOURCE        202405L
+      |          ^
+1 warning generated.
+In file included from /tmp/tmp05la6j2j/main.c:4:
+In file included from /home/mohmmed_mohsen/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/include/python3.12/Python.h:12:
+/home/mohmmed_mohsen/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/include/python3.12/pyconfig.h:1877:9: warning: '_POSIX_C_SOURCE' macro redefined [-Wmacro-redefined]
+ 1877 | #define _POSIX_C_SOURCE 200809L
+      |         ^
+/home/mohmmed_mohsen/fanar_t/lib/python3.12/site-packages/ziglang/lib/libc/include/generic-glibc/features.h:324:10: note: previous definition is here
+  324 | # define _POSIX_C_SOURCE        202405L
+      |          ^
+1 warning generated.
+In file included from /tmp/tmp2h_tnyip/main.c:4:
+In file included from /home/mohmmed_mohsen/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/include/python3.12/Python.h:12:
+/home/mohmmed_mohsen/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/include/python3.12/pyconfig.h:1877:9: warning: '_POSIX_C_SOURCE' macro redefined [-Wmacro-redefined]
+ 1877 | #define _POSIX_C_SOURCE 200809L
+      |         ^
+/home/mohmmed_mohsen/fanar_t/lib/python3.12/site-packages/ziglang/lib/libc/include/generic-glibc/features.h:324:10: note: previous definition is here
+  324 | # define _POSIX_C_SOURCE        202405L
+      |          ^
+1 warning generated.
+{"os": "Linux", "what": "FanarDB latency batch 1", "ms_p50": 3.646}
+In file included from /tmp/tmpelw76dq6/main.c:4:
+In file included from /home/mohmmed_mohsen/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/include/python3.12/Python.h:12:
+/home/mohmmed_mohsen/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/include/python3.12/pyconfig.h:1877:9: warning: '_POSIX_C_SOURCE' macro redefined [-Wmacro-redefined]
+ 1877 | #define _POSIX_C_SOURCE 200809L
+      |         ^
+/home/mohmmed_mohsen/fanar_t/lib/python3.12/site-packages/ziglang/lib/libc/include/generic-glibc/features.h:324:10: note: previous definition is here
+  324 | # define _POSIX_C_SOURCE        202405L
+      |          ^
+1 warning generated.
+{"os": "Linux", "what": "FanarDB latency batch 16", "ms_p50": 6.948}
+{"os": "Linux", "what": "kernel launch, async (us)", "value": 3.24}
+{"os": "Linux", "what": "kernel launch + sync round trip (us)", "value": 39.39}
+{"os": "Linux", "what": "H2D pinned 256MB (GB/s)", "value": 10.21}
+{"os": "Linux", "what": "D2H pinned 256MB (GB/s)", "value": 9.37}
+{"os": "Linux", "what": "fp16 GEMM 2000x1536x100k (TFLOP/s)", "value": 17.93}
+{"os": "Linux", "what": "host gather of 12k random fp16 rows (ms)", "value": 5.74}
+DONE

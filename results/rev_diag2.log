@@ -1,0 +1,46 @@
+[ 12779][09:06:42:116967][info  ] Using streaming construction: dataset size (5.71 GB) exceeds comfortable GPU memory limit
+{"engine": "IVF-RaBitQ", "bits": 9, "n_lists": 4096, "n_probes": 384, "k": 10, "batch": 1, "rmm_pool": true, "recall": 0.99, "QPS": 689.8, "QPS_std": 18.8, "latency_ms": 1.45}
+{"engine": "IVF-RaBitQ", "bits": 9, "n_lists": 4096, "n_probes": 384, "k": 10, "batch": 16, "rmm_pool": true, "recall": 0.9925, "QPS": 3913.0, "QPS_std": 112.6, "latency_ms": 4.089}
+{"engine": "IVF-RaBitQ", "bits": 9, "n_lists": 4096, "n_probes": 384, "k": 10, "batch": 100, "rmm_pool": true, "recall": 0.9923, "QPS": 6436.6, "QPS_std": 23.7, "latency_ms": 15.536}
+{"engine": "IVF-RaBitQ", "bits": 9, "n_lists": 4096, "n_probes": 384, "k": 10, "batch": 500, "rmm_pool": true, "recall": 0.9923, "QPS": 8078.5, "QPS_std": 17.2, "latency_ms": 61.893}
+{"engine": "IVF-RaBitQ", "bits": 9, "n_lists": 4096, "n_probes": 384, "k": 100, "batch": 500, "rmm_pool": true, "recall": 0.9879, "QPS": 1068.3, "QPS_std": 0.3}
+{"engine": "IVF-RaBitQ", "bits": 9, "n_lists": 4096, "n_probes": 768, "k": 100, "batch": 500, "rmm_pool": true, "recall": 0.9949, "QPS": 547.8, "QPS_std": 0.1}
+[ 12779][09:08:00:199800][info  ] Using streaming construction: dataset size (5.71 GB) exceeds comfortable GPU memory limit
+{"engine": "IVF-RaBitQ", "bits": 9, "n_lists": 4096, "n_probes": 768, "k": 10, "batch": 1, "rmm_pool": true, "recall": 0.9955, "QPS": 623.3, "QPS_std": 7.5, "latency_ms": 1.604}
+{"engine": "IVF-RaBitQ", "bits": 9, "n_lists": 4096, "n_probes": 768, "k": 10, "batch": 16, "rmm_pool": true, "recall": 0.9965, "QPS": 2998.4, "QPS_std": 43.8, "latency_ms": 5.336}
+{"engine": "IVF-RaBitQ", "bits": 9, "n_lists": 4096, "n_probes": 768, "k": 10, "batch": 100, "rmm_pool": true, "recall": 0.9965, "QPS": 4193.4, "QPS_std": 26.1, "latency_ms": 23.847}
+{"engine": "IVF-RaBitQ", "bits": 9, "n_lists": 4096, "n_probes": 768, "k": 10, "batch": 500, "rmm_pool": true, "recall": 0.9965, "QPS": 4873.2, "QPS_std": 3.2, "latency_ms": 102.602}
+{"engine": "IVF-RaBitQ", "bits": 9, "n_lists": 4096, "n_probes": 1536, "k": 10, "batch": 500, "rmm_pool": true, "recall": 0.9979, "QPS": 2761.6, "QPS_std": 2.6}
+{"engine": "IVF-RaBitQ", "bits": 9, "n_lists": 4096, "n_probes": 2048, "k": 10, "batch": 500, "rmm_pool": true, "recall": 0.998, "QPS": 2151.2, "QPS_std": 0.8}
+[ 12779][09:09:02:013818][info  ] Using streaming construction: dataset size (5.71 GB) exceeds comfortable GPU memory limit
+{"engine": "IVF-RaBitQ", "bits": 7, "n_lists": 1024, "n_probes": 160, "k": 10, "batch": 1, "rmm_pool": true, "recall": 0.985, "QPS": 225.4, "QPS_std": 0.5, "latency_ms": 4.437}
+{"engine": "IVF-RaBitQ", "bits": 7, "n_lists": 1024, "n_probes": 160, "k": 10, "batch": 16, "rmm_pool": true, "recall": 0.9902, "QPS": 1577.6, "QPS_std": 4.0, "latency_ms": 10.142}
+{"engine": "IVF-RaBitQ", "bits": 7, "n_lists": 1024, "n_probes": 160, "k": 10, "batch": 100, "rmm_pool": true, "recall": 0.9905, "QPS": 2976.8, "QPS_std": 5.6, "latency_ms": 33.593}
+{"engine": "IVF-RaBitQ", "bits": 7, "n_lists": 1024, "n_probes": 160, "k": 10, "batch": 500, "rmm_pool": true, "recall": 0.9905, "QPS": 4010.1, "QPS_std": 3.6, "latency_ms": 124.685}
+  return _core.array(a, dtype, copy, order, blocking=blocking)
+[ 12779][09:09:53:740984][info  ] CAGRA graph build: reducing IVF-PQ search max_internal_batch_size from 131072 -> 52428 to fit the workspace
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 256, "algo": "auto", "k": 10, "batch": 500, "rmm_pool": true, "recall": 0.9838, "QPS": 6951.0, "QPS_std": 6.8}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 256, "algo": "multi_cta", "k": 10, "batch": 500, "rmm_pool": true, "recall": 0.9877, "QPS": 6532.8, "QPS_std": 12.3}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 384, "algo": "auto", "k": 10, "batch": 500, "rmm_pool": true, "recall": 0.9883, "QPS": 1895.8, "QPS_std": 8.1}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 384, "algo": "multi_cta", "k": 10, "batch": 500, "rmm_pool": true, "recall": 0.9912, "QPS": 4420.7, "QPS_std": 3.6}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 512, "algo": "auto", "k": 10, "batch": 500, "rmm_pool": true, "recall": 0.9907, "QPS": 1478.8, "QPS_std": 3.7}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 512, "algo": "multi_cta", "k": 10, "batch": 500, "rmm_pool": true, "recall": 0.994, "QPS": 3368.3, "QPS_std": 2.4}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 768, "algo": "auto", "k": 10, "batch": 500, "rmm_pool": true, "recall": 0.9956, "QPS": 2290.8, "QPS_std": 1.4}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 768, "algo": "multi_cta", "k": 10, "batch": 500, "rmm_pool": true, "recall": 0.9957, "QPS": 2290.0, "QPS_std": 0.8}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 1024, "algo": "auto", "k": 10, "batch": 500, "rmm_pool": true, "recall": 0.9967, "QPS": 1734.1, "QPS_std": 0.4}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 1024, "algo": "multi_cta", "k": 10, "batch": 500, "rmm_pool": true, "recall": 0.9967, "QPS": 1734.2, "QPS_std": 0.7}
+[ 12779][09:10:51:052121][info  ] CAGRA graph build: reducing IVF-PQ search max_internal_batch_size from 131072 -> 26214 to fit the workspace
+{"engine": "CAGRA", "graph_degree": 64, "itopk": 256, "algo": "auto", "k": 10, "batch": 500, "rmm_pool": true, "recall": 0.9895, "QPS": 3960.4, "QPS_std": 3.2}
+{"engine": "CAGRA", "graph_degree": 64, "itopk": 256, "algo": "multi_cta", "k": 10, "batch": 500, "rmm_pool": true, "recall": 0.9919, "QPS": 3374.4, "QPS_std": 3.2}
+{"engine": "CAGRA", "graph_degree": 64, "itopk": 384, "algo": "auto", "k": 10, "batch": 500, "rmm_pool": true, "recall": 0.9927, "QPS": 1846.2, "QPS_std": 1.5}
+{"engine": "CAGRA", "graph_degree": 64, "itopk": 384, "algo": "multi_cta", "k": 10, "batch": 500, "rmm_pool": true, "recall": 0.9947, "QPS": 2285.2, "QPS_std": 0.2}
+{"engine": "CAGRA", "graph_degree": 64, "itopk": 512, "algo": "auto", "k": 10, "batch": 500, "rmm_pool": true, "recall": 0.9942, "QPS": 1465.4, "QPS_std": 5.2}
+{"engine": "CAGRA", "graph_degree": 64, "itopk": 512, "algo": "multi_cta", "k": 10, "batch": 500, "rmm_pool": true, "recall": 0.9957, "QPS": 1734.8, "QPS_std": 0.3}
+{"engine": "CAGRA", "graph_degree": 64, "itopk": 512, "algo": "multi_cta", "k": 100, "batch": 500, "rmm_pool": true, "recall": 0.9944, "QPS": 1732.5, "QPS_std": 1.1}
+{"engine": "CAGRA", "graph_degree": 64, "itopk": 768, "algo": "auto", "k": 10, "batch": 500, "rmm_pool": true, "recall": 0.9972, "QPS": 1177.2, "QPS_std": 0.8}
+{"engine": "CAGRA", "graph_degree": 64, "itopk": 768, "algo": "multi_cta", "k": 10, "batch": 500, "rmm_pool": true, "recall": 0.9971, "QPS": 1177.6, "QPS_std": 0.1}
+{"engine": "CAGRA", "graph_degree": 64, "itopk": 768, "algo": "multi_cta", "k": 100, "batch": 500, "rmm_pool": true, "recall": 0.9962, "QPS": 1177.7, "QPS_std": 0.1}
+{"engine": "CAGRA", "graph_degree": 64, "itopk": 1024, "algo": "auto", "k": 10, "batch": 500, "rmm_pool": true, "recall": 0.9977, "QPS": 891.1, "QPS_std": 0.1}
+{"engine": "CAGRA", "graph_degree": 64, "itopk": 1024, "algo": "multi_cta", "k": 10, "batch": 500, "rmm_pool": true, "recall": 0.9976, "QPS": 890.7, "QPS_std": 0.1}
+{"engine": "CAGRA", "graph_degree": 64, "itopk": 1024, "algo": "multi_cta", "k": 100, "batch": 500, "rmm_pool": true, "recall": 0.9971, "QPS": 890.8, "QPS_std": 0.2}
+DONE

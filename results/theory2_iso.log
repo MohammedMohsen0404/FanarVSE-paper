@@ -1,0 +1,32 @@
+{"gamma(E ~ lambda^gamma)": -1.0, "mse_trE": 0.05, "tr(SqE)": 1.3e-06, "iso_ref tr(Sq)trE/d": 3.26e-05, "rho": 0.039, "recall@10": 0.9838, "top10_in_top100": 1.0}
+{"gamma(E ~ lambda^gamma)": -1.0, "mse_trE": 0.1, "tr(SqE)": 2.5e-06, "iso_ref tr(Sq)trE/d": 6.51e-05, "rho": 0.039, "recall@10": 0.977, "top10_in_top100": 1.0}
+{"gamma(E ~ lambda^gamma)": -1.0, "mse_trE": 0.2, "tr(SqE)": 5.1e-06, "iso_ref tr(Sq)trE/d": 0.0001302, "rho": 0.039, "recall@10": 0.9683, "top10_in_top100": 1.0}
+{"gamma(E ~ lambda^gamma)": -1.0, "mse_trE": 0.4, "tr(SqE)": 1.02e-05, "iso_ref tr(Sq)trE/d": 0.0002604, "rho": 0.039, "recall@10": 0.955, "top10_in_top100": 1.0}
+{"gamma(E ~ lambda^gamma)": -1.0, "mse_trE": 0.8, "tr(SqE)": 2.03e-05, "iso_ref tr(Sq)trE/d": 0.0005208, "rho": 0.039, "recall@10": 0.9392, "top10_in_top100": 1.0}
+{"gamma(E ~ lambda^gamma)": -0.5, "mse_trE": 0.05, "tr(SqE)": 7.4e-06, "iso_ref tr(Sq)trE/d": 3.26e-05, "rho": 0.228, "recall@10": 0.9628, "top10_in_top100": 1.0}
+{"gamma(E ~ lambda^gamma)": -0.5, "mse_trE": 0.1, "tr(SqE)": 1.48e-05, "iso_ref tr(Sq)trE/d": 6.51e-05, "rho": 0.228, "recall@10": 0.9485, "top10_in_top100": 1.0}
+{"gamma(E ~ lambda^gamma)": -0.5, "mse_trE": 0.2, "tr(SqE)": 2.96e-05, "iso_ref tr(Sq)trE/d": 0.0001302, "rho": 0.228, "recall@10": 0.9295, "top10_in_top100": 1.0}
+{"gamma(E ~ lambda^gamma)": -0.5, "mse_trE": 0.4, "tr(SqE)": 5.93e-05, "iso_ref tr(Sq)trE/d": 0.0002604, "rho": 0.228, "recall@10": 0.902, "top10_in_top100": 1.0}
+{"gamma(E ~ lambda^gamma)": -0.5, "mse_trE": 0.8, "tr(SqE)": 0.0001186, "iso_ref tr(Sq)trE/d": 0.0005208, "rho": 0.228, "recall@10": 0.8652, "top10_in_top100": 1.0}
+{"gamma(E ~ lambda^gamma)": 0.0, "mse_trE": 0.05, "tr(SqE)": 3.26e-05, "iso_ref tr(Sq)trE/d": 3.26e-05, "rho": 1.0, "recall@10": 0.9257, "top10_in_top100": 1.0}
+{"gamma(E ~ lambda^gamma)": 0.0, "mse_trE": 0.1, "tr(SqE)": 6.51e-05, "iso_ref tr(Sq)trE/d": 6.51e-05, "rho": 1.0, "recall@10": 0.8981, "top10_in_top100": 1.0}
+{"gamma(E ~ lambda^gamma)": 0.0, "mse_trE": 0.2, "tr(SqE)": 0.0001302, "iso_ref tr(Sq)trE/d": 0.0001302, "rho": 1.0, "recall@10": 0.8596, "top10_in_top100": 1.0}
+{"gamma(E ~ lambda^gamma)": 0.0, "mse_trE": 0.4, "tr(SqE)": 0.0002604, "iso_ref tr(Sq)trE/d": 0.0002604, "rho": 1.0, "recall@10": 0.8078, "top10_in_top100": 1.0}
+{"gamma(E ~ lambda^gamma)": 0.0, "mse_trE": 0.8, "tr(SqE)": 0.0005208, "iso_ref tr(Sq)trE/d": 0.0005208, "rho": 1.0, "recall@10": 0.7365, "top10_in_top100": 0.9989}
+{"gamma(E ~ lambda^gamma)": 0.5, "mse_trE": 0.05, "tr(SqE)": 0.0001181, "iso_ref tr(Sq)trE/d": 3.26e-05, "rho": 3.629, "recall@10": 0.8659, "top10_in_top100": 1.0}
+{"gamma(E ~ lambda^gamma)": 0.5, "mse_trE": 0.1, "tr(SqE)": 0.0002363, "iso_ref tr(Sq)trE/d": 6.51e-05, "rho": 3.629, "recall@10": 0.8159, "top10_in_top100": 1.0}
+{"gamma(E ~ lambda^gamma)": 0.5, "mse_trE": 0.2, "tr(SqE)": 0.0004726, "iso_ref tr(Sq)trE/d": 0.0001302, "rho": 3.629, "recall@10": 0.7485, "top10_in_top100": 0.9991}
+{"gamma(E ~ lambda^gamma)": 0.5, "mse_trE": 0.4, "tr(SqE)": 0.0009451, "iso_ref tr(Sq)trE/d": 0.0002604, "rho": 3.629, "recall@10": 0.6606, "top10_in_top100": 0.9909}
+{"gamma(E ~ lambda^gamma)": 0.5, "mse_trE": 0.8, "tr(SqE)": 0.0018902, "iso_ref tr(Sq)trE/d": 0.0005208, "rho": 3.629, "recall@10": 0.5487, "top10_in_top100": 0.9524}
+{"gamma(E ~ lambda^gamma)": 1.0, "mse_trE": 0.05, "tr(SqE)": 0.0002925, "iso_ref tr(Sq)trE/d": 3.26e-05, "rho": 8.986, "recall@10": 0.7989, "top10_in_top100": 0.9998}
+{"gamma(E ~ lambda^gamma)": 1.0, "mse_trE": 0.1, "tr(SqE)": 0.000585, "iso_ref tr(Sq)trE/d": 6.51e-05, "rho": 8.986, "recall@10": 0.7258, "top10_in_top100": 0.9976}
+{"gamma(E ~ lambda^gamma)": 1.0, "mse_trE": 0.2, "tr(SqE)": 0.00117, "iso_ref tr(Sq)trE/d": 0.0001302, "rho": 8.986, "recall@10": 0.6304, "top10_in_top100": 0.9827}
+{"gamma(E ~ lambda^gamma)": 1.0, "mse_trE": 0.4, "tr(SqE)": 0.0023401, "iso_ref tr(Sq)trE/d": 0.0002604, "rho": 8.986, "recall@10": 0.5161, "top10_in_top100": 0.9262}
+{"gamma(E ~ lambda^gamma)": 1.0, "mse_trE": 0.8, "tr(SqE)": 0.0046801, "iso_ref tr(Sq)trE/d": 0.0005208, "rho": 8.986, "recall@10": 0.385, "top10_in_top100": 0.8027}
+{"gamma(E ~ lambda^gamma)": 2.0, "mse_trE": 0.05, "tr(SqE)": 0.0007631, "iso_ref tr(Sq)trE/d": 3.26e-05, "rho": 23.442, "recall@10": 0.7061, "top10_in_top100": 0.9918}
+{"gamma(E ~ lambda^gamma)": 2.0, "mse_trE": 0.1, "tr(SqE)": 0.0015262, "iso_ref tr(Sq)trE/d": 6.51e-05, "rho": 23.442, "recall@10": 0.6077, "top10_in_top100": 0.9647}
+{"gamma(E ~ lambda^gamma)": 2.0, "mse_trE": 0.2, "tr(SqE)": 0.0030524, "iso_ref tr(Sq)trE/d": 0.0001302, "rho": 23.442, "recall@10": 0.4914, "top10_in_top100": 0.8902}
+{"gamma(E ~ lambda^gamma)": 2.0, "mse_trE": 0.4, "tr(SqE)": 0.0061048, "iso_ref tr(Sq)trE/d": 0.0002604, "rho": 23.442, "recall@10": 0.3635, "top10_in_top100": 0.7508}
+{"gamma(E ~ lambda^gamma)": 2.0, "mse_trE": 0.8, "tr(SqE)": 0.0122095, "iso_ref tr(Sq)trE/d": 0.0005208, "rho": 23.442, "recall@10": 0.237, "top10_in_top100": 0.5531}
+{"summary": "recall@10 explained by", "R2_log_trE": 0.2025, "R2_log_tr(SqE)": 0.9978, "spearman_trE": -0.3976, "spearman_tr(SqE)": -1.0}
+DONE

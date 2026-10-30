@@ -1,0 +1,4 @@
+%% Minimal jabbrv language definition file
+%% This is a stub file to allow compilation
+\ProvidesFile{jabbrv-ltwa-all.ldf}[2024/04/26 Minimal LTWA language file]
+\endinput

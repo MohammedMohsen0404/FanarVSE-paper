@@ -1,0 +1,35 @@
+[
+ {
+  "ds": "oai1m",
+  "N": 998000,
+  "engine": "turbovec 2-bit",
+  "k'": 10,
+  "rerank": false,
+  "bytes_per_vec": 388,
+  "recall@10": 0.9,
+  "QPS": 524.2,
+  "build_s": 8.4
+ },
+ {
+  "ds": "oai1m",
+  "N": 998000,
+  "engine": "turbovec 2-bit",
+  "k'": 40,
+  "rerank": true,
+  "bytes_per_vec": 388,
+  "recall@10": 0.9998,
+  "QPS": 468.4,
+  "build_s": 8.4
+ },
+ {
+  "ds": "oai1m",
+  "N": 998000,
+  "engine": "turbovec 2-bit",
+  "k'": 100,
+  "rerank": true,
+  "bytes_per_vec": 388,
+  "recall@10": 0.9998,
+  "QPS": 404.9,
+  "build_s": 8.4
+ }
+]

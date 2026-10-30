@@ -1,0 +1,12 @@
+# datasets, cached indexes and build products
+data/
+cache/
+figures/out/
+*.dll
+*.so
+*.pt
+__pycache__/
+*.pyc
+.venv/
+.vscode/
+.idea/

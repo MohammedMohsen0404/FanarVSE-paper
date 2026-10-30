@@ -1,0 +1,134 @@
+[
+ {
+  "ds": "arxiv",
+  "N": 50000,
+  "rate": 1,
+  "codebook": "hypercube",
+  "mean_cos": 0.7982,
+  "nprobe": 8,
+  "R@10": 0.6224,
+  "R@10_rerank20": 0.6996,
+  "R@10_rerank40": 0.7111
+ },
+ {
+  "ds": "arxiv",
+  "N": 50000,
+  "rate": 1,
+  "codebook": "hypercube",
+  "mean_cos": 0.7982,
+  "nprobe": 16,
+  "R@10": 0.6775,
+  "R@10_rerank20": 0.7806,
+  "R@10_rerank40": 0.7978
+ },
+ {
+  "ds": "arxiv",
+  "N": 50000,
+  "rate": 1,
+  "codebook": "hypercube",
+  "mean_cos": 0.7982,
+  "nprobe": 32,
+  "R@10": 0.7135,
+  "R@10_rerank20": 0.8427,
+  "R@10_rerank40": 0.8661
+ },
+ {
+  "ds": "arxiv",
+  "N": 50000,
+  "rate": 1,
+  "codebook": "hypercube",
+  "mean_cos": 0.7982,
+  "nprobe": 64,
+  "R@10": 0.7436,
+  "R@10_rerank20": 0.8896,
+  "R@10_rerank40": 0.9188
+ },
+ {
+  "ds": "arxiv",
+  "N": 50000,
+  "rate": 1,
+  "codebook": "E8-256",
+  "mean_cos": 0.8257,
+  "nprobe": 8,
+  "R@10": 0.6334,
+  "R@10_rerank20": 0.7046,
+  "R@10_rerank40": 0.7114
+ },
+ {
+  "ds": "arxiv",
+  "N": 50000,
+  "rate": 1,
+  "codebook": "E8-256",
+  "mean_cos": 0.8257,
+  "nprobe": 16,
+  "R@10": 0.6935,
+  "R@10_rerank20": 0.7872,
+  "R@10_rerank40": 0.7989
+ },
+ {
+  "ds": "arxiv",
+  "N": 50000,
+  "rate": 1,
+  "codebook": "E8-256",
+  "mean_cos": 0.8257,
+  "nprobe": 32,
+  "R@10": 0.735,
+  "R@10_rerank20": 0.8512,
+  "R@10_rerank40": 0.8679
+ },
+ {
+  "ds": "arxiv",
+  "N": 50000,
+  "rate": 1,
+  "codebook": "E8-256",
+  "mean_cos": 0.8257,
+  "nprobe": 64,
+  "R@10": 0.7633,
+  "R@10_rerank20": 0.8989,
+  "R@10_rerank40": 0.921
+ },
+ {
+  "ds": "arxiv",
+  "N": 50000,
+  "rate": 1,
+  "codebook": "BW16-65536",
+  "mean_cos": 0.8367,
+  "nprobe": 8,
+  "R@10": 0.6364,
+  "R@10_rerank20": 0.7058,
+  "R@10_rerank40": 0.7114
+ },
+ {
+  "ds": "arxiv",
+  "N": 50000,
+  "rate": 1,
+  "codebook": "BW16-65536",
+  "mean_cos": 0.8367,
+  "nprobe": 16,
+  "R@10": 0.694,
+  "R@10_rerank20": 0.7882,
+  "R@10_rerank40": 0.7988
+ },
+ {
+  "ds": "arxiv",
+  "N": 50000,
+  "rate": 1,
+  "codebook": "BW16-65536",
+  "mean_cos": 0.8367,
+  "nprobe": 32,
+  "R@10": 0.7356,
+  "R@10_rerank20": 0.8524,
+  "R@10_rerank40": 0.868
+ },
+ {
+  "ds": "arxiv",
+  "N": 50000,
+  "rate": 1,
+  "codebook": "BW16-65536",
+  "mean_cos": 0.8367,
+  "nprobe": 64,
+  "R@10": 0.7631,
+  "R@10_rerank20": 0.8995,
+  "R@10_rerank40": 0.9213
+ }
+]

@@ -1,0 +1,162 @@
+[
+ {
+  "mode": "batch500",
+  "engine": "v4",
+  "nprobe": 128,
+  "K": 100,
+  "recall@10": 0.9449,
+  "QPS": 26182.1,
+  "QPS_std": 622.3,
+  "reads": 6.25
+ },
+ {
+  "mode": "batch500",
+  "engine": "v8",
+  "nprobe": 128,
+  "K": 100,
+  "recall@10": 0.9449,
+  "QPS": 30242.0,
+  "QPS_std": 137.4,
+  "reads": 6.25
+ },
+ {
+  "mode": "batch500",
+  "engine": "v4",
+  "nprobe": 384,
+  "K": 200,
+  "recall@10": 0.9814,
+  "QPS": 20378.5,
+  "QPS_std": 86.2,
+  "reads": 6.49
+ },
+ {
+  "mode": "batch500",
+  "engine": "v8",
+  "nprobe": 384,
+  "K": 200,
+  "recall@10": 0.9814,
+  "QPS": 22708.9,
+  "QPS_std": 510.0,
+  "reads": 6.49
+ },
+ {
+  "mode": "batch500",
+  "engine": "v4",
+  "nprobe": 512,
+  "K": 400,
+  "recall@10": 0.9911,
+  "QPS": 16650.2,
+  "QPS_std": 218.2,
+  "reads": 6.61
+ },
+ {
+  "mode": "batch500",
+  "engine": "v8",
+  "nprobe": 512,
+  "K": 400,
+  "recall@10": 0.9911,
+  "QPS": 18150.6,
+  "QPS_std": 57.6,
+  "reads": 6.61
+ },
+ {
+  "mode": "batch500",
+  "engine": "v4",
+  "nprobe": 768,
+  "K": 400,
+  "recall@10": 0.9929,
+  "QPS": 15207.3,
+  "QPS_std": 181.8,
+  "reads": 6.61
+ },
+ {
+  "mode": "batch500",
+  "engine": "v8",
+  "nprobe": 768,
+  "K": 400,
+  "recall@10": 0.9929,
+  "QPS": 16766.6,
+  "QPS_std": 147.3,
+  "reads": 6.61
+ },
+ {
+  "mode": "batch500",
+  "engine": "v4",
+  "nprobe": 1024,
+  "K": 800,
+  "recall@10": 0.997,
+  "QPS": 11415.9,
+  "QPS_std": 103.9,
+  "reads": 6.66
+ },
+ {
+  "mode": "batch500",
+  "engine": "v8",
+  "nprobe": 1024,
+  "K": 800,
+  "recall@10": 0.997,
+  "QPS": 12157.9,
+  "QPS_std": 20.2,
+  "reads": 6.66
+ },
+ {
+  "mode": "latency",
+  "engine": "v8",
+  "nprobe": 256,
+  "K": 200,
+  "batch": 1,
+  "median_ms": 0.9,
+  "p99_ms": 1.11,
+  "recall@10": 0.9757
+ },
+ {
+  "mode": "latency",
+  "engine": "v8",
+  "nprobe": 256,
+  "K": 200,
+  "batch": 4,
+  "median_ms": 1.65,
+  "p99_ms": 1.84,
+  "recall@10": 0.9757
+ },
+ {
+  "mode": "latency",
+  "engine": "v8",
+  "nprobe": 256,
+  "K": 200,
+  "batch": 16,
+  "median_ms": 5.38,
+  "p99_ms": 5.79,
+  "recall@10": 0.9757
+ },
+ {
+  "mode": "latency",
+  "engine": "v8",
+  "nprobe": 768,
+  "K": 400,
+  "batch": 1,
+  "median_ms": 1.32,
+  "p99_ms": 1.54,
+  "recall@10": 0.9929
+ },
+ {
+  "mode": "latency",
+  "engine": "v8",
+  "nprobe": 768,
+  "K": 400,
+  "batch": 4,
+  "median_ms": 3.27,
+  "p99_ms": 3.51,
+  "recall@10": 0.9929
+ },
+ {
+  "mode": "latency",
+  "engine": "v8",
+  "nprobe": 768,
+  "K": 400,
+  "batch": 16,
+  "median_ms": 7.1,
+  "p99_ms": 7.37,
+  "recall@10": 0.9929
+ }
+]

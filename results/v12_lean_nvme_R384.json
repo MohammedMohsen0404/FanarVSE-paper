@@ -1,0 +1,35 @@
+[
+ {
+  "R": 384,
+  "gpu_bytes": 64,
+  "full_vectors": "NVMe",
+  "nprobe": 1536,
+  "K": 400,
+  "recall@10": 0.999,
+  "QPS": 4582.1,
+  "QPS_std": 30.8,
+  "reads": 6.66
+ },
+ {
+  "R": 384,
+  "gpu_bytes": 64,
+  "full_vectors": "NVMe",
+  "nprobe": 2048,
+  "K": 800,
+  "recall@10": 0.9996,
+  "QPS": 3244.9,
+  "QPS_std": 11.9,
+  "reads": 6.67
+ },
+ {
+  "R": 384,
+  "gpu_bytes": 64,
+  "full_vectors": "NVMe",
+  "nprobe": 3072,
+  "K": 1200,
+  "recall@10": 0.9998,
+  "QPS": 2328.5,
+  "QPS_std": 8.7,
+  "reads": 6.68
+ }
+]

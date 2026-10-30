@@ -1,0 +1,53 @@
+[
+ {
+  "R": 384,
+  "gpu_bytes": 64,
+  "nprobe": 1536,
+  "K": 400,
+  "recall@10": 0.999,
+  "cand_ceiling": 0.9992,
+  "QPS": 4938.7,
+  "QPS_std": 9.3,
+  "reads_mean": 6.66,
+  "reads_p50": 6.0,
+  "reads_p90": 11.0,
+  "reads_p99": 16.00999999999999,
+  "reads_p999": 21.002000000000407,
+  "reads_max": 25,
+  "frac_zero_reads": 0.061
+ },
+ {
+  "R": 384,
+  "gpu_bytes": 64,
+  "nprobe": 2048,
+  "K": 800,
+  "recall@10": 0.9996,
+  "cand_ceiling": 0.9998,
+  "QPS": 3414.2,
+  "QPS_std": 6.5,
+  "reads_mean": 6.67,
+  "reads_p50": 6.0,
+  "reads_p90": 11.100000000000136,
+  "reads_p99": 17.0,
+  "reads_p999": 21.002000000000407,
+  "reads_max": 25,
+  "frac_zero_reads": 0.0615
+ },
+ {
+  "R": 384,
+  "gpu_bytes": 64,
+  "nprobe": 3072,
+  "K": 1200,
+  "recall@10": 0.9998,
+  "cand_ceiling": 1.0,
+  "QPS": 2428.6,
+  "QPS_std": 3.5,
+  "reads_mean": 6.68,
+  "reads_p50": 6.0,
+  "reads_p90": 11.100000000000136,
+  "reads_p99": 17.0,
+  "reads_p999": 21.002000000000407,
+  "reads_max": 25,
+  "frac_zero_reads": 0.0615
+ }
+]

@@ -1,0 +1,1260 @@
+[
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 32,
+   "algo": "auto"
+  },
+  "recall": 0.97,
+  "QPS": 51057.0,
+  "QPS_std": 269.8,
+  "gpu_bytes": 3200,
+  "build_s": 9.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 32,
+   "algo": "single_cta"
+  },
+  "recall": 0.97,
+  "QPS": 51888.1,
+  "QPS_std": 623.6,
+  "gpu_bytes": 3200,
+  "build_s": 9.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 32,
+   "algo": "multi_cta"
+  },
+  "recall": 0.9699,
+  "QPS": 52347.8,
+  "QPS_std": 324.0,
+  "gpu_bytes": 3200,
+  "build_s": 9.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 32,
+   "algo": "multi_kernel"
+  },
+  "recall": 0.9693,
+  "QPS": 27070.4,
+  "QPS_std": 278.1,
+  "gpu_bytes": 3200,
+  "build_s": 9.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 64,
+   "algo": "auto"
+  },
+  "recall": 0.9851,
+  "QPS": 29344.5,
+  "QPS_std": 221.6,
+  "gpu_bytes": 3200,
+  "build_s": 9.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 64,
+   "algo": "single_cta"
+  },
+  "recall": 0.9851,
+  "QPS": 29749.6,
+  "QPS_std": 97.4,
+  "gpu_bytes": 3200,
+  "build_s": 9.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 64,
+   "algo": "multi_cta"
+  },
+  "recall": 0.9858,
+  "QPS": 28623.8,
+  "QPS_std": 63.5,
+  "gpu_bytes": 3200,
+  "build_s": 9.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 64,
+   "algo": "multi_kernel"
+  },
+  "recall": 0.9848,
+  "QPS": 13849.4,
+  "QPS_std": 75.9,
+  "gpu_bytes": 3200,
+  "build_s": 9.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 128,
+   "algo": "auto"
+  },
+  "recall": 0.9901,
+  "QPS": 17723.2,
+  "QPS_std": 163.3,
+  "gpu_bytes": 3200,
+  "build_s": 9.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 128,
+   "algo": "single_cta"
+  },
+  "recall": 0.9901,
+  "QPS": 17781.4,
+  "QPS_std": 6.3,
+  "gpu_bytes": 3200,
+  "build_s": 9.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 128,
+   "algo": "multi_cta"
+  },
+  "recall": 0.9916,
+  "QPS": 15045.9,
+  "QPS_std": 18.9,
+  "gpu_bytes": 3200,
+  "build_s": 9.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 128,
+   "algo": "multi_kernel"
+  },
+  "recall": 0.9902,
+  "QPS": 6977.7,
+  "QPS_std": 200.3,
+  "gpu_bytes": 3200,
+  "build_s": 9.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 256,
+   "algo": "auto"
+  },
+  "recall": 0.993,
+  "QPS": 10200.1,
+  "QPS_std": 10.6,
+  "gpu_bytes": 3200,
+  "build_s": 9.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 256,
+   "algo": "single_cta"
+  },
+  "recall": 0.993,
+  "QPS": 10191.4,
+  "QPS_std": 34.8,
+  "gpu_bytes": 3200,
+  "build_s": 9.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 256,
+   "algo": "multi_cta"
+  },
+  "recall": 0.9936,
+  "QPS": 7925.2,
+  "QPS_std": 5.4,
+  "gpu_bytes": 3200,
+  "build_s": 9.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 256,
+   "algo": "multi_kernel"
+  },
+  "recall": 0.9935,
+  "QPS": 3542.4,
+  "QPS_std": 104.9,
+  "gpu_bytes": 3200,
+  "build_s": 9.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 384,
+   "algo": "auto"
+  },
+  "recall": 0.9931,
+  "QPS": 6096.0,
+  "QPS_std": 7.1,
+  "gpu_bytes": 3200,
+  "build_s": 9.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 384,
+   "algo": "single_cta"
+  },
+  "recall": 0.9931,
+  "QPS": 6095.8,
+  "QPS_std": 12.5,
+  "gpu_bytes": 3200,
+  "build_s": 9.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 384,
+   "algo": "multi_cta"
+  },
+  "recall": 0.9946,
+  "QPS": 5456.4,
+  "QPS_std": 7.2,
+  "gpu_bytes": 3200,
+  "build_s": 9.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 384,
+   "algo": "multi_kernel"
+  },
+  "recall": 0.9931,
+  "QPS": 2082.0,
+  "QPS_std": 37.6,
+  "gpu_bytes": 3200,
+  "build_s": 9.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 512,
+   "algo": "auto"
+  },
+  "recall": 0.9943,
+  "QPS": 5015.8,
+  "QPS_std": 9.1,
+  "gpu_bytes": 3200,
+  "build_s": 9.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 512,
+   "algo": "single_cta"
+  },
+  "recall": 0.9943,
+  "QPS": 5011.2,
+  "QPS_std": 2.5,
+  "gpu_bytes": 3200,
+  "build_s": 9.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 512,
+   "algo": "multi_cta"
+  },
+  "recall": 0.9944,
+  "QPS": 4172.5,
+  "QPS_std": 2.4,
+  "gpu_bytes": 3200,
+  "build_s": 9.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 512,
+   "algo": "multi_kernel"
+  },
+  "recall": 0.9948,
+  "QPS": 1573.8,
+  "QPS_std": 29.1,
+  "gpu_bytes": 3200,
+  "build_s": 9.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 1024,
+   "algo": "auto"
+  },
+  "recall": 0.9948,
+  "QPS": 2192.1,
+  "QPS_std": 0.5,
+  "gpu_bytes": 3200,
+  "build_s": 9.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 1024,
+   "algo": "multi_cta"
+  },
+  "recall": 0.9948,
+  "QPS": 2190.2,
+  "QPS_std": 1.8,
+  "gpu_bytes": 3200,
+  "build_s": 9.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 1024,
+   "algo": "multi_kernel"
+  },
+  "recall": 0.9952,
+  "QPS": 629.1,
+  "QPS_std": 10.8,
+  "gpu_bytes": 3200,
+  "build_s": 9.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 32,
+   "algo": "auto"
+  },
+  "recall": 0.9875,
+  "QPS": 25651.3,
+  "QPS_std": 294.6,
+  "gpu_bytes": 3328,
+  "build_s": 9.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 32,
+   "algo": "single_cta"
+  },
+  "recall": 0.9875,
+  "QPS": 25686.7,
+  "QPS_std": 197.1,
+  "gpu_bytes": 3328,
+  "build_s": 9.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 32,
+   "algo": "multi_cta"
+  },
+  "recall": 0.988,
+  "QPS": 29619.3,
+  "QPS_std": 310.1,
+  "gpu_bytes": 3328,
+  "build_s": 9.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 32,
+   "algo": "multi_kernel"
+  },
+  "recall": 0.9878,
+  "QPS": 16139.2,
+  "QPS_std": 31.7,
+  "gpu_bytes": 3328,
+  "build_s": 9.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 64,
+   "algo": "auto"
+  },
+  "recall": 0.9927,
+  "QPS": 15060.4,
+  "QPS_std": 10.1,
+  "gpu_bytes": 3328,
+  "build_s": 9.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 64,
+   "algo": "single_cta"
+  },
+  "recall": 0.9927,
+  "QPS": 15045.7,
+  "QPS_std": 42.3,
+  "gpu_bytes": 3328,
+  "build_s": 9.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 64,
+   "algo": "multi_cta"
+  },
+  "recall": 0.9932,
+  "QPS": 15571.8,
+  "QPS_std": 49.1,
+  "gpu_bytes": 3328,
+  "build_s": 9.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 64,
+   "algo": "multi_kernel"
+  },
+  "recall": 0.9929,
+  "QPS": 8282.5,
+  "QPS_std": 104.8,
+  "gpu_bytes": 3328,
+  "build_s": 9.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 128,
+   "algo": "auto"
+  },
+  "recall": 0.9946,
+  "QPS": 8813.7,
+  "QPS_std": 23.6,
+  "gpu_bytes": 3328,
+  "build_s": 9.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 128,
+   "algo": "single_cta"
+  },
+  "recall": 0.9946,
+  "QPS": 8817.7,
+  "QPS_std": 15.3,
+  "gpu_bytes": 3328,
+  "build_s": 9.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 128,
+   "algo": "multi_cta"
+  },
+  "recall": 0.9948,
+  "QPS": 8051.3,
+  "QPS_std": 18.4,
+  "gpu_bytes": 3328,
+  "build_s": 9.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 128,
+   "algo": "multi_kernel"
+  },
+  "recall": 0.9944,
+  "QPS": 4683.4,
+  "QPS_std": 70.7,
+  "gpu_bytes": 3328,
+  "build_s": 9.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 256,
+   "algo": "auto"
+  },
+  "recall": 0.9952,
+  "QPS": 5096.3,
+  "QPS_std": 3.8,
+  "gpu_bytes": 3328,
+  "build_s": 9.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 256,
+   "algo": "single_cta"
+  },
+  "recall": 0.9952,
+  "QPS": 5102.4,
+  "QPS_std": 10.5,
+  "gpu_bytes": 3328,
+  "build_s": 9.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 256,
+   "algo": "multi_cta"
+  },
+  "recall": 0.9952,
+  "QPS": 4170.6,
+  "QPS_std": 0.7,
+  "gpu_bytes": 3328,
+  "build_s": 9.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 256,
+   "algo": "multi_kernel"
+  },
+  "recall": 0.9951,
+  "QPS": 2370.1,
+  "QPS_std": 43.6,
+  "gpu_bytes": 3328,
+  "build_s": 9.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 384,
+   "algo": "auto"
+  },
+  "recall": 0.9955,
+  "QPS": 3263.5,
+  "QPS_std": 1.4,
+  "gpu_bytes": 3328,
+  "build_s": 9.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 384,
+   "algo": "single_cta"
+  },
+  "recall": 0.9955,
+  "QPS": 3257.8,
+  "QPS_std": 2.4,
+  "gpu_bytes": 3328,
+  "build_s": 9.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 384,
+   "algo": "multi_cta"
+  },
+  "recall": 0.9956,
+  "QPS": 2845.3,
+  "QPS_std": 1.0,
+  "gpu_bytes": 3328,
+  "build_s": 9.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 384,
+   "algo": "multi_kernel"
+  },
+  "recall": 0.995,
+  "QPS": 1512.2,
+  "QPS_std": 6.3,
+  "gpu_bytes": 3328,
+  "build_s": 9.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 512,
+   "algo": "auto"
+  },
+  "recall": 0.9956,
+  "QPS": 2727.7,
+  "QPS_std": 2.1,
+  "gpu_bytes": 3328,
+  "build_s": 9.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 512,
+   "algo": "single_cta"
+  },
+  "recall": 0.9956,
+  "QPS": 2730.2,
+  "QPS_std": 1.0,
+  "gpu_bytes": 3328,
+  "build_s": 9.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 512,
+   "algo": "multi_cta"
+  },
+  "recall": 0.995,
+  "QPS": 2174.2,
+  "QPS_std": 1.8,
+  "gpu_bytes": 3328,
+  "build_s": 9.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 512,
+   "algo": "multi_kernel"
+  },
+  "recall": 0.9953,
+  "QPS": 1170.8,
+  "QPS_std": 8.6,
+  "gpu_bytes": 3328,
+  "build_s": 9.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 1024,
+   "algo": "auto"
+  },
+  "recall": 0.9959,
+  "QPS": 1135.9,
+  "QPS_std": 0.2,
+  "gpu_bytes": 3328,
+  "build_s": 9.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 1024,
+   "algo": "multi_cta"
+  },
+  "recall": 0.9955,
+  "QPS": 1136.0,
+  "QPS_std": 0.3,
+  "gpu_bytes": 3328,
+  "build_s": 9.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 1024,
+   "algo": "multi_kernel"
+  },
+  "recall": 0.9957,
+  "QPS": 513.4,
+  "QPS_std": 5.0,
+  "gpu_bytes": 3328,
+  "build_s": 9.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 4,
+   "n_lists": 1024,
+   "n_probes": 16,
+   "mode": "QUANT4"
+  },
+  "recall": 0.9542,
+  "QPS": 36586.8,
+  "QPS_std": 382.3,
+  "gpu_bytes": 780.0,
+  "build_s": 5.9,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 4,
+   "n_lists": 1024,
+   "n_probes": 32,
+   "mode": "QUANT4"
+  },
+  "recall": 0.9647,
+  "QPS": 31495.5,
+  "QPS_std": 381.6,
+  "gpu_bytes": 780.0,
+  "build_s": 5.9,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 4,
+   "n_lists": 1024,
+   "n_probes": 64,
+   "mode": "QUANT4"
+  },
+  "recall": 0.9695,
+  "QPS": 26829.6,
+  "QPS_std": 90.5,
+  "gpu_bytes": 780.0,
+  "build_s": 5.9,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 4,
+   "n_lists": 1024,
+   "n_probes": 128,
+   "mode": "QUANT4"
+  },
+  "recall": 0.9712,
+  "QPS": 21686.9,
+  "QPS_std": 34.1,
+  "gpu_bytes": 780.0,
+  "build_s": 5.9,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 4,
+   "n_lists": 1024,
+   "n_probes": 256,
+   "mode": "QUANT4"
+  },
+  "recall": 0.972,
+  "QPS": 16111.2,
+  "QPS_std": 63.5,
+  "gpu_bytes": 780.0,
+  "build_s": 5.9,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 4,
+   "n_lists": 1024,
+   "n_probes": 512,
+   "mode": "QUANT4"
+  },
+  "recall": 0.9725,
+  "QPS": 10983.5,
+  "QPS_std": 17.0,
+  "gpu_bytes": 780.0,
+  "build_s": 5.9,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 4,
+   "n_lists": 1024,
+   "n_probes": 1024,
+   "mode": "QUANT4"
+  },
+  "recall": 0.9726,
+  "QPS": 6799.6,
+  "QPS_std": 9.0,
+  "gpu_bytes": 780.0,
+  "build_s": 5.9,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 5,
+   "n_lists": 1024,
+   "n_probes": 16,
+   "mode": "QUANT4"
+  },
+  "recall": 0.9641,
+  "QPS": 41914.4,
+  "QPS_std": 104.0,
+  "gpu_bytes": 972.0,
+  "build_s": 5.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 5,
+   "n_lists": 1024,
+   "n_probes": 32,
+   "mode": "QUANT4"
+  },
+  "recall": 0.9756,
+  "QPS": 35208.4,
+  "QPS_std": 29.5,
+  "gpu_bytes": 972.0,
+  "build_s": 5.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 5,
+   "n_lists": 1024,
+   "n_probes": 64,
+   "mode": "QUANT4"
+  },
+  "recall": 0.9805,
+  "QPS": 29351.4,
+  "QPS_std": 732.9,
+  "gpu_bytes": 972.0,
+  "build_s": 5.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 5,
+   "n_lists": 1024,
+   "n_probes": 128,
+   "mode": "QUANT4"
+  },
+  "recall": 0.9828,
+  "QPS": 23832.9,
+  "QPS_std": 127.4,
+  "gpu_bytes": 972.0,
+  "build_s": 5.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 5,
+   "n_lists": 1024,
+   "n_probes": 256,
+   "mode": "QUANT4"
+  },
+  "recall": 0.9828,
+  "QPS": 17308.4,
+  "QPS_std": 44.0,
+  "gpu_bytes": 972.0,
+  "build_s": 5.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 5,
+   "n_lists": 1024,
+   "n_probes": 512,
+   "mode": "QUANT4"
+  },
+  "recall": 0.9833,
+  "QPS": 11308.4,
+  "QPS_std": 18.6,
+  "gpu_bytes": 972.0,
+  "build_s": 5.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 5,
+   "n_lists": 1024,
+   "n_probes": 1024,
+   "mode": "QUANT4"
+  },
+  "recall": 0.9832,
+  "QPS": 6859.9,
+  "QPS_std": 16.8,
+  "gpu_bytes": 972.0,
+  "build_s": 5.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 7,
+   "n_lists": 1024,
+   "n_probes": 16,
+   "mode": "QUANT8"
+  },
+  "recall": 0.9699,
+  "QPS": 29320.7,
+  "QPS_std": 240.4,
+  "gpu_bytes": 1356.0,
+  "build_s": 5.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 7,
+   "n_lists": 1024,
+   "n_probes": 32,
+   "mode": "QUANT8"
+  },
+  "recall": 0.982,
+  "QPS": 26382.0,
+  "QPS_std": 72.5,
+  "gpu_bytes": 1356.0,
+  "build_s": 5.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 7,
+   "n_lists": 1024,
+   "n_probes": 64,
+   "mode": "QUANT8"
+  },
+  "recall": 0.9875,
+  "QPS": 21745.9,
+  "QPS_std": 51.8,
+  "gpu_bytes": 1356.0,
+  "build_s": 5.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 7,
+   "n_lists": 1024,
+   "n_probes": 128,
+   "mode": "QUANT8"
+  },
+  "recall": 0.9888,
+  "QPS": 16339.2,
+  "QPS_std": 47.0,
+  "gpu_bytes": 1356.0,
+  "build_s": 5.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 7,
+   "n_lists": 1024,
+   "n_probes": 256,
+   "mode": "QUANT8"
+  },
+  "recall": 0.99,
+  "QPS": 10985.8,
+  "QPS_std": 31.2,
+  "gpu_bytes": 1356.0,
+  "build_s": 5.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 7,
+   "n_lists": 1024,
+   "n_probes": 512,
+   "mode": "QUANT8"
+  },
+  "recall": 0.9903,
+  "QPS": 6811.8,
+  "QPS_std": 11.3,
+  "gpu_bytes": 1356.0,
+  "build_s": 5.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 7,
+   "n_lists": 1024,
+   "n_probes": 1024,
+   "mode": "QUANT8"
+  },
+  "recall": 0.9902,
+  "QPS": 3923.9,
+  "QPS_std": 3.6,
+  "gpu_bytes": 1356.0,
+  "build_s": 5.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 9,
+   "n_lists": 1024,
+   "n_probes": 16,
+   "mode": "QUANT8"
+  },
+  "recall": 0.9727,
+  "QPS": 43586.6,
+  "QPS_std": 321.7,
+  "gpu_bytes": 1740.0,
+  "build_s": 5.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 9,
+   "n_lists": 1024,
+   "n_probes": 32,
+   "mode": "QUANT8"
+  },
+  "recall": 0.984,
+  "QPS": 35967.6,
+  "QPS_std": 250.6,
+  "gpu_bytes": 1740.0,
+  "build_s": 5.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 9,
+   "n_lists": 1024,
+   "n_probes": 64,
+   "mode": "QUANT8"
+  },
+  "recall": 0.9901,
+  "QPS": 28432.6,
+  "QPS_std": 21.4,
+  "gpu_bytes": 1740.0,
+  "build_s": 5.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 9,
+   "n_lists": 1024,
+   "n_probes": 128,
+   "mode": "QUANT8"
+  },
+  "recall": 0.9918,
+  "QPS": 20294.5,
+  "QPS_std": 126.7,
+  "gpu_bytes": 1740.0,
+  "build_s": 5.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 9,
+   "n_lists": 1024,
+   "n_probes": 256,
+   "mode": "QUANT8"
+  },
+  "recall": 0.9925,
+  "QPS": 13460.6,
+  "QPS_std": 20.7,
+  "gpu_bytes": 1740.0,
+  "build_s": 5.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 9,
+   "n_lists": 1024,
+   "n_probes": 512,
+   "mode": "QUANT8"
+  },
+  "recall": 0.9927,
+  "QPS": 8111.8,
+  "QPS_std": 23.1,
+  "gpu_bytes": 1740.0,
+  "build_s": 5.7,
+  "rmm_pool": true
+ },
+ {
+  "ds": "dino",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 9,
+   "n_lists": 1024,
+   "n_probes": 1024,
+   "mode": "QUANT8"
+  },
+  "recall": 0.9928,
+  "QPS": 4444.6,
+  "QPS_std": 13.3,
+  "gpu_bytes": 1740.0,
+  "build_s": 5.7,
+  "rmm_pool": true
+ }
+]

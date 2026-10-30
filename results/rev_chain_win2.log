@@ -1,0 +1,45 @@
+=== zsweep
+{"bound": "exact rerank of all K (z=inf)", "z": "inf", "K": 400, "nprobe": 32, "recall@10": 0.9922, "cand_ceiling": 0.9923, "QPS": 494.9, "QPS_std": 12.9, "reads_mean": 400.0, "reads_p50": 400.0, "reads_p90": 400.0, "reads_p99": 400.0, "reads_p999": 400.0, "reads_max": 400, "frac_zero_reads": 0.0}
+DONE
+=== k100
+{"k": 100, "K": 2000, "nprobe": 64, "recall@100": 0.9947, "cand_ceiling@100": 0.9947, "recall@10_of_these": 0.9691, "QPS": 1440.0, "QPS_std": 25.4, "reads_mean": 55.75, "reads_p50": 55.0, "reads_p90": 78.0, "reads_p99": 98.0, "reads_p999": 108.00900000000183, "reads_max": 122, "frac_zero_reads": 0.0}
+DONE
+=== batch
+{"K": 400, "nprobe": 32, "batch": 500, "recall@10": 0.9922, "latency_ms_p50": 108.559, "latency_ms_p99": 110.268, "QPS_sync": 4621.0}
+DONE
+=== grid
+{"nprobe": 48, "K": 600, "recall@10": 0.9965, "cand_ceiling": 0.9967, "QPS": 3756.5, "QPS_std": 3.0, "reads_mean": 5.87, "reads_p50": 6.0, "reads_p90": 10.0, "reads_p99": 16.0, "reads_p999": 20.001000000000204, "reads_max": 21, "frac_zero_reads": 0.079}
+DONE
+=== seeds
+{"seed": 4, "K": 400, "nprobe": 32, "recall@10": 0.993, "cand_recall@10": 0.9932, "QPS": 5322.9, "QPS_std": 15.6, "build_s": 121.5, "reads_mean": 5.82, "reads_p50": 6.0, "reads_p90": 10.0, "reads_p99": 15.0, "reads_p999": 19.001000000000204, "reads_max": 20, "frac_zero_reads": 0.0775, "z_std_used": 0.893, "P(|z|>2)_used": 0.02577}
+DONE
+=== encoder
+{"encoder": "beam 256", "chunk": 4096, "vec_per_s": 5983.2, "c_stage1": 0.84621, "mse": 0.28456, "proj_min_10M": 27.9, "proj_min_100M": 278.6}
+DONE
+=== scale
+{"N": 9980000, "stage1_full_scan_ms_per_500q": 633.23, "stage1_QPS_full_scan": 789.6, "stage1_gpu_MB": 361.7}
+DONE
+=== platform
+{"os": "Windows", "what": "host gather of 12k random fp16 rows (ms)", "value": 2.31}
+DONE
+=== theory ee
+{"decoder": "PCA-256 sign + Bussgang LMMSE (raw)", "dim": 256, "mse_trE": 0.30538, "rank_err_tr(SqE)": 0.0011739, "iso_ref": 0.0009289, "rho=rank_err/iso": 1.264, "lam_max/lam_mean": 1.84, "PR/dim": 0.897, "share_trE_top50_PCs": 0.2787, "top50_reference": 0.1953, "near_threshold_err_var": 0.00093562, "recall10_within_top50": 0.585}
+DONE
+=== platform under WSL2
+  File "/home/mohmmed_mohsen/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/usr/bin/gcc', '/tmp/tmp4omly488/main.c', '-O3', '-shared', '-fPIC', '-Wno-psabi', '-o', '/tmp/tmp4omly488/cuda_utils.cpython-312-x86_64-linux-gnu.so', '-lcuda', '-L/home/mohmmed_mohsen/fanar_t/lib/python3.12/site-packages/triton/backends/nvidia/lib', '-L/usr/lib/wsl/lib', '-I/home/mohmmed_mohsen/fanar_t/lib/python3.12/site-packages/triton/backends/nvidia/include', '-I/tmp/tmp4omly488', '-I/home/mohmmed_mohsen/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/include/python3.12']' returned non-zero exit status 1.
+CHAIN2_DONE
+=== cfail t3 rot
+{"ds": "t3", "N": 50000, "rate": 1, "rotation": "rot", "coord_excess_kurtosis_median": -0.046, "coord_var_max_over_median": 1.03, "codebook": "BW16-65536", "mean_cos": 0.838, "nprobe": 64, "R@10": 0.495, "R@10_rerank20": 0.666, "R@10_rerank40": 0.7847}
+=== cfail t3 norot
+{"ds": "t3", "N": 50000, "rate": 1, "rotation": "norot", "coord_excess_kurtosis_median": 3.08, "coord_var_max_over_median": 1.04, "codebook": "BW16-65536", "mean_cos": 0.8199, "nprobe": 64, "R@10": 0.3539, "R@10_rerank20": 0.5097, "R@10_rerank40": 0.6604}
+=== cfail sparse rot
+{"ds": "sparse", "N": 50000, "rate": 1, "rotation": "rot", "coord_excess_kurtosis_median": -0.033, "coord_var_max_over_median": 1.04, "codebook": "BW16-65536", "mean_cos": 0.8372, "nprobe": 64, "R@10": 0.6302, "R@10_rerank20": 0.8009, "R@10_rerank40": 0.8767}
+=== cfail sparse norot
+{"ds": "sparse", "N": 50000, "rate": 1, "rotation": "norot", "coord_excess_kurtosis_median": 34.351, "coord_var_max_over_median": 1.22, "codebook": "BW16-65536", "mean_cos": 0.7751, "nprobe": 64, "R@10": 0.3209, "R@10_rerank20": 0.5137, "R@10_rerank40": 0.6993}
+CHAIN3_DONE
+=== highrecall R384
+{"R": 384, "nprobe": 64, "K": 800, "recall@10": 0.9997, "cand_ceiling": 0.9999, "QPS": 1701.3, "QPS_std": 2.3, "gpu_bytes": 836, "stage1_bytes": 54, "reads_mean": 5.89, "reads_p50": 6.0, "reads_p90": 10.0, "reads_p99": 16.0, "reads_p999": 21.0, "reads_max": 22, "frac_zero_reads": 0.0785}
+DONE
+CHAIN4_DONE

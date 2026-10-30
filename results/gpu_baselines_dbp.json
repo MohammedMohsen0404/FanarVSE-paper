@@ -1,0 +1,145 @@
+[
+ {
+  "ds": "dbp",
+  "N": 228772,
+  "engine": "FAISS-GPU Flat fp32",
+  "param": null,
+  "batch": 2000,
+  "recall@10": 1.0,
+  "QPS": 3519.6,
+  "index_bytes_per_vec": 6144,
+  "build_s": 0
+ },
+ {
+  "ds": "dbp",
+  "N": 228772,
+  "engine": "FAISS-GPU Flat fp16",
+  "param": null,
+  "batch": 2000,
+  "recall@10": 0.9999,
+  "QPS": 6879.5,
+  "index_bytes_per_vec": 3072,
+  "build_s": 0.31
+ },
+ {
+  "ds": "dbp",
+  "N": 228772,
+  "engine": "FAISS-GPU IVF-Flat",
+  "param": 16,
+  "batch": 2000,
+  "recall@10": 0.9181,
+  "QPS": 6470.9,
+  "index_bytes_per_vec": 6152,
+  "build_s": 4.44
+ },
+ {
+  "ds": "dbp",
+  "N": 228772,
+  "engine": "FAISS-GPU IVF-Flat",
+  "param": 32,
+  "batch": 2000,
+  "recall@10": 0.9527,
+  "QPS": 3303.2,
+  "index_bytes_per_vec": 6152,
+  "build_s": 4.44
+ },
+ {
+  "ds": "dbp",
+  "N": 228772,
+  "engine": "FAISS-GPU IVF-Flat",
+  "param": 64,
+  "batch": 2000,
+  "recall@10": 0.978,
+  "QPS": 1673.8,
+  "index_bytes_per_vec": 6152,
+  "build_s": 4.44
+ },
+ {
+  "ds": "dbp",
+  "N": 228772,
+  "engine": "FAISS-GPU IVF-Flat",
+  "param": 128,
+  "batch": 2000,
+  "recall@10": 0.9929,
+  "QPS": 804.9,
+  "index_bytes_per_vec": 6152,
+  "build_s": 4.44
+ },
+ {
+  "ds": "dbp",
+  "N": 228772,
+  "engine": "FAISS-GPU IVF-PQ M=48",
+  "param": 32,
+  "batch": 2000,
+  "recall@10": 0.4564,
+  "QPS": 28735.3,
+  "index_bytes_per_vec": 56,
+  "build_s": 28.48
+ },
+ {
+  "ds": "dbp",
+  "N": 228772,
+  "engine": "FAISS-GPU IVF-PQ M=48",
+  "param": 64,
+  "batch": 2000,
+  "recall@10": 0.4564,
+  "QPS": 15183.8,
+  "index_bytes_per_vec": 56,
+  "build_s": 28.48
+ },
+ {
+  "ds": "dbp",
+  "N": 228772,
+  "engine": "FAISS-GPU IVF-PQ M=48",
+  "param": 128,
+  "batch": 2000,
+  "recall@10": 0.4564,
+  "QPS": 7770.9,
+  "index_bytes_per_vec": 56,
+  "build_s": 28.48
+ },
+ {
+  "ds": "dbp",
+  "N": 228772,
+  "engine": "FAISS-GPU IVF-PQ M=48 +rerank40",
+  "param": 64,
+  "batch": 2000,
+  "recall@10": 0.6715,
+  "QPS": 5756.0,
+  "index_bytes_per_vec": 56,
+  "build_s": 28.48
+ },
+ {
+  "ds": "dbp",
+  "N": 228772,
+  "engine": "FAISS-GPU IVF-PQ M=48 +rerank40",
+  "param": 128,
+  "batch": 2000,
+  "recall@10": 0.6715,
+  "QPS": 5474.6,
+  "index_bytes_per_vec": 56,
+  "build_s": 28.48
+ },
+ {
+  "ds": "dbp",
+  "N": 228772,
+  "engine": "FAISS-GPU IVF-PQ M=48 +rerank100",
+  "param": 64,
+  "batch": 2000,
+  "recall@10": 0.7452,
+  "QPS": 3386.3,
+  "index_bytes_per_vec": 56,
+  "build_s": 28.48
+ },
+ {
+  "ds": "dbp",
+  "N": 228772,
+  "engine": "FAISS-GPU IVF-PQ M=48 +rerank100",
+  "param": 128,
+  "batch": 2000,
+  "recall@10": 0.7452,
+  "QPS": 3237.0,
+  "index_bytes_per_vec": 56,
+  "build_s": 28.48
+ }
+]

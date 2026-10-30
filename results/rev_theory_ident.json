@@ -1,0 +1,125 @@
+[
+ {
+  "k": 1,
+  "N": 228000,
+  "tau_p10": 0.4696,
+  "tau_p50": 0.5699,
+  "tau_p90": 0.7236,
+  "d_eff": {
+   "participation_ratio": 124.3,
+   "dims_90pct_var": 433,
+   "dims_95pct_var": 636,
+   "dims_99pct_var": 1056,
+   "entropy_rank": 342.2
+  },
+  "bits_per_vector": {
+   "participation_ratio": {
+    "p10": 135.5,
+    "p50": 100.8,
+    "p90": 58.0
+   },
+   "dims_90pct_var": {
+    "p10": 472.2,
+    "p50": 351.3,
+    "p90": 202.1
+   },
+   "dims_95pct_var": {
+    "p10": 693.6,
+    "p50": 515.9,
+    "p90": 296.8
+   },
+   "dims_99pct_var": {
+    "p10": 1151.6,
+    "p50": 856.6,
+    "p90": 492.9
+   },
+   "entropy_rank": {
+    "p10": 373.2,
+    "p50": 277.6,
+    "p90": 159.7
+   }
+  }
+ },
+ {
+  "k": 10,
+  "N": 228000,
+  "tau_p10": 0.3906,
+  "tau_p50": 0.4592,
+  "tau_p90": 0.5596,
+  "d_eff": {
+   "participation_ratio": 124.3,
+   "dims_90pct_var": 433,
+   "dims_95pct_var": 636,
+   "dims_99pct_var": 1056,
+   "entropy_rank": 342.2
+  },
+  "bits_per_vector": {
+   "participation_ratio": {
+    "p10": 168.6,
+    "p50": 139.6,
+    "p90": 104.1
+   },
+   "dims_90pct_var": {
+    "p10": 587.3,
+    "p50": 486.2,
+    "p90": 362.7
+   },
+   "dims_95pct_var": {
+    "p10": 862.6,
+    "p50": 714.1,
+    "p90": 532.7
+   },
+   "dims_99pct_var": {
+    "p10": 1432.2,
+    "p50": 1185.7,
+    "p90": 884.4
+   },
+   "entropy_rank": {
+    "p10": 464.2,
+    "p50": 384.3,
+    "p90": 286.6
+   }
+  }
+ },
+ {
+  "k": 100,
+  "N": 228000,
+  "tau_p10": 0.3116,
+  "tau_p50": 0.3664,
+  "tau_p90": 0.4442,
+  "d_eff": {
+   "participation_ratio": 124.3,
+   "dims_90pct_var": 433,
+   "dims_95pct_var": 636,
+   "dims_99pct_var": 1056,
+   "entropy_rank": 342.2
+  },
+  "bits_per_vector": {
+   "participation_ratio": {
+    "p10": 209.1,
+    "p50": 180.0,
+    "p90": 145.5
+   },
+   "dims_90pct_var": {
+    "p10": 728.4,
+    "p50": 627.2,
+    "p90": 506.9
+   },
+   "dims_95pct_var": {
+    "p10": 1069.9,
+    "p50": 921.3,
+    "p90": 744.6
+   },
+   "dims_99pct_var": {
+    "p10": 1776.4,
+    "p50": 1529.6,
+    "p90": 1236.3
+   },
+   "entropy_rank": {
+    "p10": 575.7,
+    "p50": 495.7,
+    "p90": 400.7
+   }
+  }
+ }
+]

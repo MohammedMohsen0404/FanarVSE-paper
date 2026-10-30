@@ -1,0 +1,1 @@
+{"engine": "FAISS-GPU flat fp16", "k": 10, "recall": 1.0, "QPS": 1257.9, "QPS_std": 466.0}

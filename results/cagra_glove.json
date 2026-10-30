@@ -1,0 +1,222 @@
+[
+ {
+  "ds": "glove",
+  "N": 1183514,
+  "engine": "CAGRA deg32 (full fp32 dataset)",
+  "itopk": 32,
+  "recall@10": 0.6246,
+  "QPS": 209364.9,
+  "index_bytes_per_vec": 528,
+  "build_s": 4.69
+ },
+ {
+  "ds": "glove",
+  "N": 1183514,
+  "engine": "CAGRA deg32 (full fp32 dataset)",
+  "itopk": 64,
+  "recall@10": 0.74,
+  "QPS": 130666.9,
+  "index_bytes_per_vec": 528,
+  "build_s": 4.69
+ },
+ {
+  "ds": "glove",
+  "N": 1183514,
+  "engine": "CAGRA deg32 (full fp32 dataset)",
+  "itopk": 128,
+  "recall@10": 0.8296,
+  "QPS": 73606.3,
+  "index_bytes_per_vec": 528,
+  "build_s": 4.69
+ },
+ {
+  "ds": "glove",
+  "N": 1183514,
+  "engine": "CAGRA deg32 (full fp32 dataset)",
+  "itopk": 256,
+  "recall@10": 0.8844,
+  "QPS": 31254.4,
+  "index_bytes_per_vec": 528,
+  "build_s": 4.69
+ },
+ {
+  "ds": "glove",
+  "N": 1183514,
+  "engine": "cuVS IVF-PQ pq_dim=50",
+  "nprobe": 32,
+  "recall@10": 0.7909,
+  "QPS": 40919.8,
+  "index_bytes_per_vec": 58,
+  "build_s": 3.52
+ },
+ {
+  "ds": "glove",
+  "N": 1183514,
+  "engine": "cuVS IVF-PQ pq_dim=50 +refine40",
+  "nprobe": 32,
+  "recall@10": 0.87,
+  "QPS": 19285.6,
+  "index_bytes_per_vec": 58,
+  "build_s": 3.52
+ },
+ {
+  "ds": "glove",
+  "N": 1183514,
+  "engine": "cuVS IVF-PQ pq_dim=50 +refine100",
+  "nprobe": 32,
+  "recall@10": 0.8702,
+  "QPS": 15105.1,
+  "index_bytes_per_vec": 58,
+  "build_s": 3.52
+ },
+ {
+  "ds": "glove",
+  "N": 1183514,
+  "engine": "cuVS IVF-PQ pq_dim=50",
+  "nprobe": 64,
+  "recall@10": 0.8271,
+  "QPS": 22081.8,
+  "index_bytes_per_vec": 58,
+  "build_s": 3.52
+ },
+ {
+  "ds": "glove",
+  "N": 1183514,
+  "engine": "cuVS IVF-PQ pq_dim=50 +refine40",
+  "nprobe": 64,
+  "recall@10": 0.9204,
+  "QPS": 14528.2,
+  "index_bytes_per_vec": 58,
+  "build_s": 3.52
+ },
+ {
+  "ds": "glove",
+  "N": 1183514,
+  "engine": "cuVS IVF-PQ pq_dim=50 +refine100",
+  "nprobe": 64,
+  "recall@10": 0.9206,
+  "QPS": 10565.6,
+  "index_bytes_per_vec": 58,
+  "build_s": 3.52
+ },
+ {
+  "ds": "glove",
+  "N": 1183514,
+  "engine": "cuVS IVF-PQ pq_dim=50",
+  "nprobe": 128,
+  "recall@10": 0.8529,
+  "QPS": 11297.9,
+  "index_bytes_per_vec": 58,
+  "build_s": 3.52
+ },
+ {
+  "ds": "glove",
+  "N": 1183514,
+  "engine": "cuVS IVF-PQ pq_dim=50 +refine40",
+  "nprobe": 128,
+  "recall@10": 0.9599,
+  "QPS": 8310.8,
+  "index_bytes_per_vec": 58,
+  "build_s": 3.52
+ },
+ {
+  "ds": "glove",
+  "N": 1183514,
+  "engine": "cuVS IVF-PQ pq_dim=50 +refine100",
+  "nprobe": 128,
+  "recall@10": 0.9603,
+  "QPS": 6428.1,
+  "index_bytes_per_vec": 58,
+  "build_s": 3.52
+ },
+ {
+  "ds": "glove",
+  "N": 1183514,
+  "engine": "cuVS IVF-PQ pq_dim=25",
+  "nprobe": 32,
+  "recall@10": 0.59,
+  "QPS": 83201.6,
+  "index_bytes_per_vec": 33,
+  "build_s": 2.39
+ },
+ {
+  "ds": "glove",
+  "N": 1183514,
+  "engine": "cuVS IVF-PQ pq_dim=25 +refine40",
+  "nprobe": 32,
+  "recall@10": 0.8324,
+  "QPS": 31426.5,
+  "index_bytes_per_vec": 33,
+  "build_s": 2.39
+ },
+ {
+  "ds": "glove",
+  "N": 1183514,
+  "engine": "cuVS IVF-PQ pq_dim=25 +refine100",
+  "nprobe": 32,
+  "recall@10": 0.869,
+  "QPS": 21715.5,
+  "index_bytes_per_vec": 33,
+  "build_s": 2.39
+ },
+ {
+  "ds": "glove",
+  "N": 1183514,
+  "engine": "cuVS IVF-PQ pq_dim=25",
+  "nprobe": 64,
+  "recall@10": 0.6065,
+  "QPS": 44790.5,
+  "index_bytes_per_vec": 33,
+  "build_s": 2.39
+ },
+ {
+  "ds": "glove",
+  "N": 1183514,
+  "engine": "cuVS IVF-PQ pq_dim=25 +refine40",
+  "nprobe": 64,
+  "recall@10": 0.8705,
+  "QPS": 23866.4,
+  "index_bytes_per_vec": 33,
+  "build_s": 2.39
+ },
+ {
+  "ds": "glove",
+  "N": 1183514,
+  "engine": "cuVS IVF-PQ pq_dim=25 +refine100",
+  "nprobe": 64,
+  "recall@10": 0.9151,
+  "QPS": 16444.4,
+  "index_bytes_per_vec": 33,
+  "build_s": 2.39
+ },
+ {
+  "ds": "glove",
+  "N": 1183514,
+  "engine": "cuVS IVF-PQ pq_dim=25",
+  "nprobe": 128,
+  "recall@10": 0.616,
+  "QPS": 23198.7,
+  "index_bytes_per_vec": 33,
+  "build_s": 2.39
+ },
+ {
+  "ds": "glove",
+  "N": 1183514,
+  "engine": "cuVS IVF-PQ pq_dim=25 +refine40",
+  "nprobe": 128,
+  "recall@10": 0.8955,
+  "QPS": 17081.2,
+  "index_bytes_per_vec": 33,
+  "build_s": 2.39
+ },
+ {
+  "ds": "glove",
+  "N": 1183514,
+  "engine": "cuVS IVF-PQ pq_dim=25 +refine100",
+  "nprobe": 128,
+  "recall@10": 0.9483,
+  "QPS": 11144.8,
+  "index_bytes_per_vec": 33,
+  "build_s": 2.39
+ }
+]

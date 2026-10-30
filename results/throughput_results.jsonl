@@ -1,0 +1,463 @@
+{"tag": "nbr", "p0": 32, "T": 20, "D": 16, "rounds": 2, "K": 400, "recall": 0.9715, "ceiling": 0.9716, "probes": 97.5, "bad": 591, "ms_per_500": 32.5, "QPS": 15386}
+{"tag": "nbr", "p0": 32, "T": 20, "D": 16, "rounds": 1, "K": 400, "recall": 0.9754, "ceiling": 0.9755, "probes": 88.5, "bad": 124, "ms_per_500": 24.09, "QPS": 20752}
+{"tag": "nbr", "p0": 64, "T": 20, "D": 16, "rounds": 1, "K": 400, "recall": 0.9839, "ceiling": 0.984, "probes": 109.0, "bad": 81, "ms_per_500": 24.27, "QPS": 20598}
+{"tag": "nbr", "p0": 64, "T": 20, "D": 16, "rounds": 2, "K": 400, "recall": 0.9764, "ceiling": 0.9765, "probes": 116.7, "bad": 656, "ms_per_500": 32.92, "QPS": 15189}
+{"tag": "nbr", "p0": 32, "T": 40, "D": 16, "rounds": 1, "K": 400, "recall": 0.9612, "ceiling": 0.9613, "probes": 127.0, "bad": 348, "ms_per_500": 25.64, "QPS": 19497}
+{"tag": "nbr", "p0": 16, "T": 20, "D": 16, "rounds": 2, "K": 400, "recall": 0.9677, "ceiling": 0.9678, "probes": 92.1, "bad": 567, "ms_per_500": 32.08, "QPS": 15584}
+{"tag": "nbr", "p0": 32, "T": 20, "D": 8, "rounds": 2, "K": 400, "recall": 0.9714, "ceiling": 0.9715, "probes": 97.6, "bad": 591, "ms_per_500": 31.3, "QPS": 15973}
+{"tag": "nbr", "p0": 64, "T": 40, "D": 16, "rounds": 2, "K": 400, "recall": 0.9276, "ceiling": 0.9276, "probes": 158.3, "bad": 911, "ms_per_500": 37.26, "QPS": 13418}
+{"tag": "nbr", "p0": 32, "T": 20, "D": 16, "rounds": 2, "K": 400, "recall": 0.9775, "ceiling": 0.9775, "probes": 92.3, "bad": 111, "pass_bad": [0, 0, 29], "ms_per_500": 36.2, "QPS": 13811}
+{"tag": "nbr", "p0": 64, "T": 20, "D": 16, "rounds": 1, "K": 400, "recall": 0.9839, "ceiling": 0.984, "probes": 108.8, "bad": 45, "pass_bad": [0, 13], "ms_per_500": 26.57, "QPS": 18815}
+{"tag": "nbr", "p0": 64, "T": 20, "D": 16, "rounds": 2, "K": 400, "recall": 0.9842, "ceiling": 0.9843, "probes": 110.8, "bad": 65, "pass_bad": [0, 0, 19], "ms_per_500": 36.26, "QPS": 13791}
+{"tag": "nbr", "p0": 64, "T": 40, "D": 16, "rounds": 1, "K": 400, "recall": 0.9601, "ceiling": 0.9602, "probes": 143.4, "bad": 366, "pass_bad": [0, 91], "ms_per_500": 28.51, "QPS": 17536}
+{"tag": "engineS", "nprobe": 256, "K": 200, "batch": 500, "recall": 0.9822, "ceiling": 0.9824, "QPS": 25578, "QPS_std": 2752, "reads": 6.59, "recomputed": 4, "margin_q": null, "M": null}
+{"tag": "engineP", "nprobe": 256, "K": 200, "batch": 500, "recall": 0.9822, "ceiling": 0.9824, "QPS": 22035, "QPS_std": 1785, "reads": 6.59, "recomputed": 236, "margin_q": 0.001, "M": 16384}
+{"tag": "engineS", "nprobe": 256, "K": 200, "batch": 500, "recall": 0.9822, "ceiling": 0.9824, "QPS": 24922, "QPS_std": 348, "reads": 6.59, "recomputed": 4, "margin_q": null, "M": null}
+{"tag": "engineP", "nprobe": 256, "K": 200, "batch": 500, "recall": 0.9822, "ceiling": 0.9824, "QPS": 23486, "QPS_std": 128, "reads": 6.59, "recomputed": 236, "margin_q": 0.001, "M": 16384}
+{"tag": "engineS", "nprobe": 384, "K": 400, "batch": 500, "recall": 0.9919, "ceiling": 0.9921, "QPS": 21442, "QPS_std": 1827, "reads": 6.64, "recomputed": 0, "margin_q": null, "M": null}
+{"tag": "engineP", "nprobe": 384, "K": 400, "batch": 500, "recall": 0.9919, "ceiling": 0.9921, "QPS": 16772, "QPS_std": 319, "reads": 6.64, "recomputed": 32, "margin_q": 0.001, "M": 16384}
+{"tag": "engineS", "nprobe": 384, "K": 400, "batch": 500, "recall": 0.9919, "ceiling": 0.9921, "QPS": 18997, "QPS_std": 63, "reads": 6.64, "recomputed": 0, "margin_q": null, "M": null}
+{"tag": "engineP", "nprobe": 384, "K": 400, "batch": 500, "recall": 0.9919, "ceiling": 0.9921, "QPS": 16771, "QPS_std": 75, "reads": 6.64, "recomputed": 32, "margin_q": 0.001, "M": 16384}
+{"tag": "engineS", "nprobe": 768, "K": 400, "batch": 500, "recall": 0.9959, "ceiling": 0.996, "QPS": 16846, "QPS_std": 97, "reads": 6.64, "recomputed": 0, "margin_q": null, "M": null}
+{"tag": "engineP", "nprobe": 768, "K": 400, "batch": 500, "recall": 0.9959, "ceiling": 0.996, "QPS": 14081, "QPS_std": 101, "reads": 6.64, "recomputed": 84, "margin_q": 0.001, "M": 16384}
+{"tag": "engineS", "nprobe": 768, "K": 400, "batch": 500, "recall": 0.9959, "ceiling": 0.996, "QPS": 16692, "QPS_std": 36, "reads": 6.64, "recomputed": 0, "margin_q": null, "M": null}
+{"tag": "engineP", "nprobe": 768, "K": 400, "batch": 500, "recall": 0.9959, "ceiling": 0.996, "QPS": 14168, "QPS_std": 289, "reads": 6.64, "recomputed": 84, "margin_q": 0.001, "M": 16384}
+{"tag": "engineS", "nprobe": 1024, "K": 800, "batch": 500, "recall": 0.9984, "ceiling": 0.9985, "QPS": 10262, "QPS_std": 58, "reads": 6.68, "recomputed": 0, "margin_q": null, "M": null}
+{"tag": "engineP", "nprobe": 1024, "K": 800, "batch": 500, "recall": 0.9984, "ceiling": 0.9985, "QPS": 10603, "QPS_std": 484, "reads": 6.68, "recomputed": 8, "margin_q": 0.001, "M": 16384}
+{"tag": "engineS", "nprobe": 1024, "K": 800, "batch": 500, "recall": 0.9984, "ceiling": 0.9985, "QPS": 11619, "QPS_std": 306, "reads": 6.68, "recomputed": 0, "margin_q": null, "M": null}
+{"tag": "engineP", "nprobe": 1024, "K": 800, "batch": 500, "recall": 0.9984, "ceiling": 0.9985, "QPS": 11796, "QPS_std": 469, "reads": 6.68, "recomputed": 8, "margin_q": 0.001, "M": 16384}
+{"tag": "engineP", "nprobe": 384, "K": 400, "batch": 500, "recall": 0.9919, "ceiling": 0.9921, "QPS": 15508, "QPS_std": 267, "reads": 6.64, "recomputed": 648, "margin_q": 0.0003, "M": 16384}
+{"tag": "engineP", "nprobe": 384, "K": 400, "batch": 500, "recall": 0.9919, "ceiling": 0.9921, "QPS": 19254, "QPS_std": 193, "reads": 6.64, "recomputed": 36, "margin_q": 0.003, "M": 8192}
+{"tag": "engineP", "nprobe": 384, "K": 400, "batch": 500, "recall": 0.9919, "ceiling": 0.9921, "QPS": 17114, "QPS_std": 319, "reads": 6.64, "recomputed": 68, "margin_q": 0.01, "M": 8192}
+{"tag": "engineS", "nprobe": 384, "K": 400, "batch": 2000, "recall": 0.9919, "ceiling": 0.9921, "QPS": 23004, "QPS_std": 1875, "reads": 6.64, "recomputed": 0, "margin_q": null, "M": null}
+{"tag": "engineP", "nprobe": 384, "K": 400, "batch": 2000, "recall": 0.9919, "ceiling": 0.9921, "QPS": 20610, "QPS_std": 1662, "reads": 6.64, "recomputed": 32, "margin_q": 0.001, "M": 16384}
+{"tag": "progressive", "nprobe": 384, "K": 400, "tiers": 1, "K2": 50, "recall": 0.4487, "stage2_ms": 3.34}
+{"tag": "progressive", "nprobe": 384, "K": 400, "tiers": 1, "K2": 100, "recall": 0.637, "stage2_ms": 3.62}
+{"tag": "progressive", "nprobe": 384, "K": 400, "tiers": 1, "K2": 200, "recall": 0.8376, "stage2_ms": 5.0}
+{"tag": "progressive", "nprobe": 384, "K": 400, "tiers": 2, "K2": 50, "recall": 0.8938, "stage2_ms": 3.22}
+{"tag": "progressive", "nprobe": 384, "K": 400, "tiers": 2, "K2": 100, "recall": 0.9489, "stage2_ms": 4.12}
+{"tag": "progressive", "nprobe": 384, "K": 400, "tiers": 2, "K2": 200, "recall": 0.9805, "stage2_ms": 5.48}
+{"tag": "progressive", "nprobe": 384, "K": 400, "tiers": 3, "K2": 50, "recall": 0.9906, "stage2_ms": 3.88}
+{"tag": "progressive", "nprobe": 384, "K": 400, "tiers": 3, "K2": 100, "recall": 0.9917, "stage2_ms": 4.79}
+{"tag": "progressive", "nprobe": 384, "K": 400, "tiers": 3, "K2": 200, "recall": 0.9919, "stage2_ms": 6.14}
+{"tag": "engineS", "nprobe": 256, "K": 200, "batch": 500, "recall": 0.9822, "QPS": 28160, "QPS_std": 175, "reads": 6.59}
+{"tag": "engineS", "nprobe": 256, "K": 200, "batch": 500, "recall": 0.9822, "QPS": 24906, "QPS_std": 1331, "reads": 6.59}
+{"tag": "engineQ", "nprobe": 256, "K": 200, "batch": 500, "recall": 0.9822, "QPS": 29746, "QPS_std": 187, "reads": 6.59, "K2": 80}
+{"tag": "engineS", "nprobe": 256, "K": 200, "batch": 500, "recall": 0.9822, "QPS": 28510, "QPS_std": 111, "reads": 6.59}
+{"tag": "engineQ", "nprobe": 256, "K": 200, "batch": 500, "recall": 0.9822, "QPS": 30351, "QPS_std": 149, "reads": 6.59, "K2": 80}
+{"tag": "engineS", "nprobe": 384, "K": 400, "batch": 500, "recall": 0.9919, "QPS": 22736, "QPS_std": 43, "reads": 6.64}
+{"tag": "engineQ", "nprobe": 384, "K": 400, "batch": 500, "recall": 0.9917, "QPS": 25936, "QPS_std": 124, "reads": 6.63, "K2": 100}
+{"tag": "engineS", "nprobe": 384, "K": 400, "batch": 500, "recall": 0.9919, "QPS": 22921, "QPS_std": 49, "reads": 6.64}
+{"tag": "engineQ", "nprobe": 384, "K": 400, "batch": 500, "recall": 0.9917, "QPS": 26044, "QPS_std": 114, "reads": 6.63, "K2": 100}
+{"tag": "engineS", "nprobe": 384, "K": 400, "batch": 500, "recall": 0.9919, "QPS": 22875, "QPS_std": 44, "reads": 6.64}
+{"tag": "engineQ", "nprobe": 384, "K": 400, "batch": 500, "recall": 0.9912, "QPS": 27600, "QPS_std": 45, "reads": 6.61, "K2": 60}
+{"tag": "engineS", "nprobe": 384, "K": 400, "batch": 500, "recall": 0.9919, "QPS": 22874, "QPS_std": 149, "reads": 6.64}
+{"tag": "engineQ", "nprobe": 384, "K": 400, "batch": 500, "recall": 0.9912, "QPS": 27503, "QPS_std": 60, "reads": 6.61, "K2": 60}
+{"tag": "engineS", "nprobe": 512, "K": 400, "batch": 500, "recall": 0.9939, "QPS": 21725, "QPS_std": 50, "reads": 6.64}
+{"tag": "engineQ", "nprobe": 512, "K": 400, "batch": 500, "recall": 0.9936, "QPS": 24531, "QPS_std": 189, "reads": 6.63, "K2": 100}
+{"tag": "engineS", "nprobe": 512, "K": 400, "batch": 500, "recall": 0.9939, "QPS": 21906, "QPS_std": 98, "reads": 6.64}
+{"tag": "engineQ", "nprobe": 512, "K": 400, "batch": 500, "recall": 0.9936, "QPS": 24673, "QPS_std": 123, "reads": 6.63, "K2": 100}
+{"tag": "engineS", "nprobe": 768, "K": 400, "batch": 500, "recall": 0.9959, "QPS": 19858, "QPS_std": 42, "reads": 6.64}
+{"tag": "engineQ", "nprobe": 768, "K": 400, "batch": 500, "recall": 0.9956, "QPS": 22087, "QPS_std": 13, "reads": 6.64, "K2": 100}
+{"tag": "engineS", "nprobe": 768, "K": 400, "batch": 500, "recall": 0.9959, "QPS": 19813, "QPS_std": 38, "reads": 6.64}
+{"tag": "engineQ", "nprobe": 768, "K": 400, "batch": 500, "recall": 0.9956, "QPS": 22088, "QPS_std": 30, "reads": 6.64, "K2": 100}
+{"tag": "engineS", "nprobe": 1024, "K": 800, "batch": 500, "recall": 0.9984, "QPS": 13819, "QPS_std": 3, "reads": 6.68}
+{"tag": "engineQ", "nprobe": 1024, "K": 800, "batch": 500, "recall": 0.998, "QPS": 17504, "QPS_std": 42, "reads": 6.67, "K2": 150}
+{"tag": "engineS", "nprobe": 1024, "K": 800, "batch": 500, "recall": 0.9984, "QPS": 13744, "QPS_std": 18, "reads": 6.68}
+{"tag": "engineQ", "nprobe": 1024, "K": 800, "batch": 500, "recall": 0.998, "QPS": 17250, "QPS_std": 163, "reads": 6.67, "K2": 150}
+{"tag": "engineS", "nprobe": 1536, "K": 800, "batch": 500, "recall": 0.999, "QPS": 12214, "QPS_std": 108, "reads": 6.67}
+{"tag": "engineQ", "nprobe": 1536, "K": 800, "batch": 500, "recall": 0.9986, "QPS": 15078, "QPS_std": 28, "reads": 6.67, "K2": 150}
+{"tag": "engineS", "nprobe": 1536, "K": 800, "batch": 500, "recall": 0.999, "QPS": 12245, "QPS_std": 34, "reads": 6.67}
+{"tag": "engineQ", "nprobe": 1536, "K": 800, "batch": 500, "recall": 0.9986, "QPS": 15089, "QPS_std": 21, "reads": 6.67, "K2": 150}
+{"tag": "engineS", "nprobe": 384, "K": 400, "batch": 2000, "recall": 0.9919, "QPS": 30050, "QPS_std": 768, "reads": 6.64}
+{"tag": "engineQ", "nprobe": 384, "K": 400, "batch": 2000, "recall": 0.9917, "QPS": 33813, "QPS_std": 1641, "reads": 6.63, "K2": 100}
+{"tag": "engineS", "nprobe": 1024, "K": 800, "batch": 2000, "recall": 0.9984, "QPS": 15955, "QPS_std": 56, "reads": 6.68}
+{"tag": "engineQ", "nprobe": 1024, "K": 800, "batch": 2000, "recall": 0.998, "QPS": 21203, "QPS_std": 40, "reads": 6.67, "K2": 150}
+{"tag": "frontS", "nprobe": 192, "K": 200, "batch": 500, "recall": 0.9777, "QPS": 28459, "reads": 6.6}
+{"tag": "frontS", "nprobe": 256, "K": 200, "batch": 500, "recall": 0.9822, "QPS": 29478, "reads": 6.59}
+{"tag": "frontS", "nprobe": 256, "K": 300, "batch": 500, "recall": 0.9848, "QPS": 27206, "reads": 6.64}
+{"tag": "frontS", "nprobe": 384, "K": 300, "batch": 500, "recall": 0.9904, "QPS": 25412, "reads": 6.62}
+{"tag": "frontS", "nprobe": 384, "K": 400, "batch": 500, "recall": 0.9919, "QPS": 22944, "reads": 6.64}
+{"tag": "frontS", "nprobe": 512, "K": 400, "batch": 500, "recall": 0.9939, "QPS": 21832, "reads": 6.64}
+{"tag": "frontS", "nprobe": 768, "K": 400, "batch": 500, "recall": 0.9959, "QPS": 19864, "reads": 6.64}
+{"tag": "frontS", "nprobe": 768, "K": 600, "batch": 500, "recall": 0.9969, "QPS": 15789, "reads": 6.66}
+{"tag": "frontS", "nprobe": 1024, "K": 800, "batch": 500, "recall": 0.9984, "QPS": 13746, "reads": 6.68}
+{"tag": "frontS", "nprobe": 1536, "K": 800, "batch": 500, "recall": 0.999, "QPS": 12233, "reads": 6.67}
+{"tag": "frontS", "nprobe": 2048, "K": 1200, "batch": 500, "recall": 0.9994, "QPS": 9148, "reads": 6.68}
+{"tag": "frontQ", "nprobe": 192, "K": 200, "batch": 500, "recall": 0.9773, "QPS": 31248, "reads": 6.58, "K2": 60, "NT": 3}
+{"tag": "frontQ", "nprobe": 256, "K": 200, "batch": 500, "recall": 0.982, "QPS": 31309, "reads": 6.57, "K2": 60, "NT": 3}
+{"tag": "frontQ", "nprobe": 256, "K": 300, "batch": 500, "recall": 0.9844, "QPS": 30511, "reads": 6.62, "K2": 60, "NT": 3}
+{"tag": "frontQ", "nprobe": 384, "K": 300, "batch": 500, "recall": 0.9899, "QPS": 28651, "reads": 6.59, "K2": 60, "NT": 3}
+{"tag": "frontQ", "nprobe": 384, "K": 400, "batch": 500, "recall": 0.9912, "QPS": 27227, "reads": 6.61, "K2": 60, "NT": 3}
+{"tag": "frontQ", "nprobe": 512, "K": 400, "batch": 500, "recall": 0.9932, "QPS": 25439, "reads": 6.61, "K2": 60, "NT": 3}
+{"tag": "frontQ", "nprobe": 768, "K": 400, "batch": 500, "recall": 0.9951, "QPS": 23006, "reads": 6.61, "K2": 60, "NT": 3}
+{"tag": "frontQ", "nprobe": 768, "K": 600, "batch": 500, "recall": 0.9958, "QPS": 20151, "reads": 6.62, "K2": 60, "NT": 3}
+{"tag": "frontQ", "nprobe": 1024, "K": 800, "batch": 500, "recall": 0.997, "QPS": 18502, "reads": 6.63, "K2": 60, "NT": 3}
+{"tag": "frontQ", "nprobe": 1536, "K": 800, "batch": 500, "recall": 0.9977, "QPS": 15829, "reads": 6.63, "K2": 60, "NT": 3}
+{"tag": "frontQ", "nprobe": 2048, "K": 1200, "batch": 500, "recall": 0.9978, "QPS": 12745, "reads": 6.63, "K2": 60, "NT": 3}
+{"tag": "frontQ", "nprobe": 192, "K": 200, "batch": 500, "recall": 0.9777, "QPS": 29733, "reads": 6.6, "K2": 100, "NT": 3}
+{"tag": "frontQ", "nprobe": 256, "K": 200, "batch": 500, "recall": 0.9822, "QPS": 28661, "reads": 6.59, "K2": 100, "NT": 3}
+{"tag": "frontQ", "nprobe": 256, "K": 300, "batch": 500, "recall": 0.9848, "QPS": 29132, "reads": 6.64, "K2": 100, "NT": 3}
+{"tag": "frontQ", "nprobe": 384, "K": 300, "batch": 500, "recall": 0.9903, "QPS": 27118, "reads": 6.62, "K2": 100, "NT": 3}
+{"tag": "frontQ", "nprobe": 384, "K": 400, "batch": 500, "recall": 0.9917, "QPS": 25930, "reads": 6.63, "K2": 100, "NT": 3}
+{"tag": "frontQ", "nprobe": 512, "K": 400, "batch": 500, "recall": 0.9936, "QPS": 24398, "reads": 6.63, "K2": 100, "NT": 3}
+{"tag": "frontQ", "nprobe": 768, "K": 400, "batch": 500, "recall": 0.9956, "QPS": 21966, "reads": 6.64, "K2": 100, "NT": 3}
+{"tag": "frontQ", "nprobe": 768, "K": 600, "batch": 500, "recall": 0.9965, "QPS": 19315, "reads": 6.65, "K2": 100, "NT": 3}
+{"tag": "frontQ", "nprobe": 1024, "K": 800, "batch": 500, "recall": 0.9976, "QPS": 17838, "reads": 6.67, "K2": 100, "NT": 3}
+{"tag": "frontQ", "nprobe": 1536, "K": 800, "batch": 500, "recall": 0.9983, "QPS": 15326, "reads": 6.66, "K2": 100, "NT": 3}
+{"tag": "frontQ", "nprobe": 2048, "K": 1200, "batch": 500, "recall": 0.9985, "QPS": 12392, "reads": 6.66, "K2": 100, "NT": 3}
+{"tag": "frontQ", "nprobe": 192, "K": 200, "batch": 500, "recall": 0.9777, "QPS": 28571, "reads": 6.6, "K2": 150, "NT": 3}
+{"tag": "frontQ", "nprobe": 256, "K": 200, "batch": 500, "recall": 0.9822, "QPS": 27583, "reads": 6.59, "K2": 150, "NT": 3}
+{"tag": "frontQ", "nprobe": 256, "K": 300, "batch": 500, "recall": 0.9848, "QPS": 27775, "reads": 6.65, "K2": 150, "NT": 3}
+{"tag": "frontQ", "nprobe": 384, "K": 300, "batch": 500, "recall": 0.9904, "QPS": 25970, "reads": 6.62, "K2": 150, "NT": 3}
+{"tag": "frontQ", "nprobe": 384, "K": 400, "batch": 500, "recall": 0.9919, "QPS": 25130, "reads": 6.64, "K2": 150, "NT": 3}
+{"tag": "frontQ", "nprobe": 512, "K": 400, "batch": 500, "recall": 0.9938, "QPS": 23585, "reads": 6.64, "K2": 150, "NT": 3}
+{"tag": "frontQ", "nprobe": 768, "K": 400, "batch": 500, "recall": 0.9958, "QPS": 21270, "reads": 6.64, "K2": 150, "NT": 3}
+{"tag": "frontQ", "nprobe": 768, "K": 600, "batch": 500, "recall": 0.9967, "QPS": 18796, "reads": 6.66, "K2": 150, "NT": 3}
+{"tag": "frontQ", "nprobe": 1024, "K": 800, "batch": 500, "recall": 0.998, "QPS": 17439, "reads": 6.67, "K2": 150, "NT": 3}
+{"tag": "frontQ", "nprobe": 1536, "K": 800, "batch": 500, "recall": 0.9986, "QPS": 14966, "reads": 6.67, "K2": 150, "NT": 3}
+{"tag": "frontQ", "nprobe": 2048, "K": 1200, "batch": 500, "recall": 0.9989, "QPS": 12152, "reads": 6.66, "K2": 150, "NT": 3}
+{"tag": "frontQ", "nprobe": 192, "K": 200, "batch": 500, "recall": 0.9181, "QPS": 33185, "reads": 6.03, "K2": 60, "NT": 2}
+{"tag": "frontQ", "nprobe": 256, "K": 200, "batch": 500, "recall": 0.9216, "QPS": 31850, "reads": 6.03, "K2": 60, "NT": 2}
+{"tag": "frontQ", "nprobe": 256, "K": 300, "batch": 500, "recall": 0.9124, "QPS": 31861, "reads": 6.01, "K2": 60, "NT": 2}
+{"tag": "frontQ", "nprobe": 384, "K": 300, "batch": 500, "recall": 0.9157, "QPS": 29736, "reads": 5.99, "K2": 60, "NT": 2}
+{"tag": "frontQ", "nprobe": 384, "K": 400, "batch": 500, "recall": 0.9114, "QPS": 28501, "reads": 5.95, "K2": 60, "NT": 2}
+{"tag": "frontQ", "nprobe": 512, "K": 400, "batch": 500, "recall": 0.9128, "QPS": 26764, "reads": 5.95, "K2": 60, "NT": 2}
+{"tag": "frontQ", "nprobe": 768, "K": 400, "batch": 500, "recall": 0.914, "QPS": 23804, "reads": 5.94, "K2": 60, "NT": 2}
+{"tag": "frontQ", "nprobe": 768, "K": 600, "batch": 500, "recall": 0.9106, "QPS": 20710, "reads": 5.89, "K2": 60, "NT": 2}
+{"tag": "frontQ", "nprobe": 1024, "K": 800, "batch": 500, "recall": 0.9087, "QPS": 19482, "reads": 5.88, "K2": 60, "NT": 2}
+{"tag": "frontQ", "nprobe": 1536, "K": 800, "batch": 500, "recall": 0.9093, "QPS": 16499, "reads": 5.87, "K2": 60, "NT": 2}
+{"tag": "frontQ", "nprobe": 2048, "K": 1200, "batch": 500, "recall": 0.9082, "QPS": 13318, "reads": 5.87, "K2": 60, "NT": 2}
+{"tag": "frontQ", "nprobe": 192, "K": 200, "batch": 500, "recall": 0.9553, "QPS": 30321, "reads": 6.38, "K2": 100, "NT": 2}
+{"tag": "frontQ", "nprobe": 256, "K": 200, "batch": 500, "recall": 0.9591, "QPS": 29104, "reads": 6.39, "K2": 100, "NT": 2}
+{"tag": "frontQ", "nprobe": 256, "K": 300, "batch": 500, "recall": 0.9502, "QPS": 29838, "reads": 6.33, "K2": 100, "NT": 2}
+{"tag": "frontQ", "nprobe": 384, "K": 300, "batch": 500, "recall": 0.9542, "QPS": 28144, "reads": 6.32, "K2": 100, "NT": 2}
+{"tag": "frontQ", "nprobe": 384, "K": 400, "batch": 500, "recall": 0.9489, "QPS": 26873, "reads": 6.29, "K2": 100, "NT": 2}
+{"tag": "frontQ", "nprobe": 512, "K": 400, "batch": 500, "recall": 0.9504, "QPS": 25374, "reads": 6.3, "K2": 100, "NT": 2}
+{"tag": "frontQ", "nprobe": 768, "K": 400, "batch": 500, "recall": 0.9517, "QPS": 22582, "reads": 6.29, "K2": 100, "NT": 2}
+{"tag": "frontQ", "nprobe": 768, "K": 600, "batch": 500, "recall": 0.9466, "QPS": 20042, "reads": 6.24, "K2": 100, "NT": 2}
+{"tag": "frontQ", "nprobe": 1024, "K": 800, "batch": 500, "recall": 0.9446, "QPS": 18761, "reads": 6.21, "K2": 100, "NT": 2}
+{"tag": "frontQ", "nprobe": 1536, "K": 800, "batch": 500, "recall": 0.9452, "QPS": 15935, "reads": 6.21, "K2": 100, "NT": 2}
+{"tag": "frontQ", "nprobe": 2048, "K": 1200, "batch": 500, "recall": 0.9427, "QPS": 13046, "reads": 6.21, "K2": 100, "NT": 2}
+{"tag": "frontQ", "nprobe": 192, "K": 200, "batch": 500, "recall": 0.9728, "QPS": 29368, "reads": 6.56, "K2": 150, "NT": 2}
+{"tag": "frontQ", "nprobe": 256, "K": 200, "batch": 500, "recall": 0.977, "QPS": 28116, "reads": 6.56, "K2": 150, "NT": 2}
+{"tag": "frontQ", "nprobe": 256, "K": 300, "batch": 500, "recall": 0.9704, "QPS": 28793, "reads": 6.51, "K2": 150, "NT": 2}
+{"tag": "frontQ", "nprobe": 384, "K": 300, "batch": 500, "recall": 0.9749, "QPS": 26953, "reads": 6.5, "K2": 150, "NT": 2}
+{"tag": "frontQ", "nprobe": 384, "K": 400, "batch": 500, "recall": 0.9695, "QPS": 25970, "reads": 6.45, "K2": 150, "NT": 2}
+{"tag": "frontQ", "nprobe": 512, "K": 400, "batch": 500, "recall": 0.9711, "QPS": 24489, "reads": 6.46, "K2": 150, "NT": 2}
+{"tag": "frontQ", "nprobe": 768, "K": 400, "batch": 500, "recall": 0.9728, "QPS": 21901, "reads": 6.46, "K2": 150, "NT": 2}
+{"tag": "frontQ", "nprobe": 768, "K": 600, "batch": 500, "recall": 0.968, "QPS": 19579, "reads": 6.43, "K2": 150, "NT": 2}
+{"tag": "frontQ", "nprobe": 1024, "K": 800, "batch": 500, "recall": 0.9654, "QPS": 18127, "reads": 6.41, "K2": 150, "NT": 2}
+{"tag": "frontQ", "nprobe": 1536, "K": 800, "batch": 500, "recall": 0.966, "QPS": 15541, "reads": 6.41, "K2": 150, "NT": 2}
+{"tag": "frontQ", "nprobe": 2048, "K": 1200, "batch": 500, "recall": 0.9635, "QPS": 12750, "reads": 6.38, "K2": 150, "NT": 2}
+{"tag": "lastS", "nprobe": 1536, "K": 800, "batch": 500, "recall": 0.999, "QPS": 12190, "reads": 6.67}
+{"tag": "lastS", "nprobe": 2048, "K": 1200, "batch": 500, "recall": 0.9994, "QPS": 9116, "reads": 6.68}
+{"tag": "lastQ", "nprobe": 1536, "K": 800, "batch": 500, "recall": 0.999, "QPS": 13823, "reads": 6.67, "K2": 300, "NT": 3}
+{"tag": "lastQ", "nprobe": 2048, "K": 1200, "batch": 500, "recall": 0.9993, "QPS": 11467, "reads": 6.67, "K2": 300, "NT": 3}
+{"tag": "lastQ", "nprobe": 1536, "K": 800, "batch": 500, "recall": 0.999, "QPS": 13730, "reads": 6.67, "K2": 200, "NT": 4}
+{"tag": "lastQ", "nprobe": 2048, "K": 1200, "batch": 500, "recall": 0.9994, "QPS": 10957, "reads": 6.68, "K2": 200, "NT": 4}
+{"tag": "lastQ", "nprobe": 1536, "K": 800, "batch": 500, "recall": 0.999, "QPS": 12947, "reads": 6.67, "K2": 300, "NT": 4}
+{"tag": "lastQ", "nprobe": 2048, "K": 1200, "batch": 500, "recall": 0.9994, "QPS": 10503, "reads": 6.68, "K2": 300, "NT": 4}
+{"tag": "lastQ", "nprobe": 384, "K": 800, "batch": 500, "recall": 0.9926, "QPS": 22552, "reads": 6.66, "K2": 100, "NT": 3}
+{"tag": "lastQ", "nprobe": 512, "K": 800, "batch": 500, "recall": 0.9947, "QPS": 21445, "reads": 6.65, "K2": 100, "NT": 3}
+{"tag": "lastQ", "nprobe": 768, "K": 800, "batch": 500, "recall": 0.9967, "QPS": 19374, "reads": 6.66, "K2": 100, "NT": 3}
+{"tag": "lastQ", "nprobe": 384, "K": 600, "batch": 500, "recall": 0.9923, "QPS": 22868, "reads": 6.64, "K2": 80, "NT": 3}
+{"tag": "lastS", "nprobe": 512, "K": 400, "batch": 500, "recall": 0.9939, "QPS": 21781, "reads": 6.64}
+{"tag": "lastS", "nprobe": 768, "K": 400, "batch": 500, "recall": 0.9959, "QPS": 19824, "reads": 6.64}
+{"tag": "brute", "R": 128, "K": 400, "over": 2.0, "cand_recall": 0.98845, "flagged": 0, "emitted_p1": 551, "emitted_p50": 795, "emitted_p99": 1083}
+{"tag": "brute", "R": 128, "K": 400, "over": 3.0, "cand_recall": 0.98845, "flagged": 0, "emitted_p1": 880, "emitted_p50": 1189, "emitted_p99": 1566}
+{"tag": "brute", "R": 128, "K": 1000, "over": 2.0, "cand_recall": 0.9957, "flagged": 0, "emitted_p1": 1559, "emitted_p50": 1991, "emitted_p99": 2465}
+{"tag": "brute", "R": 64, "K": 400, "over": 2.0, "cand_recall": 0.89605, "flagged": 0, "emitted_p1": 550, "emitted_p50": 793, "emitted_p99": 1121}
+{"tag": "brute", "R": 64, "K": 400, "over": 3.0, "cand_recall": 0.89605, "flagged": 0, "emitted_p1": 874, "emitted_p50": 1186, "emitted_p99": 1589}
+{"tag": "brute", "R": 64, "K": 1000, "over": 2.0, "cand_recall": 0.9476500000000001, "flagged": 0, "emitted_p1": 1578, "emitted_p50": 1985, "emitted_p99": 2454}
+{"tag": "brute", "R": 256, "K": 400, "over": 2.0, "cand_recall": 0.99915, "flagged": 0, "emitted_p1": 553, "emitted_p50": 793, "emitted_p99": 1086}
+{"tag": "brute", "R": 256, "K": 400, "over": 3.0, "cand_recall": 0.99915, "flagged": 0, "emitted_p1": 865, "emitted_p50": 1186, "emitted_p99": 1563}
+{"tag": "brute", "R": 256, "K": 1000, "over": 2.0, "cand_recall": 0.99985, "flagged": 0, "emitted_p1": 1595, "emitted_p50": 1983, "emitted_p99": 2463}
+{"tag": "speedmode", "R": 256, "nprobe": 128, "K": 100, "Kr": 32, "batch": 500, "recall": 0.9549, "QPS": 51459, "flagged": 1, "gpu_B": 3350.2}
+{"tag": "speedmode", "R": 256, "nprobe": 256, "K": 100, "Kr": 32, "batch": 500, "recall": 0.9669, "QPS": 7428, "flagged": 1, "gpu_B": 3350.2}
+{"tag": "speedmode", "R": 256, "nprobe": 384, "K": 100, "Kr": 32, "batch": 500, "recall": 0.9714, "QPS": 4291, "flagged": 1, "gpu_B": 3350.2}
+{"tag": "speedmode", "R": 256, "nprobe": 256, "K": 200, "Kr": 64, "batch": 500, "recall": 0.981, "QPS": 3799, "flagged": 1, "gpu_B": 3350.2}
+{"tag": "speedmode", "R": 256, "nprobe": 384, "K": 200, "Kr": 64, "batch": 500, "recall": 0.9864, "QPS": 636, "flagged": 1, "gpu_B": 3350.2}
+{"tag": "speedmode", "R": 256, "nprobe": 768, "K": 200, "Kr": 64, "batch": 500, "recall": 0.9902, "QPS": 5863, "flagged": 1, "gpu_B": 3350.2}
+{"tag": "speedmode", "R": 256, "nprobe": 256, "K": 100, "Kr": 32, "batch": 2000, "recall": 0.9669, "QPS": 1175, "flagged": 1, "gpu_B": 3350.2}
+{"tag": "speedmode", "R": 256, "nprobe": 384, "K": 200, "Kr": 64, "batch": 2000, "recall": 0.9864, "QPS": 3022, "flagged": 1, "gpu_B": 3350.2}
+{"tag": "speedmode", "R": 256, "nprobe": 256, "K": 100, "Kr": 32, "batch": 4000, "recall": 0.9669, "QPS": 9241, "flagged": 2, "gpu_B": 3350.2}
+{"tag": "engineS", "nprobe": 384, "K": 400, "batch": 500, "recall": 0.9919, "QPS": 22961, "reads": 6.64}
+{"tag": "engineQ", "nprobe": 384, "K": 400, "batch": 500, "recall": 0.9917, "QPS": 26159, "reads": 6.63, "K2": 100}
+{"tag": "engineL", "nprobe": 384, "K": 400, "batch": 500, "recall": 0.9919, "QPS": 27925, "reads": 6.88}
+{"tag": "engineLP", "nprobe": 384, "K": 400, "batch": 500, "recall": 0.9917, "QPS": 27923, "reads": 6.87, "K2": 100}
+{"tag": "engineS", "nprobe": 1024, "K": 800, "batch": 500, "recall": 0.9984, "QPS": 13752, "reads": 6.68}
+{"tag": "engineQ", "nprobe": 1024, "K": 800, "batch": 500, "recall": 0.9976, "QPS": 17943, "reads": 6.67, "K2": 100}
+{"tag": "engineL", "nprobe": 1024, "K": 800, "batch": 500, "recall": 0.9984, "QPS": 17772, "reads": 6.89}
+{"tag": "engineLP", "nprobe": 1024, "K": 800, "batch": 500, "recall": 0.9976, "QPS": 19259, "reads": 6.88, "K2": 100}
+{"tag": "engineS", "nprobe": 384, "K": 400, "batch": 2000, "recall": 0.9919, "QPS": 30571, "reads": 6.64}
+{"tag": "engineQ", "nprobe": 384, "K": 400, "batch": 2000, "recall": 0.9917, "QPS": 34788, "reads": 6.63, "K2": 100}
+{"tag": "engineL", "nprobe": 384, "K": 400, "batch": 2000, "recall": 0.9919, "QPS": 37841, "reads": 6.88}
+{"tag": "engineLP", "nprobe": 384, "K": 400, "batch": 2000, "recall": 0.9917, "QPS": 37882, "reads": 6.87, "K2": 100}
+{"tag": "engineS", "nprobe": 1024, "K": 800, "batch": 2000, "recall": 0.9984, "QPS": 15975, "reads": 6.68}
+{"tag": "engineQ", "nprobe": 1024, "K": 800, "batch": 2000, "recall": 0.9976, "QPS": 21785, "reads": 6.67, "K2": 100}
+{"tag": "engineL", "nprobe": 1024, "K": 800, "batch": 2000, "recall": 0.9984, "QPS": 21716, "reads": 6.89}
+{"tag": "engineLP", "nprobe": 1024, "K": 800, "batch": 2000, "recall": 0.9976, "QPS": 23881, "reads": 6.88, "K2": 100}
+{"tag": "engineS", "nprobe": 384, "K": 400, "batch": 4000, "recall": 0.9919, "QPS": 32627, "reads": 6.64}
+{"tag": "engineQ", "nprobe": 384, "K": 400, "batch": 4000, "recall": 0.9917, "QPS": 36710, "reads": 6.63, "K2": 100}
+{"tag": "engineL", "nprobe": 384, "K": 400, "batch": 4000, "recall": 0.9919, "QPS": 7590, "reads": 6.88}
+{"tag": "engineLP", "nprobe": 384, "K": 400, "batch": 4000, "recall": 0.9917, "QPS": 4275, "reads": 6.87, "K2": 100}
+{"tag": "engineS", "nprobe": 1024, "K": 800, "batch": 4000, "recall": 0.9984, "QPS": 1341, "reads": 6.68}
+{"tag": "engineQ", "nprobe": 1024, "K": 800, "batch": 4000, "recall": 0.9976, "QPS": 992, "reads": 6.67, "K2": 100}
+{"tag": "engineL", "nprobe": 384, "K": 400, "batch": 500, "recall": 0.9919, "QPS": 29153, "reads": 6.88, "outside_fallback": 0}
+{"tag": "engineX", "nprobe": 384, "K": 400, "batch": 500, "recall": 0.9919, "QPS": 13024, "reads": 6.88, "outside_fallback": 5161}
+{"tag": "engineL", "nprobe": 1024, "K": 800, "batch": 500, "recall": 0.9984, "QPS": 18846, "reads": 6.89, "outside_fallback": 0}
+{"tag": "engineX", "nprobe": 1024, "K": 800, "batch": 500, "recall": 0.9984, "QPS": 9037, "reads": 6.89, "outside_fallback": 5864}
+{"tag": "engineL", "nprobe": 384, "K": 400, "batch": 2000, "recall": 0.9919, "QPS": 39495, "reads": 6.88, "outside_fallback": 0}
+{"tag": "engineX", "nprobe": 384, "K": 400, "batch": 2000, "recall": 0.9919, "QPS": 19006, "reads": 6.88, "outside_fallback": 19942}
+{"tag": "engineL", "nprobe": 1024, "K": 800, "batch": 2000, "recall": 0.9984, "QPS": 22646, "reads": 6.89, "outside_fallback": 0}
+{"tag": "engineX", "nprobe": 1024, "K": 800, "batch": 2000, "recall": 0.9984, "QPS": 11306, "reads": 6.89, "outside_fallback": 21619}
+{"tag": "engineL", "nprobe": 384, "K": 400, "batch": 4000, "recall": 0.9919, "QPS": 41218, "reads": 6.88, "outside_fallback": 0}
+{"tag": "engineX", "nprobe": 384, "K": 400, "batch": 4000, "recall": 0.9919, "QPS": 20595, "reads": 6.88, "outside_fallback": 40066}
+{"tag": "engineL", "nprobe": 1024, "K": 800, "batch": 4000, "recall": 0.9984, "QPS": 22691, "reads": 6.89, "outside_fallback": 0}
+{"tag": "engineX", "nprobe": 1024, "K": 800, "batch": 4000, "recall": 0.9984, "QPS": 11689, "reads": 6.89, "outside_fallback": 43810}
+{"tag": "engineL", "nprobe": 384, "K": 400, "batch": 2000, "recall": 0.9919, "QPS": 39537, "reads": 6.88, "outside_fallback": 0}
+{"tag": "engineX", "nprobe": 384, "K": 400, "batch": 2000, "recall": 0.9919, "QPS": 39677, "reads": 6.88, "outside_fallback": 0}
+{"tag": "engineL", "nprobe": 1024, "K": 800, "batch": 2000, "recall": 0.9984, "QPS": 22574, "reads": 6.89, "outside_fallback": 0}
+{"tag": "engineX", "nprobe": 1024, "K": 800, "batch": 2000, "recall": 0.9984, "QPS": 22770, "reads": 6.89, "outside_fallback": 0}
+{"tag": "engineX", "nprobe": 384, "K": 400, "batch": 2000, "recall": 0.9919, "QPS": 39949, "reads": 6.88, "outside_fallback": 0, "margin_q": 0.03, "M": 4096}
+{"tag": "engineX", "nprobe": 384, "K": 400, "batch": 2000, "recall": 0.9919, "QPS": 38402, "reads": 6.88, "outside_fallback": 0, "margin_q": 0.01, "M": 8192}
+{"tag": "engineX", "nprobe": 384, "K": 400, "batch": 2000, "recall": 0.9919, "QPS": 37189, "reads": 6.88, "outside_fallback": 0, "margin_q": 0.003, "M": 8192}
+{"tag": "engineL", "nprobe": 384, "K": 400, "batch": 4000, "recall": 0.9919, "QPS": 40961, "reads": 6.88, "outside_fallback": 0}
+{"tag": "engineX", "nprobe": 384, "K": 400, "batch": 4000, "recall": 0.9919, "QPS": 42863, "reads": 6.88, "outside_fallback": 0}
+{"tag": "engineL", "nprobe": 1024, "K": 800, "batch": 4000, "recall": 0.9984, "QPS": 22746, "reads": 6.89, "outside_fallback": 0}
+{"tag": "engineX", "nprobe": 1024, "K": 800, "batch": 4000, "recall": 0.9984, "QPS": 23660, "reads": 6.89, "outside_fallback": 0}
+{"tag": "engineX", "nprobe": 384, "K": 400, "batch": 4000, "recall": 0.9919, "QPS": 38399, "reads": 6.88, "outside_fallback": 754, "margin_q": 0.03, "M": 4096}
+{"tag": "engineX", "nprobe": 384, "K": 400, "batch": 4000, "recall": 0.9919, "QPS": 41552, "reads": 6.88, "outside_fallback": 0, "margin_q": 0.01, "M": 8192}
+{"tag": "engineX", "nprobe": 384, "K": 400, "batch": 4000, "recall": 0.9919, "QPS": 37635, "reads": 6.88, "outside_fallback": 182, "margin_q": 0.003, "M": 8192}
+{"tag": "engineI8", "R": 256, "nprobe": 256, "K": 100, "batch": 2000, "recall": 0.9843, "ceiling": 0.9845, "QPS": 70113, "reads": 6.87, "unrepaired_flags": 13, "gpu_B": 778.2}
+{"tag": "engineI8", "R": 256, "nprobe": 384, "K": 100, "batch": 2000, "recall": 0.9897, "ceiling": 0.9898, "QPS": 63075, "reads": 6.85, "unrepaired_flags": 13, "gpu_B": 778.2}
+{"tag": "engineI8", "R": 256, "nprobe": 384, "K": 200, "batch": 2000, "recall": 0.992, "ceiling": 0.9922, "QPS": 57093, "reads": 6.89, "unrepaired_flags": 0, "gpu_B": 778.2}
+{"tag": "engineI8", "R": 256, "nprobe": 512, "K": 200, "batch": 2000, "recall": 0.9941, "ceiling": 0.9942, "QPS": 52406, "reads": 6.88, "unrepaired_flags": 13, "gpu_B": 778.2}
+{"tag": "engineI8", "R": 256, "nprobe": 768, "K": 200, "batch": 2000, "recall": 0.996, "ceiling": 0.9962, "QPS": 44862, "reads": 6.89, "unrepaired_flags": 13, "gpu_B": 778.2}
+{"tag": "engineI8", "R": 256, "nprobe": 1024, "K": 400, "batch": 2000, "recall": 0.9981, "ceiling": 0.9982, "QPS": 34344, "reads": 6.89, "unrepaired_flags": 0, "gpu_B": 778.2}
+{"tag": "engineI8", "R": 256, "nprobe": 256, "K": 100, "batch": 500, "recall": 0.9843, "ceiling": 0.9845, "QPS": 53037, "reads": 6.87, "unrepaired_flags": 13, "gpu_B": 778.2}
+{"tag": "engineI8", "R": 256, "nprobe": 384, "K": 100, "batch": 500, "recall": 0.9897, "ceiling": 0.9898, "QPS": 49433, "reads": 6.85, "unrepaired_flags": 13, "gpu_B": 778.2}
+{"tag": "engineI8", "R": 256, "nprobe": 384, "K": 200, "batch": 500, "recall": 0.992, "ceiling": 0.9922, "QPS": 44347, "reads": 6.89, "unrepaired_flags": 0, "gpu_B": 778.2}
+{"tag": "engineI8", "R": 256, "nprobe": 512, "K": 200, "batch": 500, "recall": 0.9941, "ceiling": 0.9942, "QPS": 40923, "reads": 6.89, "unrepaired_flags": 1, "gpu_B": 778.2}
+{"tag": "engineI8", "R": 256, "nprobe": 768, "K": 200, "batch": 500, "recall": 0.996, "ceiling": 0.9962, "QPS": 36949, "reads": 6.89, "unrepaired_flags": 1, "gpu_B": 778.2}
+{"tag": "engineI8", "R": 256, "nprobe": 1024, "K": 400, "batch": 500, "recall": 0.9981, "ceiling": 0.9982, "QPS": 29717, "reads": 6.9, "unrepaired_flags": 0, "gpu_B": 778.2}
+{"tag": "I8 base", "nprobe": 384, "K": 200, "batch": 2000, "recall": 0.992, "QPS": 57268, "reads": 6.89, "unrepaired": 0}
+{"tag": "I8 +fp16 LUT query", "nprobe": 384, "K": 200, "batch": 2000, "recall": 0.992, "QPS": 59268, "reads": 6.88, "unrepaired": 0}
+{"tag": "I8 +unsorted topk", "nprobe": 384, "K": 200, "batch": 2000, "recall": 0.356, "QPS": 56627, "reads": 7.87, "unrepaired": 25987}
+{"tag": "I8 +projected means", "nprobe": 384, "K": 200, "batch": 2000, "recall": 0.3859, "QPS": 55882, "reads": 7.77, "unrepaired": 26000}
+{"tag": "I8 +projected means", "nprobe": 512, "K": 200, "batch": 2000, "recall": 0.2786, "QPS": 49885, "reads": 8.01, "unrepaired": 26000}
+{"tag": "I8 +projected means", "nprobe": 1024, "K": 400, "batch": 2000, "recall": 0.1969, "QPS": 31776, "reads": 8.24, "unrepaired": 26000}
+{"tag": "I8 fp16 LUT +projected means", "nprobe": 384, "K": 200, "batch": 2000, "recall": 0.9918, "QPS": 58201, "reads": 6.88, "unrepaired": 26}
+{"tag": "I8 fp16 LUT +projected means", "nprobe": 512, "K": 200, "batch": 2000, "recall": 0.9935, "QPS": 52803, "reads": 6.88, "unrepaired": 39}
+{"tag": "I8 fp16 LUT", "nprobe": 256, "K": 100, "batch": 2000, "recall": 0.9843, "QPS": 72988, "reads": 6.87, "unrepaired": 13}
+{"tag": "I8 fp16 LUT", "nprobe": 384, "K": 100, "batch": 2000, "recall": 0.9897, "QPS": 65636, "reads": 6.85, "unrepaired": 13}
+{"tag": "I8 fp16 LUT", "nprobe": 384, "K": 150, "batch": 2000, "recall": 0.9916, "QPS": 61432, "reads": 6.87, "unrepaired": 13}
+{"tag": "I8 fp16 LUT", "nprobe": 384, "K": 200, "batch": 2000, "recall": 0.992, "QPS": 58469, "reads": 6.88, "unrepaired": 0}
+{"tag": "I8 fp16 LUT", "nprobe": 512, "K": 200, "batch": 2000, "recall": 0.9941, "QPS": 53684, "reads": 6.88, "unrepaired": 13}
+{"tag": "I8 fp16 LUT", "nprobe": 768, "K": 200, "batch": 2000, "recall": 0.996, "QPS": 45869, "reads": 6.88, "unrepaired": 13}
+{"tag": "I8 fp16 LUT", "nprobe": 1024, "K": 400, "batch": 2000, "recall": 0.9981, "QPS": 34969, "reads": 6.89, "unrepaired": 0}
+{"tag": "I8 fp16 LUT", "nprobe": 1536, "K": 400, "batch": 2000, "recall": 0.9988, "QPS": 28542, "reads": 6.88, "unrepaired": 0}
+{"tag": "I8 fp16 LUT", "nprobe": 384, "K": 100, "batch": 4000, "recall": 0.9897, "QPS": 68349, "reads": 6.85, "unrepaired": 26}
+{"tag": "I8 fp16 LUT", "nprobe": 384, "K": 150, "batch": 4000, "recall": 0.9916, "QPS": 64026, "reads": 6.87, "unrepaired": 26}
+{"tag": "I8 fp16 LUT", "nprobe": 384, "K": 200, "batch": 4000, "recall": 0.992, "QPS": 60761, "reads": 6.88, "unrepaired": 0}
+{"tag": "I8 fp16 LUT", "nprobe": 768, "K": 200, "batch": 4000, "recall": 0.996, "QPS": 46951, "reads": 6.88, "unrepaired": 26}
+{"tag": "I8 fp16 LUT", "nprobe": 1024, "K": 400, "batch": 4000, "recall": 0.9981, "QPS": 35531, "reads": 6.89, "unrepaired": 0}
+{"tag": "I8 fp16 LUT", "nprobe": 384, "K": 100, "batch": 8000, "recall": 0.9897, "QPS": 70568, "reads": 6.85, "unrepaired": 52}
+{"tag": "I8 fp16 LUT", "nprobe": 384, "K": 150, "batch": 8000, "recall": 0.9916, "QPS": 66616, "reads": 6.87, "unrepaired": 52}
+{"tag": "I8 fp16 LUT", "nprobe": 384, "K": 200, "batch": 8000, "recall": 0.992, "QPS": 62581, "reads": 6.88, "unrepaired": 0}
+{"tag": "I8 fp16 LUT", "nprobe": 768, "K": 200, "batch": 8000, "recall": 0.996, "QPS": 47340, "reads": 6.88, "unrepaired": 52}
+{"tag": "I8 fp16 LUT", "nprobe": 1024, "K": 400, "batch": 8000, "recall": 0.9981, "QPS": 35653, "reads": 6.89, "unrepaired": 0}
+{"tag": "I8 CUDA", "nprobe": 256, "K": 100, "batch": 2000, "recall": 0.9843, "QPS": 58879, "reads": 6.87, "unrepaired": 13}
+{"tag": "I8 CUDA", "nprobe": 384, "K": 100, "batch": 2000, "recall": 0.9897, "QPS": 52542, "reads": 6.85, "unrepaired": 13}
+{"tag": "I8 CUDA", "nprobe": 384, "K": 150, "batch": 2000, "recall": 0.9916, "QPS": 50248, "reads": 6.87, "unrepaired": 13}
+{"tag": "I8 CUDA", "nprobe": 384, "K": 200, "batch": 2000, "recall": 0.992, "QPS": 48549, "reads": 6.88, "unrepaired": 0}
+{"tag": "I8 CUDA", "nprobe": 512, "K": 200, "batch": 2000, "recall": 0.9941, "QPS": 43907, "reads": 6.88, "unrepaired": 13}
+{"tag": "I8 CUDA", "nprobe": 768, "K": 200, "batch": 2000, "recall": 0.996, "QPS": 37664, "reads": 6.88, "unrepaired": 13}
+{"tag": "I8 CUDA", "nprobe": 1024, "K": 400, "batch": 2000, "recall": 0.9981, "QPS": 29287, "reads": 6.89, "unrepaired": 0}
+{"tag": "I8 base", "nprobe": 384, "K": 200, "z": 2.0, "batch": 2000, "recall": 0.992, "QPS": 58906, "reads": 6.88, "unrepaired": 0, "M": null, "fastpairs": false, "route16": false}
+{"tag": "I8 +fastpairs", "nprobe": 384, "K": 200, "z": 2.0, "batch": 2000, "recall": 0.992, "QPS": 60102, "reads": 6.88, "unrepaired": 0, "M": null, "fastpairs": true, "route16": false}
+{"tag": "I8 +M2048", "nprobe": 384, "K": 200, "z": 2.0, "batch": 2000, "recall": 0.9893, "QPS": 61458, "reads": 6.89, "unrepaired": 546, "M": 2048, "fastpairs": true, "route16": false}
+{"tag": "I8 +route16", "nprobe": 384, "K": 200, "z": 2.0, "batch": 2000, "recall": 0.9895, "QPS": 62499, "reads": 6.89, "unrepaired": 533, "M": 2048, "fastpairs": true, "route16": true}
+{"tag": "I8 polished", "nprobe": 384, "K": 200, "z": 1.5, "batch": 2000, "recall": 0.9895, "QPS": 64794, "reads": 5.1, "unrepaired": 533, "M": 2048, "fastpairs": true, "route16": true}
+{"tag": "I8 polished", "nprobe": 384, "K": 200, "z": 1.75, "batch": 2000, "recall": 0.9894, "QPS": 63538, "reads": 6.0, "unrepaired": 533, "M": 2048, "fastpairs": true, "route16": true}
+{"tag": "I8 polished", "nprobe": 384, "K": 150, "z": 1.75, "batch": 2000, "recall": 0.9904, "QPS": 66556, "reads": 5.99, "unrepaired": 195, "M": 2048, "fastpairs": true, "route16": true}
+{"tag": "I8 polished", "nprobe": 512, "K": 200, "z": 1.75, "batch": 2000, "recall": 0.9913, "QPS": 58355, "reads": 6.0, "unrepaired": 546, "M": 2048, "fastpairs": true, "route16": true}
+{"tag": "I8 polished", "nprobe": 768, "K": 200, "z": 1.75, "batch": 2000, "recall": 0.9932, "QPS": 49688, "reads": 6.0, "unrepaired": 585, "M": 2048, "fastpairs": true, "route16": true}
+{"tag": "I8 polished", "nprobe": 1024, "K": 400, "z": 1.75, "batch": 2000, "recall": 0.9414, "QPS": 38223, "reads": 6.07, "unrepaired": 7202, "M": 2048, "fastpairs": true, "route16": true}
+{"tag": "I8 polished", "nprobe": 256, "K": 100, "z": 1.75, "batch": 2000, "recall": 0.9839, "QPS": 79725, "reads": 5.99, "unrepaired": 26, "M": 2048, "fastpairs": true, "route16": true}
+{"tag": "I8 base", "nprobe": 384, "K": 200, "z": 2.0, "batch": 4000, "recall": 0.992, "QPS": 61021, "reads": 6.88, "unrepaired": 0, "M": null, "fastpairs": false, "route16": false}
+{"tag": "I8 +fastpairs", "nprobe": 384, "K": 200, "z": 2.0, "batch": 4000, "recall": 0.992, "QPS": 62618, "reads": 6.88, "unrepaired": 0, "M": null, "fastpairs": true, "route16": false}
+{"tag": "I8 +M2048", "nprobe": 384, "K": 200, "z": 2.0, "batch": 4000, "recall": 0.9892, "QPS": 63902, "reads": 6.89, "unrepaired": 1092, "M": 2048, "fastpairs": true, "route16": false}
+{"tag": "I8 +route16", "nprobe": 384, "K": 200, "z": 2.0, "batch": 4000, "recall": 0.9896, "QPS": 65159, "reads": 6.89, "unrepaired": 1066, "M": 2048, "fastpairs": true, "route16": true}
+{"tag": "I8 polished", "nprobe": 384, "K": 200, "z": 1.5, "batch": 4000, "recall": 0.9895, "QPS": 67195, "reads": 5.1, "unrepaired": 1066, "M": 2048, "fastpairs": true, "route16": true}
+{"tag": "I8 polished", "nprobe": 384, "K": 200, "z": 1.75, "batch": 4000, "recall": 0.9896, "QPS": 66186, "reads": 6.0, "unrepaired": 1066, "M": 2048, "fastpairs": true, "route16": true}
+{"tag": "I8 polished", "nprobe": 384, "K": 150, "z": 1.75, "batch": 4000, "recall": 0.9904, "QPS": 69199, "reads": 5.99, "unrepaired": 390, "M": 2048, "fastpairs": true, "route16": true}
+{"tag": "I8 polished", "nprobe": 512, "K": 200, "z": 1.75, "batch": 4000, "recall": 0.9913, "QPS": 59882, "reads": 6.0, "unrepaired": 1092, "M": 2048, "fastpairs": true, "route16": true}
+{"tag": "I8 polished", "nprobe": 768, "K": 200, "z": 1.75, "batch": 4000, "recall": 0.9932, "QPS": 50852, "reads": 6.0, "unrepaired": 1170, "M": 2048, "fastpairs": true, "route16": true}
+{"tag": "I8 polished", "nprobe": 1024, "K": 400, "z": 1.75, "batch": 4000, "recall": 0.9411, "QPS": 38773, "reads": 6.09, "unrepaired": 14430, "M": 2048, "fastpairs": true, "route16": true}
+{"tag": "I8 polished", "nprobe": 256, "K": 100, "z": 1.75, "batch": 4000, "recall": 0.984, "QPS": 83808, "reads": 5.99, "unrepaired": 52, "M": 2048, "fastpairs": true, "route16": true}
+{"tag": "I8 final", "nprobe": 384, "K": 200, "z": 2.0, "batch": 2000, "recall": 0.9921, "QPS": 61667, "reads": 6.88, "unrepaired": 0, "M": null, "fastpairs": true, "route16": true}
+{"tag": "I8 final", "nprobe": 384, "K": 200, "z": 1.5, "batch": 2000, "recall": 0.9921, "QPS": 63457, "reads": 5.09, "unrepaired": 0, "M": null, "fastpairs": true, "route16": true}
+{"tag": "I8 final", "nprobe": 384, "K": 150, "z": 1.5, "batch": 2000, "recall": 0.9918, "QPS": 60173, "reads": 5.08, "unrepaired": 26, "M": null, "fastpairs": true, "route16": true}
+{"tag": "I8 final", "nprobe": 256, "K": 100, "z": 1.5, "batch": 2000, "recall": 0.9843, "QPS": 72938, "reads": 5.09, "unrepaired": 13, "M": null, "fastpairs": true, "route16": true}
+{"tag": "I8 final", "nprobe": 256, "K": 150, "z": 1.5, "batch": 2000, "recall": 0.9861, "QPS": 67555, "reads": 5.11, "unrepaired": 26, "M": null, "fastpairs": true, "route16": true}
+{"tag": "I8 final", "nprobe": 512, "K": 200, "z": 1.5, "batch": 2000, "recall": 0.9941, "QPS": 53791, "reads": 5.09, "unrepaired": 13, "M": null, "fastpairs": true, "route16": true}
+{"tag": "I8 final", "nprobe": 768, "K": 200, "z": 1.5, "batch": 2000, "recall": 0.996, "QPS": 46105, "reads": 5.08, "unrepaired": 13, "M": null, "fastpairs": true, "route16": true}
+{"tag": "I8 final", "nprobe": 1024, "K": 400, "z": 1.5, "batch": 2000, "recall": 0.998, "QPS": 37424, "reads": 5.11, "unrepaired": 0, "M": null, "fastpairs": true, "route16": true}
+{"tag": "I8 final", "nprobe": 1536, "K": 400, "z": 1.5, "batch": 2000, "recall": 0.9987, "QPS": 30681, "reads": 5.1, "unrepaired": 0, "M": null, "fastpairs": true, "route16": true}
+{"tag": "I8 final", "nprobe": 384, "K": 200, "z": 2.0, "batch": 4000, "recall": 0.9921, "QPS": 63149, "reads": 6.88, "unrepaired": 0, "M": null, "fastpairs": true, "route16": true}
+{"tag": "I8 final", "nprobe": 384, "K": 200, "z": 1.5, "batch": 4000, "recall": 0.9921, "QPS": 65559, "reads": 5.09, "unrepaired": 0, "M": null, "fastpairs": true, "route16": true}
+{"tag": "I8 final", "nprobe": 384, "K": 150, "z": 1.5, "batch": 4000, "recall": 0.9918, "QPS": 65490, "reads": 5.08, "unrepaired": 52, "M": null, "fastpairs": true, "route16": true}
+{"tag": "I8 final", "nprobe": 256, "K": 100, "z": 1.5, "batch": 4000, "recall": 0.9843, "QPS": 79134, "reads": 5.09, "unrepaired": 26, "M": null, "fastpairs": true, "route16": true}
+{"tag": "I8 final", "nprobe": 256, "K": 150, "z": 1.5, "batch": 4000, "recall": 0.9861, "QPS": 73434, "reads": 5.1, "unrepaired": 52, "M": null, "fastpairs": true, "route16": true}
+{"tag": "I8 final", "nprobe": 512, "K": 200, "z": 1.5, "batch": 4000, "recall": 0.9941, "QPS": 57371, "reads": 5.09, "unrepaired": 26, "M": null, "fastpairs": true, "route16": true}
+{"tag": "I8 final", "nprobe": 768, "K": 200, "z": 1.5, "batch": 4000, "recall": 0.996, "QPS": 48498, "reads": 5.08, "unrepaired": 26, "M": null, "fastpairs": true, "route16": true}
+{"tag": "I8 final", "nprobe": 1024, "K": 400, "z": 1.5, "batch": 4000, "recall": 0.998, "QPS": 37815, "reads": 5.1, "unrepaired": 0, "M": null, "fastpairs": true, "route16": true}
+{"tag": "I8 final", "nprobe": 1536, "K": 400, "z": 1.5, "batch": 4000, "recall": 0.9987, "QPS": 30853, "reads": 5.1, "unrepaired": 0, "M": null, "fastpairs": true, "route16": true}
+{"tag": "I8 ref", "nprobe": 384, "K": 200, "z": 1.5, "batch": 4000, "recall": 0.9921, "QPS": 65853, "reads": 5.09, "fallback": 0, "lutf": false, "K2": null, "proj": false}
+{"tag": "I8 +fusedLUT", "nprobe": 384, "K": 200, "z": 1.5, "batch": 4000, "recall": 0.9921, "QPS": 69708, "reads": 5.09, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "I8 +progressive", "nprobe": 384, "K": 200, "z": 1.5, "batch": 4000, "recall": 0.9911, "QPS": 71133, "reads": 5.07, "fallback": 0, "lutf": true, "K2": 50, "proj": false}
+{"tag": "I8 +progressive", "nprobe": 384, "K": 200, "z": 1.5, "batch": 4000, "recall": 0.9919, "QPS": 69201, "reads": 5.09, "fallback": 0, "lutf": true, "K2": 80, "proj": false}
+{"tag": "I8 +proj fp16", "nprobe": 384, "K": 200, "z": 1.5, "batch": 4000, "recall": 0.9919, "QPS": 66446, "reads": 5.09, "fallback": 52, "lutf": true, "K2": 80, "proj": true}
+{"tag": "I8 all", "nprobe": 384, "K": 300, "z": 1.5, "batch": 4000, "recall": 0.9922, "QPS": 63668, "reads": 5.09, "fallback": 0, "lutf": true, "K2": 80, "proj": true}
+{"tag": "I8 all", "nprobe": 512, "K": 200, "z": 1.5, "batch": 4000, "recall": 0.9939, "QPS": 60117, "reads": 5.08, "fallback": 78, "lutf": true, "K2": 80, "proj": true}
+{"tag": "I8 all", "nprobe": 512, "K": 300, "z": 1.5, "batch": 4000, "recall": 0.9942, "QPS": 58018, "reads": 5.08, "fallback": 0, "lutf": true, "K2": 80, "proj": true}
+{"tag": "I8 all", "nprobe": 768, "K": 300, "z": 1.5, "batch": 4000, "recall": 0.9966, "QPS": 49356, "reads": 5.08, "fallback": 0, "lutf": true, "K2": 80, "proj": true}
+{"tag": "I8 all", "nprobe": 1024, "K": 400, "z": 1.5, "batch": 4000, "recall": 0.9974, "QPS": 40427, "reads": 5.09, "fallback": 0, "lutf": true, "K2": 80, "proj": true}
+{"tag": "I8 all", "nprobe": 256, "K": 150, "z": 1.5, "batch": 4000, "recall": 0.9851, "QPS": 76587, "reads": 5.1, "fallback": 52, "lutf": true, "K2": 80, "proj": true}
+{"tag": "I8 FINAL", "nprobe": 256, "K": 150, "z": 1.5, "batch": 4000, "recall": 0.9861, "QPS": 78406, "reads": 5.1, "fallback": 52, "lutf": true, "K2": null, "proj": false}
+{"tag": "I8 FINAL", "nprobe": 384, "K": 200, "z": 1.5, "batch": 4000, "recall": 0.9921, "QPS": 69603, "reads": 5.09, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "I8 FINAL", "nprobe": 512, "K": 200, "z": 1.5, "batch": 4000, "recall": 0.9941, "QPS": 60746, "reads": 5.09, "fallback": 26, "lutf": true, "K2": null, "proj": false}
+{"tag": "I8 FINAL", "nprobe": 512, "K": 300, "z": 1.5, "batch": 4000, "recall": 0.9948, "QPS": 56955, "reads": 5.1, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "I8 FINAL", "nprobe": 768, "K": 300, "z": 1.5, "batch": 4000, "recall": 0.9968, "QPS": 47160, "reads": 5.09, "fallback": 26, "lutf": true, "K2": null, "proj": false}
+{"tag": "I8 FINAL", "nprobe": 1024, "K": 400, "z": 1.5, "batch": 4000, "recall": 0.998, "QPS": 39316, "reads": 5.1, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "I8 FINAL", "nprobe": 1536, "K": 400, "z": 1.5, "batch": 4000, "recall": 0.9987, "QPS": 31744, "reads": 5.1, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "I8 FINAL", "nprobe": 2048, "K": 600, "z": 1.5, "batch": 4000, "recall": 0.9994, "QPS": 23905, "reads": 5.1, "fallback": 26, "lutf": true, "K2": null, "proj": false}
+{"tag": "I8 z", "nprobe": 384, "K": 200, "z": 1.0, "batch": 4000, "recall": 0.991, "QPS": 72375, "reads": 3.38, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "I8 z", "nprobe": 384, "K": 200, "z": 1.25, "batch": 4000, "recall": 0.9918, "QPS": 70828, "reads": 4.21, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "I8 beta0.8 rho0.75", "nprobe": 384, "K": 200, "z": 1.5, "batch": 4000, "recall": 0.9921, "QPS": 50771, "reads": 5.09, "fallback": 7306, "lutf": true, "K2": null, "proj": false}
+{"tag": "I8 beta0.6 rho0.75", "nprobe": 384, "K": 200, "z": 1.5, "batch": 4000, "recall": 0.9921, "QPS": 32128, "reads": 5.09, "fallback": 30316, "lutf": true, "K2": null, "proj": false}
+{"tag": "I8 beta1.1 rho0.6", "nprobe": 384, "K": 200, "z": 1.5, "batch": 4000, "recall": 0.9921, "QPS": 70842, "reads": 5.09, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "I8 beta0.8 rho0.6", "nprobe": 384, "K": 200, "z": 1.5, "batch": 4000, "recall": 0.9921, "QPS": 64965, "reads": 5.09, "fallback": 312, "lutf": true, "K2": null, "proj": false}
+{"tag": "I8 K150", "nprobe": 384, "K": 150, "z": 1.5, "batch": 4000, "recall": 0.9918, "QPS": 69623, "reads": 5.08, "fallback": 52, "lutf": true, "K2": null, "proj": false}
+{"tag": "I8 K250", "nprobe": 448, "K": 250, "z": 1.5, "batch": 4000, "recall": 0.9939, "QPS": 63078, "reads": 5.1, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "I8 448", "nprobe": 448, "K": 200, "z": 1.5, "batch": 4000, "recall": 0.9934, "QPS": 63438, "reads": 5.09, "fallback": 26, "lutf": true, "K2": null, "proj": false}
+{"tag": "I8 z", "nprobe": 384, "K": 200, "z": 1.0, "batch": 8000, "recall": 0.991, "QPS": 75010, "reads": 3.38, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "I8 z", "nprobe": 384, "K": 200, "z": 1.25, "batch": 8000, "recall": 0.9918, "QPS": 73561, "reads": 4.21, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "I8 beta0.8 rho0.75", "nprobe": 384, "K": 200, "z": 1.5, "batch": 8000, "recall": 0.9921, "QPS": 54110, "reads": 5.09, "fallback": 14560, "lutf": true, "K2": null, "proj": false}
+{"tag": "I8 beta0.6 rho0.75", "nprobe": 384, "K": 200, "z": 1.5, "batch": 8000, "recall": 0.9921, "QPS": 33204, "reads": 5.09, "fallback": 60580, "lutf": true, "K2": null, "proj": false}
+{"tag": "I8 beta1.1 rho0.6", "nprobe": 384, "K": 200, "z": 1.5, "batch": 8000, "recall": 0.9921, "QPS": 73133, "reads": 5.09, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "I8 beta0.8 rho0.6", "nprobe": 384, "K": 200, "z": 1.5, "batch": 8000, "recall": 0.9921, "QPS": 70511, "reads": 5.09, "fallback": 572, "lutf": true, "K2": null, "proj": false}
+{"tag": "I8 K150", "nprobe": 384, "K": 150, "z": 1.5, "batch": 8000, "recall": 0.9918, "QPS": 74978, "reads": 5.08, "fallback": 104, "lutf": true, "K2": null, "proj": false}
+{"tag": "I8 K250", "nprobe": 448, "K": 250, "z": 1.5, "batch": 8000, "recall": 0.9939, "QPS": 64521, "reads": 5.1, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "I8 448", "nprobe": 448, "K": 200, "z": 1.5, "batch": 8000, "recall": 0.9934, "QPS": 66265, "reads": 5.09, "fallback": 52, "lutf": true, "K2": null, "proj": false}
+{"tag": "v1 best", "nprobe": 384, "K": 200, "z": 1.5, "batch": 4000, "recall": 0.9921, "QPS": 69791, "reads": 5.09, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "+rho0.6 M3072", "nprobe": 384, "K": 200, "z": 1.5, "batch": 4000, "recall": 0.9921, "QPS": 72083, "reads": 5.09, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "+BQ16 nw2", "nprobe": 384, "K": 200, "z": 1.5, "batch": 4000, "recall": 0.9921, "QPS": 72936, "reads": 5.09, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "+normalised routing", "nprobe": 384, "K": 200, "z": 1.5, "batch": 4000, "recall": 0.9921, "QPS": 75686, "reads": 5.09, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v2", "nprobe": 384, "K": 200, "z": 1.25, "batch": 4000, "recall": 0.9918, "QPS": 77192, "reads": 4.21, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v2", "nprobe": 384, "K": 150, "z": 1.5, "batch": 4000, "recall": 0.9918, "QPS": 75519, "reads": 5.08, "fallback": 104, "lutf": true, "K2": null, "proj": false}
+{"tag": "v2", "nprobe": 448, "K": 200, "z": 1.5, "batch": 4000, "recall": 0.9934, "QPS": 71740, "reads": 5.09, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v2", "nprobe": 512, "K": 300, "z": 1.5, "batch": 4000, "recall": 0.9948, "QPS": 58348, "reads": 5.1, "fallback": 364, "lutf": true, "K2": null, "proj": false}
+{"tag": "v2", "nprobe": 768, "K": 300, "z": 1.5, "batch": 4000, "recall": 0.9968, "QPS": 49313, "reads": 5.09, "fallback": 364, "lutf": true, "K2": null, "proj": false}
+{"tag": "v2", "nprobe": 1024, "K": 400, "z": 1.5, "batch": 4000, "recall": 0.998, "QPS": 39630, "reads": 5.1, "fallback": 1144, "lutf": true, "K2": null, "proj": false}
+{"tag": "v2", "nprobe": 256, "K": 150, "z": 1.5, "batch": 4000, "recall": 0.9861, "QPS": 85697, "reads": 5.1, "fallback": 104, "lutf": true, "K2": null, "proj": false}
+{"tag": "v1 best", "nprobe": 384, "K": 200, "z": 1.5, "batch": 8000, "recall": 0.9921, "QPS": 72177, "reads": 5.09, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "+rho0.6 M3072", "nprobe": 384, "K": 200, "z": 1.5, "batch": 8000, "recall": 0.9921, "QPS": 74600, "reads": 5.09, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "+BQ16 nw2", "nprobe": 384, "K": 200, "z": 1.5, "batch": 8000, "recall": 0.9921, "QPS": 75239, "reads": 5.09, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "+normalised routing", "nprobe": 384, "K": 200, "z": 1.5, "batch": 8000, "recall": 0.9921, "QPS": 77806, "reads": 5.09, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v2", "nprobe": 384, "K": 200, "z": 1.25, "batch": 8000, "recall": 0.9918, "QPS": 79821, "reads": 4.21, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v2", "nprobe": 384, "K": 150, "z": 1.5, "batch": 8000, "recall": 0.9918, "QPS": 80507, "reads": 5.08, "fallback": 208, "lutf": true, "K2": null, "proj": false}
+{"tag": "v2", "nprobe": 448, "K": 200, "z": 1.5, "batch": 8000, "recall": 0.9934, "QPS": 73227, "reads": 5.09, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v2", "nprobe": 512, "K": 300, "z": 1.5, "batch": 8000, "recall": 0.9948, "QPS": 60446, "reads": 5.1, "fallback": 728, "lutf": true, "K2": null, "proj": false}
+{"tag": "v2", "nprobe": 768, "K": 300, "z": 1.5, "batch": 8000, "recall": 0.9968, "QPS": 50868, "reads": 5.1, "fallback": 728, "lutf": true, "K2": null, "proj": false}
+{"tag": "v2", "nprobe": 1024, "K": 400, "z": 1.5, "batch": 8000, "recall": 0.998, "QPS": 40383, "reads": 5.11, "fallback": 2288, "lutf": true, "K2": null, "proj": false}
+{"tag": "v2", "nprobe": 256, "K": 150, "z": 1.5, "batch": 8000, "recall": 0.9861, "QPS": 92375, "reads": 5.11, "fallback": 208, "lutf": true, "K2": null, "proj": false}
+{"tag": "v2", "nprobe": 384, "K": 200, "z": 1.5, "batch": 8000, "recall": 0.9921, "QPS": 77879, "reads": 5.09, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 delta0.08", "nprobe": 384, "K": 200, "z": 1.5, "batch": 8000, "recall": 0.992, "QPS": 81193, "reads": 5.09, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 delta0.08", "nprobe": 384, "K": 300, "z": 1.5, "batch": 8000, "recall": 0.9925, "QPS": 72288, "reads": 5.09, "fallback": 728, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 delta0.07", "nprobe": 384, "K": 200, "z": 1.5, "batch": 8000, "recall": 0.9919, "QPS": 82676, "reads": 5.08, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 delta0.07", "nprobe": 384, "K": 300, "z": 1.5, "batch": 8000, "recall": 0.9923, "QPS": 74419, "reads": 5.08, "fallback": 728, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 delta0.06", "nprobe": 384, "K": 200, "z": 1.5, "batch": 8000, "recall": 0.9911, "QPS": 84279, "reads": 5.07, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 delta0.06", "nprobe": 384, "K": 300, "z": 1.5, "batch": 8000, "recall": 0.9914, "QPS": 76236, "reads": 5.07, "fallback": 728, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 delta0.07", "nprobe": 384, "K": 200, "z": 1.25, "batch": 8000, "recall": 0.9917, "QPS": 84134, "reads": 4.2, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 delta0.07", "nprobe": 448, "K": 300, "z": 1.5, "batch": 8000, "recall": 0.9935, "QPS": 70057, "reads": 5.09, "fallback": 728, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 delta0.07", "nprobe": 512, "K": 300, "z": 1.5, "batch": 8000, "recall": 0.9943, "QPS": 66353, "reads": 5.08, "fallback": 728, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 delta0.07 M4096", "nprobe": 768, "K": 400, "z": 1.5, "batch": 8000, "recall": 0.9964, "QPS": 53554, "reads": 5.08, "fallback": 208, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 delta0.07 M4096", "nprobe": 1024, "K": 400, "z": 1.5, "batch": 8000, "recall": 0.9972, "QPS": 45720, "reads": 5.09, "fallback": 208, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 d0.07 M3072", "nprobe": 384, "K": 200, "z": 1.25, "batch": 8000, "recall": 0.9917, "QPS": 84396, "reads": 4.2, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 d0.07 M3072", "nprobe": 384, "K": 175, "z": 1.25, "batch": 8000, "recall": 0.9916, "QPS": 85629, "reads": 4.2, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 d0.07 M3072", "nprobe": 384, "K": 150, "z": 1.25, "batch": 8000, "recall": 0.9913, "QPS": 84644, "reads": 4.19, "fallback": 208, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 d0.065 M3072", "nprobe": 384, "K": 200, "z": 1.25, "batch": 8000, "recall": 0.9914, "QPS": 84775, "reads": 4.2, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 d0.07 M2560", "nprobe": 384, "K": 200, "z": 1.25, "batch": 8000, "recall": 0.9917, "QPS": 81976, "reads": 4.2, "fallback": 416, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 d0.07 M3072", "nprobe": 384, "K": 200, "z": 1.0, "batch": 8000, "recall": 0.9908, "QPS": 86092, "reads": 3.37, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 d0.065 M2560", "nprobe": 384, "K": 175, "z": 1.25, "batch": 8000, "recall": 0.9914, "QPS": 84452, "reads": 4.19, "fallback": 156, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 d0.07 M3072", "nprobe": 384, "K": 200, "z": 1.25, "batch": 16000, "recall": 0.9917, "QPS": 84504, "reads": 4.2, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 d0.07 M3072", "nprobe": 384, "K": 175, "z": 1.25, "batch": 16000, "recall": 0.9916, "QPS": 86148, "reads": 4.2, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 d0.07 M3072", "nprobe": 384, "K": 150, "z": 1.25, "batch": 16000, "recall": 0.9913, "QPS": 86548, "reads": 4.19, "fallback": 416, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 d0.065 M3072", "nprobe": 384, "K": 200, "z": 1.25, "batch": 16000, "recall": 0.9914, "QPS": 85256, "reads": 4.2, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 d0.07 M2560", "nprobe": 384, "K": 200, "z": 1.25, "batch": 16000, "recall": 0.9917, "QPS": 83205, "reads": 4.2, "fallback": 832, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 d0.07 M3072", "nprobe": 384, "K": 200, "z": 1.0, "batch": 16000, "recall": 0.9908, "QPS": 86398, "reads": 3.37, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 d0.065 M2560", "nprobe": 384, "K": 175, "z": 1.25, "batch": 16000, "recall": 0.9914, "QPS": 85976, "reads": 4.19, "fallback": 312, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3", "nprobe": 384, "K": 175, "z": 1.25, "batch": 16000, "recall": 0.9916, "QPS": 86304, "reads": 4.2, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3", "nprobe": 352, "K": 175, "z": 1.25, "batch": 16000, "recall": 0.9905, "QPS": 89213, "reads": 4.21, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3", "nprobe": 320, "K": 175, "z": 1.25, "batch": 16000, "recall": 0.9893, "QPS": 92352, "reads": 4.21, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3", "nprobe": 352, "K": 150, "z": 1.25, "batch": 16000, "recall": 0.9902, "QPS": 89424, "reads": 4.2, "fallback": 416, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 LUT16", "nprobe": 384, "K": 175, "z": 1.25, "batch": 16000, "recall": 0.9916, "QPS": 87275, "reads": 4.2, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 LUT16", "nprobe": 352, "K": 175, "z": 1.25, "batch": 16000, "recall": 0.9905, "QPS": 90255, "reads": 4.21, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 256, "K": 150, "z": 1.25, "batch": 16000, "recall": 0.9857, "QPS": 101410, "reads": 4.22, "fallback": 416, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 320, "K": 175, "z": 1.25, "batch": 16000, "recall": 0.9893, "QPS": 93693, "reads": 4.21, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 352, "K": 175, "z": 1.25, "batch": 16000, "recall": 0.9905, "QPS": 90391, "reads": 4.21, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 384, "K": 175, "z": 1.25, "batch": 16000, "recall": 0.9916, "QPS": 87404, "reads": 4.2, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 448, "K": 250, "z": 1.25, "batch": 16000, "recall": 0.9931, "QPS": 76434, "reads": 4.2, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 512, "K": 300, "z": 1.25, "batch": 16000, "recall": 0.994, "QPS": 70263, "reads": 4.2, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 768, "K": 400, "z": 1.25, "batch": 16000, "recall": 0.996, "QPS": 54664, "reads": 4.2, "fallback": 416, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 1024, "K": 400, "z": 1.25, "batch": 16000, "recall": 0.9969, "QPS": 46622, "reads": 4.2, "fallback": 416, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 1536, "K": 600, "z": 1.25, "batch": 16000, "recall": 0.9977, "QPS": 29862, "reads": 4.19, "fallback": 8424, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 2048, "K": 800, "z": 1.25, "batch": 16000, "recall": 0.9978, "QPS": 23755, "reads": 4.2, "fallback": 8008, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 256, "K": 150, "z": 1.25, "batch": 4000, "recall": 0.9857, "QPS": 89216, "reads": 4.22, "fallback": 104, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 320, "K": 175, "z": 1.25, "batch": 4000, "recall": 0.9893, "QPS": 89118, "reads": 4.21, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 352, "K": 175, "z": 1.25, "batch": 4000, "recall": 0.9905, "QPS": 86215, "reads": 4.2, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 384, "K": 175, "z": 1.25, "batch": 4000, "recall": 0.9916, "QPS": 83353, "reads": 4.2, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 448, "K": 250, "z": 1.25, "batch": 4000, "recall": 0.9931, "QPS": 73696, "reads": 4.2, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 512, "K": 300, "z": 1.25, "batch": 4000, "recall": 0.994, "QPS": 68229, "reads": 4.2, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 768, "K": 400, "z": 1.25, "batch": 4000, "recall": 0.996, "QPS": 52062, "reads": 4.2, "fallback": 104, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 1024, "K": 400, "z": 1.25, "batch": 4000, "recall": 0.9969, "QPS": 45421, "reads": 4.2, "fallback": 104, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 1536, "K": 600, "z": 1.25, "batch": 4000, "recall": 0.9977, "QPS": 29711, "reads": 4.19, "fallback": 2080, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 2048, "K": 800, "z": 1.25, "batch": 4000, "recall": 0.9978, "QPS": 24147, "reads": 4.2, "fallback": 2002, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL fbN", "nprobe": 256, "K": 150, "z": 1.25, "batch": 4000, "recall": 0.9857, "QPS": 90091, "reads": 4.22, "fallback": 104, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL fbN", "nprobe": 768, "K": 400, "z": 1.25, "batch": 4000, "recall": 0.996, "QPS": 53027, "reads": 4.2, "fallback": 104, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL fbN", "nprobe": 1536, "K": 600, "z": 1.25, "batch": 4000, "recall": 0.9977, "QPS": 30271, "reads": 4.19, "fallback": 2080, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 256, "K": 150, "z": 1.25, "batch": 500, "recall": 0.9857, "QPS": 48107, "reads": 4.22, "fallback": 16, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 320, "K": 175, "z": 1.25, "batch": 500, "recall": 0.9893, "QPS": 61810, "reads": 4.21, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 352, "K": 175, "z": 1.25, "batch": 500, "recall": 0.9905, "QPS": 60994, "reads": 4.2, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 384, "K": 175, "z": 1.25, "batch": 500, "recall": 0.9916, "QPS": 60030, "reads": 4.2, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 448, "K": 250, "z": 1.25, "batch": 500, "recall": 0.9931, "QPS": 54648, "reads": 4.2, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 512, "K": 300, "z": 1.25, "batch": 500, "recall": 0.994, "QPS": 51890, "reads": 4.2, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 768, "K": 400, "z": 1.25, "batch": 500, "recall": 0.996, "QPS": 32214, "reads": 4.2, "fallback": 40, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 1024, "K": 400, "z": 1.25, "batch": 500, "recall": 0.9969, "QPS": 33682, "reads": 4.2, "fallback": 40, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 1536, "K": 600, "z": 1.25, "batch": 500, "recall": 0.9977, "QPS": 23340, "reads": 4.19, "fallback": 333, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 2048, "K": 800, "z": 1.25, "batch": 500, "recall": 0.9978, "QPS": 19622, "reads": 4.2, "fallback": 293, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 256, "K": 150, "z": 1.25, "batch": 2000, "recall": 0.9857, "QPS": 80544, "reads": 4.22, "fallback": 52, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 320, "K": 175, "z": 1.25, "batch": 2000, "recall": 0.9893, "QPS": 86532, "reads": 4.21, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 352, "K": 175, "z": 1.25, "batch": 2000, "recall": 0.9905, "QPS": 83606, "reads": 4.21, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 384, "K": 175, "z": 1.25, "batch": 2000, "recall": 0.9916, "QPS": 80684, "reads": 4.2, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 448, "K": 250, "z": 1.25, "batch": 2000, "recall": 0.9931, "QPS": 71605, "reads": 4.2, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 512, "K": 300, "z": 1.25, "batch": 2000, "recall": 0.994, "QPS": 66980, "reads": 4.2, "fallback": 0, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 768, "K": 400, "z": 1.25, "batch": 2000, "recall": 0.996, "QPS": 50881, "reads": 4.2, "fallback": 52, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 1024, "K": 400, "z": 1.25, "batch": 2000, "recall": 0.9969, "QPS": 44097, "reads": 4.2, "fallback": 52, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 1536, "K": 600, "z": 1.25, "batch": 2000, "recall": 0.9977, "QPS": 28996, "reads": 4.19, "fallback": 1053, "lutf": true, "K2": null, "proj": false}
+{"tag": "v3 FINAL", "nprobe": 2048, "K": 800, "z": 1.25, "batch": 2000, "recall": 0.9978, "QPS": 23836, "reads": 4.2, "fallback": 1001, "lutf": true, "K2": null, "proj": false}
+{"tag": "dup test", "nprobe": 352, "K": 175, "batch": 2000, "distinct": 2000, "QPS": 83374}
+{"tag": "dup test", "nprobe": 352, "K": 175, "batch": 2000, "distinct": 1000, "QPS": 84092}
+{"tag": "dup test", "nprobe": 352, "K": 175, "batch": 2000, "distinct": 500, "QPS": 85760}
+{"tag": "dup test", "nprobe": 352, "K": 175, "batch": 2000, "distinct": 2000, "QPS": 83426}
+{"tag": "dup test", "nprobe": 352, "K": 175, "batch": 2000, "distinct": 1000, "QPS": 84402}
+{"tag": "dup test", "nprobe": 352, "K": 175, "batch": 2000, "distinct": 500, "QPS": 86227}
+{"tag": "dup test", "nprobe": 768, "K": 400, "batch": 2000, "distinct": 2000, "QPS": 50634}
+{"tag": "dup test", "nprobe": 768, "K": 400, "batch": 2000, "distinct": 1000, "QPS": 51202}
+{"tag": "dup test", "nprobe": 768, "K": 400, "batch": 2000, "distinct": 500, "QPS": 50695}
+{"tag": "dup test", "nprobe": 768, "K": 400, "batch": 2000, "distinct": 2000, "QPS": 50593}
+{"tag": "dup test", "nprobe": 768, "K": 400, "batch": 2000, "distinct": 1000, "QPS": 50890}
+{"tag": "dup test", "nprobe": 768, "K": 400, "batch": 2000, "distinct": 500, "QPS": 51178}

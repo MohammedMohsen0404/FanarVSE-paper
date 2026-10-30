@@ -1,0 +1,170 @@
+[
+ {
+  "assign": "primary",
+  "nprobe": 128,
+  "coverage@10": 0.9742,
+  "items_scanned": 32922
+ },
+ {
+  "assign": "primary",
+  "nprobe": 192,
+  "coverage@10": 0.9828,
+  "items_scanned": 48828
+ },
+ {
+  "assign": "primary",
+  "nprobe": 256,
+  "coverage@10": 0.9872,
+  "items_scanned": 64704
+ },
+ {
+  "assign": "primary",
+  "nprobe": 384,
+  "coverage@10": 0.9935,
+  "items_scanned": 96228
+ },
+ {
+  "assign": "primary",
+  "nprobe": 512,
+  "coverage@10": 0.9961,
+  "items_scanned": 127639
+ },
+ {
+  "assign": "primary",
+  "nprobe": 768,
+  "coverage@10": 0.9979,
+  "items_scanned": 190017
+ },
+ {
+  "assign": "primary",
+  "nprobe": 1024,
+  "coverage@10": 0.9989,
+  "items_scanned": 251663
+ },
+ {
+  "assign": "2nd-nearest",
+  "nprobe": 128,
+  "coverage@10": 0.9867,
+  "items_scanned": 66816
+ },
+ {
+  "assign": "2nd-nearest",
+  "nprobe": 192,
+  "coverage@10": 0.9914,
+  "items_scanned": 98946
+ },
+ {
+  "assign": "2nd-nearest",
+  "nprobe": 256,
+  "coverage@10": 0.994,
+  "items_scanned": 130939
+ },
+ {
+  "assign": "2nd-nearest",
+  "nprobe": 384,
+  "coverage@10": 0.9969,
+  "items_scanned": 194427
+ },
+ {
+  "assign": "2nd-nearest",
+  "nprobe": 512,
+  "coverage@10": 0.9983,
+  "items_scanned": 257497
+ },
+ {
+  "assign": "2nd-nearest",
+  "nprobe": 768,
+  "coverage@10": 0.9991,
+  "items_scanned": 382407
+ },
+ {
+  "assign": "2nd-nearest",
+  "nprobe": 1024,
+  "coverage@10": 0.9997,
+  "items_scanned": 505570
+ },
+ {
+  "assign": "soar lam=1",
+  "nprobe": 128,
+  "coverage@10": 0.9809,
+  "items_scanned": 67290
+ },
+ {
+  "assign": "soar lam=1",
+  "nprobe": 192,
+  "coverage@10": 0.987,
+  "items_scanned": 99446
+ },
+ {
+  "assign": "soar lam=1",
+  "nprobe": 256,
+  "coverage@10": 0.991,
+  "items_scanned": 131424
+ },
+ {
+  "assign": "soar lam=1",
+  "nprobe": 384,
+  "coverage@10": 0.9951,
+  "items_scanned": 194992
+ },
+ {
+  "assign": "soar lam=1",
+  "nprobe": 512,
+  "coverage@10": 0.9974,
+  "items_scanned": 258077
+ },
+ {
+  "assign": "soar lam=1",
+  "nprobe": 768,
+  "coverage@10": 0.9985,
+  "items_scanned": 383136
+ },
+ {
+  "assign": "soar lam=1",
+  "nprobe": 1024,
+  "coverage@10": 0.9993,
+  "items_scanned": 506391
+ },
+ {
+  "assign": "soar lam=4",
+  "nprobe": 128,
+  "coverage@10": 0.9799,
+  "items_scanned": 67391
+ },
+ {
+  "assign": "soar lam=4",
+  "nprobe": 192,
+  "coverage@10": 0.9865,
+  "items_scanned": 99570
+ },
+ {
+  "assign": "soar lam=4",
+  "nprobe": 256,
+  "coverage@10": 0.9904,
+  "items_scanned": 131584
+ },
+ {
+  "assign": "soar lam=4",
+  "nprobe": 384,
+  "coverage@10": 0.9951,
+  "items_scanned": 195214
+ },
+ {
+  "assign": "soar lam=4",
+  "nprobe": 512,
+  "coverage@10": 0.9973,
+  "items_scanned": 258383
+ },
+ {
+  "assign": "soar lam=4",
+  "nprobe": 768,
+  "coverage@10": 0.9985,
+  "items_scanned": 383577
+ },
+ {
+  "assign": "soar lam=4",
+  "nprobe": 1024,
+  "coverage@10": 0.9993,
+  "items_scanned": 506959
+ }
+]

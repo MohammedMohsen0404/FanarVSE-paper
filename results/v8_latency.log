@@ -1,0 +1,23 @@
+rev_fanardb.py:22: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:209.)
+  N, d = X.shape; NQ = len(Qn); host16 = torch.from_numpy(np.ascontiguousarray(X)); Qg = torch.from_numpy(Qn).to(dev)
+{"nprobe": 256, "K": 200, "batch": 1, "median_ms": 1.02, "p99_ms": 1.12}
+{"nprobe": 256, "K": 200, "batch": 4, "median_ms": 1.74, "p99_ms": 1.87}
+{"nprobe": 256, "K": 200, "batch": 16, "median_ms": 5.41, "p99_ms": 5.69}
+{"nprobe": 256, "K": 200, "batch": 100, "median_ms": 11.14, "p99_ms": 12.59}
+{"nprobe": 256, "K": 200, "batch": 500, "median_ms": 19.49, "p99_ms": 20.74}
+{"nprobe": 384, "K": 200, "batch": 1, "median_ms": 1.11, "p99_ms": 1.21}
+{"nprobe": 384, "K": 200, "batch": 4, "median_ms": 2.12, "p99_ms": 2.23}
+{"nprobe": 384, "K": 200, "batch": 16, "median_ms": 5.99, "p99_ms": 6.33}
+{"nprobe": 384, "K": 200, "batch": 100, "median_ms": 11.24, "p99_ms": 11.94}
+{"nprobe": 384, "K": 200, "batch": 500, "median_ms": 21.24, "p99_ms": 23.51}
+{"nprobe": 512, "K": 400, "batch": 1, "median_ms": 1.12, "p99_ms": 1.25}
+{"nprobe": 512, "K": 400, "batch": 4, "median_ms": 2.64, "p99_ms": 2.79}
+{"nprobe": 512, "K": 400, "batch": 16, "median_ms": 6.82, "p99_ms": 7.11}
+{"nprobe": 512, "K": 400, "batch": 100, "median_ms": 13.01, "p99_ms": 13.21}
+{"nprobe": 512, "K": 400, "batch": 500, "median_ms": 26.49, "p99_ms": 26.66}
+{"nprobe": 768, "K": 400, "batch": 1, "median_ms": 1.44, "p99_ms": 1.52}
+{"nprobe": 768, "K": 400, "batch": 4, "median_ms": 3.4, "p99_ms": 3.59}
+{"nprobe": 768, "K": 400, "batch": 16, "median_ms": 7.19, "p99_ms": 7.41}
+{"nprobe": 768, "K": 400, "batch": 100, "median_ms": 12.43, "p99_ms": 18.21}
+{"nprobe": 768, "K": 400, "batch": 500, "median_ms": 28.11, "p99_ms": 28.32}
+DONE

@@ -1,0 +1,86 @@
+[
+ {
+  "nprobe": 128,
+  "K": 100,
+  "batch": 1,
+  "graph+cpu_recall": 0.9572,
+  "lean_recall": 0.9547,
+  "graph+cpu_median_ms": 0.705,
+  "lean_median_ms": 0.431,
+  "graph+cpu_p99_ms": 0.881,
+  "lean_p99_ms": 0.585,
+  "fallbacks_cum": 14
+ },
+ {
+  "nprobe": 192,
+  "K": 200,
+  "batch": 1,
+  "graph+cpu_recall": 0.9777,
+  "lean_recall": 0.9758,
+  "graph+cpu_median_ms": 0.78,
+  "lean_median_ms": 0.508,
+  "graph+cpu_p99_ms": 0.964,
+  "lean_p99_ms": 1.32,
+  "fallbacks_cum": 41
+ },
+ {
+  "nprobe": 256,
+  "K": 200,
+  "batch": 1,
+  "graph+cpu_recall": 0.9822,
+  "lean_recall": 0.981,
+  "graph+cpu_median_ms": 0.809,
+  "lean_median_ms": 0.537,
+  "graph+cpu_p99_ms": 1.01,
+  "lean_p99_ms": 1.364,
+  "fallbacks_cum": 69
+ },
+ {
+  "nprobe": 384,
+  "K": 200,
+  "batch": 1,
+  "graph+cpu_recall": 0.9876,
+  "lean_recall": 0.9868,
+  "graph+cpu_median_ms": 0.863,
+  "lean_median_ms": 0.595,
+  "graph+cpu_p99_ms": 1.062,
+  "lean_p99_ms": 1.472,
+  "fallbacks_cum": 99
+ },
+ {
+  "nprobe": 384,
+  "K": 400,
+  "batch": 1,
+  "graph+cpu_recall": 0.992,
+  "lean_recall": 0.9911,
+  "graph+cpu_median_ms": 0.888,
+  "lean_median_ms": 0.627,
+  "graph+cpu_p99_ms": 1.093,
+  "lean_p99_ms": 1.621,
+  "fallbacks_cum": 118
+ },
+ {
+  "nprobe": 512,
+  "K": 400,
+  "batch": 1,
+  "graph+cpu_recall": 0.9939,
+  "lean_recall": 0.9931,
+  "graph+cpu_median_ms": 0.942,
+  "lean_median_ms": 0.761,
+  "graph+cpu_p99_ms": 1.156,
+  "lean_p99_ms": 1.904,
+  "fallbacks_cum": 138
+ },
+ {
+  "nprobe": 768,
+  "K": 400,
+  "batch": 1,
+  "graph+cpu_recall": 0.9959,
+  "lean_recall": 0.9955,
+  "graph+cpu_median_ms": 1.054,
+  "lean_median_ms": 0.814,
+  "graph+cpu_p99_ms": 1.249,
+  "lean_p99_ms": 1.933,
+  "fallbacks_cum": 158
+ }
+]

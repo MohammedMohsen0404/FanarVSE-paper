@@ -1,0 +1,50 @@
+=== rot
+{"rotation": "none", "K": 400, "nprobe": 32, "z": 2.0, "recall@10": 0.9922, "QPS": 5235.5, "QPS_std": 75.3, "reads_mean": 5.83, "reads_p50": 6.0, "reads_p90": 10.0, "reads_p99": 15.0, "reads_p999": 19.001000000000204, "reads_max": 20, "frac_zero_reads": 0.0805, "pairs": 200000, "z_mean": -0.0647, "z_std_exact": 1.0209, "z_std_used": 0.9106, "excess_kurtosis": -0.01, "P(|z|>1)_used": 0.27079, "P(|z|>1)_exact": 0.32836, "P(|z|>2)_used": 0.02935, "P(|z|>2)_exact": 0.05056, "P(|z|>3)_used": 0.00124, "P(|z|>3)_exact": 0.00324, "q999_abs_z_used": 3.065, "mean_c_stage2": 0.99496}
+DONE
+=== zsweep
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.
+=== k100
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.
+=== batch
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.
+=== grid
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.
+=== seeds
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.
+=== encoder
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.
+=== scale
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.
+=== platform
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.
+=== theory ee
+{"decoder": "PCA-256 sign + Bussgang LMMSE (raw)", "dim": 256, "mse_trE": 0.30538, "rank_err_tr(SqE)": 0.0011739, "iso_ref": 0.0009289, "rho=rank_err/iso": 1.264, "lam_max/lam_mean": 1.84, "PR/dim": 0.897, "share_trE_top50_PCs": 0.2787, "top50_reference": 0.1953}
+DONE
+=== theory ident
+{"k": 100, "N": 228000, "tau_p10": 0.3116, "tau_p50": 0.3664, "tau_p90": 0.4442, "d_eff": {"participation_ratio": 124.3, "dims_90pct_var": 433, "dims_95pct_var": 636, "dims_99pct_var": 1056, "entropy_rank": 342.2}, "bits_per_vector": {"participation_ratio": {"p10": 209.1, "p50": 180.0, "p90": 145.5}, "dims_90pct_var": {"p10": 728.4, "p50": 627.2, "p90": 506.9}, "dims_95pct_var": {"p10": 1069.9, "p50": 921.3, "p90": 744.6}, "dims_99pct_var": {"p10": 1776.4, "p50": 1529.6, "p90": 1236.3}, "entropy_rank": {"p10": 575.7, "p50": 495.7, "p90": 400.7}}}
+DONE
+=== cfail dbp rot
+{"ds": "dbp", "N": 50000, "rate": 1, "rotation": "rot", "coord_excess_kurtosis_median": -0.02, "coord_var_max_over_median": 1.27, "codebook": "BW16-65536", "mean_cos": 0.8366, "nprobe": 64, "R@10": 0.8329, "R@10_rerank20": 0.9603, "R@10_rerank40": 0.9694}
+=== cfail dbp norot
+{"ds": "dbp", "N": 50000, "rate": 1, "rotation": "norot", "coord_excess_kurtosis_median": -0.024, "coord_var_max_over_median": 1.61, "codebook": "BW16-65536", "mean_cos": 0.8364, "nprobe": 64, "R@10": 0.8323, "R@10_rerank20": 0.9579, "R@10_rerank40": 0.9693}
+=== cfail glove rot
+{"ds": "glove", "N": 50000, "rate": 1, "rotation": "rot", "coord_excess_kurtosis_median": -0.057, "coord_var_max_over_median": 1.11, "codebook": "BW16-65536", "mean_cos": 0.8386, "nprobe": 64, "R@10": 0.4693, "R@10_rerank20": 0.6357, "R@10_rerank40": 0.7636}
+=== cfail glove norot
+{"ds": "glove", "N": 50000, "rate": 1, "rotation": "norot", "coord_excess_kurtosis_median": NaN, "coord_var_max_over_median": 1.06, "codebook": "BW16-65536", "mean_cos": 0.8358, "nprobe": 64, "R@10": 0.4417, "R@10_rerank20": 0.6034, "R@10_rerank40": 0.7396}
+=== cfail arxiv rot
+{"ds": "arxiv", "N": 50000, "rate": 1, "rotation": "rot", "coord_excess_kurtosis_median": -0.03, "coord_var_max_over_median": 1.29, "codebook": "BW16-65536", "mean_cos": 0.8367, "nprobe": 64, "R@10": 0.7631, "R@10_rerank20": 0.8995, "R@10_rerank40": 0.9213}
+=== cfail arxiv norot
+{"ds": "arxiv", "N": 50000, "rate": 1, "rotation": "norot", "coord_excess_kurtosis_median": -0.029, "coord_var_max_over_median": 1.36, "codebook": "BW16-65536", "mean_cos": 0.8366, "nprobe": 64, "R@10": 0.7682, "R@10_rerank20": 0.9002, "R@10_rerank40": 0.9214}
+=== cfail oai3 rot
+{"ds": "oai3", "N": 50000, "rate": 1, "rotation": "rot", "coord_excess_kurtosis_median": -0.016, "coord_var_max_over_median": 1.3, "codebook": "BW16-65536", "mean_cos": 0.8366, "nprobe": 64, "R@10": 0.8206, "R@10_rerank20": 0.935, "R@10_rerank40": 0.9437}
+=== cfail oai3 norot
+{"ds": "oai3", "N": 50000, "rate": 1, "rotation": "norot", "coord_excess_kurtosis_median": -0.019, "coord_var_max_over_median": 1.88, "codebook": "BW16-65536", "mean_cos": 0.8306, "nprobe": 64, "R@10": 0.818, "R@10_rerank20": 0.9337, "R@10_rerank40": 0.9437}
+CHAIN_DONE

@@ -1,0 +1,12 @@
+{"ds": "glove", "N": 50000, "rate": 1, "codebook": "hypercube", "mean_cos": 0.7997, "nprobe": 8, "R@10": 0.3948, "R@10_rerank20": 0.5204, "R@10_rerank40": 0.6179}
+{"ds": "glove", "N": 50000, "rate": 1, "codebook": "hypercube", "mean_cos": 0.7997, "nprobe": 16, "R@10": 0.4089, "R@10_rerank20": 0.5521, "R@10_rerank40": 0.6643}
+{"ds": "glove", "N": 50000, "rate": 1, "codebook": "hypercube", "mean_cos": 0.7997, "nprobe": 32, "R@10": 0.4165, "R@10_rerank20": 0.5689, "R@10_rerank40": 0.6902}
+{"ds": "glove", "N": 50000, "rate": 1, "codebook": "hypercube", "mean_cos": 0.7997, "nprobe": 64, "R@10": 0.4196, "R@10_rerank20": 0.5791, "R@10_rerank40": 0.7097}
+{"ds": "glove", "N": 50000, "rate": 1, "codebook": "E8-256", "mean_cos": 0.8272, "nprobe": 8, "R@10": 0.4244, "R@10_rerank20": 0.5518, "R@10_rerank40": 0.6346}
+{"ds": "glove", "N": 50000, "rate": 1, "codebook": "E8-256", "mean_cos": 0.8272, "nprobe": 16, "R@10": 0.4449, "R@10_rerank20": 0.5851, "R@10_rerank40": 0.6901}
+{"ds": "glove", "N": 50000, "rate": 1, "codebook": "E8-256", "mean_cos": 0.8272, "nprobe": 32, "R@10": 0.4558, "R@10_rerank20": 0.6088, "R@10_rerank40": 0.727}
+{"ds": "glove", "N": 50000, "rate": 1, "codebook": "E8-256", "mean_cos": 0.8272, "nprobe": 64, "R@10": 0.4592, "R@10_rerank20": 0.6184, "R@10_rerank40": 0.7514}
+{"ds": "glove", "N": 50000, "rate": 1, "codebook": "BW16-65536", "mean_cos": 0.8386, "nprobe": 8, "R@10": 0.4322, "R@10_rerank20": 0.5608, "R@10_rerank40": 0.6392}
+{"ds": "glove", "N": 50000, "rate": 1, "codebook": "BW16-65536", "mean_cos": 0.8386, "nprobe": 16, "R@10": 0.4527, "R@10_rerank20": 0.5972, "R@10_rerank40": 0.6938}
+{"ds": "glove", "N": 50000, "rate": 1, "codebook": "BW16-65536", "mean_cos": 0.8386, "nprobe": 32, "R@10": 0.4644, "R@10_rerank20": 0.6215, "R@10_rerank40": 0.7351}
+{"ds": "glove", "N": 50000, "rate": 1, "codebook": "BW16-65536", "mean_cos": 0.8386, "nprobe": 64, "R@10": 0.4693, "R@10_rerank20": 0.6357, "R@10_rerank40": 0.7636}

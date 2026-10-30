@@ -1,0 +1,32 @@
+[
+ {
+  "k": 1,
+  "Shannon": 0.25,
+  "LloydMax(TurboQuant)": 0.3647,
+  "LM_gap_dB": 1.64,
+  "trellis_L8": 0.2954,
+  "trellis_L8_gap_dB": 0.73,
+  "trellis_L8_rate": 1.031,
+  "trellis_L10": 0.2779,
+  "trellis_L10_gap_dB": 0.46,
+  "trellis_L10_rate": 1.039,
+  "trellis_L12": 0.2644,
+  "trellis_L12_gap_dB": 0.24,
+  "trellis_L12_rate": 1.047
+ },
+ {
+  "k": 2,
+  "Shannon": 0.0625,
+  "LloydMax(TurboQuant)": 0.12,
+  "LM_gap_dB": 2.83,
+  "trellis_L8": 0.0857,
+  "trellis_L8_gap_dB": 1.37,
+  "trellis_L8_rate": 2.031,
+  "trellis_L10": 0.0768,
+  "trellis_L10_gap_dB": 0.9,
+  "trellis_L10_rate": 2.039,
+  "trellis_L12": 0.071,
+  "trellis_L12_gap_dB": 0.55,
+  "trellis_L12_rate": 2.047
+ }
+]

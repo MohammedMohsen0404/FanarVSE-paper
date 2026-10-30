@@ -1,0 +1,38 @@
+[
+ {
+  "code": "turboquant",
+  "bits_per_dim": 1,
+  "mean_cos": 0.7979,
+  "recall@10_estimator_only": 0.8279,
+  "recall@10_rerank40": 0.9979,
+  "bytes_per_vec": 196,
+  "encode_s": 0.8
+ },
+ {
+  "code": "trellis",
+  "bits_per_dim": 1,
+  "mean_cos": 0.8498,
+  "recall@10_estimator_only": 0.8551,
+  "recall@10_rerank40": 0.9996,
+  "bytes_per_vec": 203,
+  "encode_s": 164.7
+ },
+ {
+  "code": "turboquant",
+  "bits_per_dim": 2,
+  "mean_cos": 0.9383,
+  "recall@10_estimator_only": 0.9106,
+  "recall@10_rerank40": 1.0,
+  "bytes_per_vec": 388,
+  "encode_s": 0.6
+ },
+ {
+  "code": "trellis",
+  "bits_per_dim": 2,
+  "mean_cos": 0.9608,
+  "recall@10_estimator_only": 0.9268,
+  "recall@10_rerank40": 1.0,
+  "bytes_per_vec": 395,
+  "encode_s": 235.9
+ }
+]

@@ -1,0 +1,11 @@
+[
+ {
+  "ds": "arxivL",
+  "engine": "fp16 brute force (GPU)",
+  "N": 2248000,
+  "d": 768,
+  "gpu_bytes": 1536,
+  "recall@10": 0.9928,
+  "QPS": 3010.4
+ }
+]

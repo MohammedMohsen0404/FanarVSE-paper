@@ -1,0 +1,50 @@
+[
+ {
+  "sigma": "engine ||q||, z=4.9",
+  "per_query_bound": 0.0049,
+  "recall@10": 0.9929,
+  "reads_mean": 17.94,
+  "reads_p99": 41.010009765625,
+  "uncovered_query_share": 0.0005
+ },
+ {
+  "sigma": "engine ||q||, z=2",
+  "per_query_bound": 108.2682,
+  "recall@10": 0.9929,
+  "reads_mean": 6.61,
+  "reads_p99": 16.0,
+  "uncovered_query_share": 0.9955
+ },
+ {
+  "sigma": "LCB plug-in z1=5.37 z2=5.04",
+  "per_query_bound": 0.0051,
+  "recall@10": 0.9929,
+  "reads_mean": 15.87,
+  "reads_p99": 37.010009765625,
+  "uncovered_query_share": 0.0005
+ },
+ {
+  "sigma": "LCB plug-in z1=5.6 z2=4.95",
+  "per_query_bound": 0.0046,
+  "recall@10": 0.9929,
+  "reads_mean": 15.54,
+  "reads_p99": 36.0,
+  "uncovered_query_share": 0.0005
+ },
+ {
+  "sigma": "LCB plug-in z1=5.2 z2=5.2",
+  "per_query_bound": 0.0075,
+  "recall@10": 0.9929,
+  "reads_mean": 16.45,
+  "reads_p99": 39.0,
+  "uncovered_query_share": 0.0005
+ },
+ {
+  "sigma": "LCB plug-in heuristic z1=0 z2=2",
+  "per_query_bound": null,
+  "recall@10": 0.9929,
+  "reads_mean": 5.65,
+  "reads_p99": 14.0,
+  "uncovered_query_share": 1.0
+ }
+]

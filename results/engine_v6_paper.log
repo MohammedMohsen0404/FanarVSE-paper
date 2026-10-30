@@ -1,0 +1,27 @@
+﻿.\.venv\Scripts\python.exe : D:\Fanar\src\engine_v6_paper.py:14: UserWarning: The given NumPy array is not writable, 
+and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined 
+behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. 
+This type of warning will be suppressed for the rest of this program. (Triggered internally at 
+C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:209.)
+At line:1 char:325
++ ... n D:\Fanar; .\.venv\Scripts\python.exe -u src\engine_v6_paper.py 256  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (D:\Fanar\src\en...numpy.cpp:209.):String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  N, d = X.shape; NQ = len(Qn); host16 = torch.from_numpy(np.ascontiguousarray(X)); Qg = torch.from_numpy(Qn).to(dev)
+{"R": 256, "stage1_bytes": 38, "stage2_bytes": 772, "build_s": 135.4}
+{"run": "main", "R": 256, "nprobe": 8, "K": 200, "stage2_on": "gpu", "exact_tier": "ram", "batch": 500, "gpu_bytes": 820, "exact_reads_per_query": 5.7, "recall@10": 0.962, "QPS": 10316.1, "QPS_std": 246.0, "latency_ms": 48.47}
+{"run": "main", "R": 256, "nprobe": 16, "K": 200, "stage2_on": "gpu", "exact_tier": "ram", "batch": 500, "gpu_bytes": 820, "exact_reads_per_query": 5.7, "recall@10": 0.977, "QPS": 8945.6, "QPS_std": 181.7, "latency_ms": 55.89}
+{"run": "main", "R": 256, "nprobe": 32, "K": 200, "stage2_on": "gpu", "exact_tier": "ram", "batch": 500, "gpu_bytes": 820, "exact_reads_per_query": 5.7, "recall@10": 0.9845, "QPS": 7062.2, "QPS_std": 52.1, "latency_ms": 70.8}
+{"run": "main", "R": 256, "nprobe": 32, "K": 400, "stage2_on": "gpu", "exact_tier": "ram", "batch": 500, "gpu_bytes": 820, "exact_reads_per_query": 5.8, "recall@10": 0.9921, "QPS": 5275.5, "QPS_std": 16.2, "latency_ms": 94.78}
+{"run": "main", "R": 256, "nprobe": 32, "K": 400, "stage2_on": "gpu", "exact_tier": "ssd", "batch": 500, "gpu_bytes": 820, "exact_reads_per_query": 5.8, "recall@10": 0.9921, "QPS": 4374.4, "QPS_std": 119.7, "latency_ms": 114.3}
+{"run": "main", "R": 256, "nprobe": 8, "K": 200, "stage2_on": "host", "exact_tier": "ram", "batch": 500, "gpu_bytes": 48, "exact_reads_per_query": 5.7, "recall@10": 0.962, "QPS": 6538.7, "QPS_std": 90.0, "latency_ms": 76.47}
+{"run": "main", "R": 256, "nprobe": 32, "K": 200, "stage2_on": "host", "exact_tier": "ram", "batch": 500, "gpu_bytes": 48, "exact_reads_per_query": 5.7, "recall@10": 0.9845, "QPS": 4985.5, "QPS_std": 77.0, "latency_ms": 100.29}
+{"run": "main", "R": 256, "nprobe": 32, "K": 400, "stage2_on": "host", "exact_tier": "ssd", "batch": 500, "gpu_bytes": 48, "exact_reads_per_query": 5.8, "recall@10": 0.9921, "QPS": 3005.4, "QPS_std": 37.0, "latency_ms": 166.37}
+{"run": "ablation: no stage 3 (stage-2 estimate only)", "R": 256, "nprobe": 32, "K": 200, "stage2_on": "gpu", "exact_tier": "ram", "batch": 500, "gpu_bytes": 820, "exact_reads_per_query": 0.0, "recall@10": 0.9585, "QPS": 7540.2, "QPS_std": 52.6, "latency_ms": 66.31}
+{"run": "ablation: exact rerank of all K", "R": 256, "nprobe": 32, "K": 200, "stage2_on": "gpu", "exact_tier": "ram", "batch": 500, "gpu_bytes": 820, "exact_reads_per_query": 200.0, "recall@10": 0.9846, "QPS": 2442.0, "QPS_std": 67.4, "latency_ms": 204.75}
+{"run": "latency", "R": 256, "nprobe": 32, "K": 200, "stage2_on": "gpu", "exact_tier": "ram", "batch": 1, "gpu_bytes": 820, "exact_reads_per_query": 5.0, "recall@10": 0.9885, "QPS": 282.6, "QPS_std": 12.6, "latency_ms": 3.54}
+{"run": "latency", "R": 256, "nprobe": 32, "K": 200, "stage2_on": "gpu", "exact_tier": "ram", "batch": 16, "gpu_bytes": 820, "exact_reads_per_query": 5.1, "recall@10": 0.9881, "QPS": 2478.8, "QPS_std": 47.5, "latency_ms": 6.45}
+{"run": "latency", "R": 256, "nprobe": 32, "K": 200, "stage2_on": "gpu", "exact_tier": "ram", "batch": 100, "gpu_bytes": 820, "exact_reads_per_query": 5.7, "recall@10": 0.9845, "QPS": 6247.8, "QPS_std": 23.5, "latency_ms": 16.01}
+DONE

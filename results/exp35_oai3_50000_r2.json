@@ -1,0 +1,134 @@
+[
+ {
+  "ds": "oai3",
+  "N": 50000,
+  "rate": 2,
+  "codebook": "scalar-Lloyd-2",
+  "mean_cos": 0.9387,
+  "nprobe": 8,
+  "R@10": 0.7613,
+  "R@10_rerank20": 0.7925,
+  "R@10_rerank40": 0.7928
+ },
+ {
+  "ds": "oai3",
+  "N": 50000,
+  "rate": 2,
+  "codebook": "scalar-Lloyd-2",
+  "mean_cos": 0.9387,
+  "nprobe": 16,
+  "R@10": 0.8158,
+  "R@10_rerank20": 0.8585,
+  "R@10_rerank40": 0.8588
+ },
+ {
+  "ds": "oai3",
+  "N": 50000,
+  "rate": 2,
+  "codebook": "scalar-Lloyd-2",
+  "mean_cos": 0.9387,
+  "nprobe": 32,
+  "R@10": 0.851,
+  "R@10_rerank20": 0.9044,
+  "R@10_rerank40": 0.9048
+ },
+ {
+  "ds": "oai3",
+  "N": 50000,
+  "rate": 2,
+  "codebook": "scalar-Lloyd-2",
+  "mean_cos": 0.9387,
+  "nprobe": 64,
+  "R@10": 0.8799,
+  "R@10_rerank20": 0.9433,
+  "R@10_rerank40": 0.9438
+ },
+ {
+  "ds": "oai3",
+  "N": 50000,
+  "rate": 2,
+  "codebook": "D4-256",
+  "mean_cos": 0.9453,
+  "nprobe": 8,
+  "R@10": 0.7637,
+  "R@10_rerank20": 0.7926,
+  "R@10_rerank40": 0.7928
+ },
+ {
+  "ds": "oai3",
+  "N": 50000,
+  "rate": 2,
+  "codebook": "D4-256",
+  "mean_cos": 0.9453,
+  "nprobe": 16,
+  "R@10": 0.8178,
+  "R@10_rerank20": 0.8583,
+  "R@10_rerank40": 0.8588
+ },
+ {
+  "ds": "oai3",
+  "N": 50000,
+  "rate": 2,
+  "codebook": "D4-256",
+  "mean_cos": 0.9453,
+  "nprobe": 32,
+  "R@10": 0.8536,
+  "R@10_rerank20": 0.904,
+  "R@10_rerank40": 0.9048
+ },
+ {
+  "ds": "oai3",
+  "N": 50000,
+  "rate": 2,
+  "codebook": "D4-256",
+  "mean_cos": 0.9453,
+  "nprobe": 64,
+  "R@10": 0.8827,
+  "R@10_rerank20": 0.943,
+  "R@10_rerank40": 0.9438
+ },
+ {
+  "ds": "oai3",
+  "N": 50000,
+  "rate": 2,
+  "codebook": "E8x2",
+  "mean_cos": 0.9449,
+  "nprobe": 8,
+  "R@10": 0.7613,
+  "R@10_rerank20": 0.7928,
+  "R@10_rerank40": 0.7928
+ },
+ {
+  "ds": "oai3",
+  "N": 50000,
+  "rate": 2,
+  "codebook": "E8x2",
+  "mean_cos": 0.9449,
+  "nprobe": 16,
+  "R@10": 0.8147,
+  "R@10_rerank20": 0.8586,
+  "R@10_rerank40": 0.8588
+ },
+ {
+  "ds": "oai3",
+  "N": 50000,
+  "rate": 2,
+  "codebook": "E8x2",
+  "mean_cos": 0.9449,
+  "nprobe": 32,
+  "R@10": 0.8504,
+  "R@10_rerank20": 0.9046,
+  "R@10_rerank40": 0.9048
+ },
+ {
+  "ds": "oai3",
+  "N": 50000,
+  "rate": 2,
+  "codebook": "E8x2",
+  "mean_cos": 0.9449,
+  "nprobe": 64,
+  "R@10": 0.8789,
+  "R@10_rerank20": 0.9434,
+  "R@10_rerank40": 0.9438
+ }
+]

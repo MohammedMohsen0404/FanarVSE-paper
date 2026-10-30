@@ -1,0 +1,12 @@
+# FanarDB engine (Windows, CUDA 12). Install PyTorch 2.6 (cu124) first, see README.
+triton-windows==3.2.0.post21   # Triton 3.2 for Windows; on Linux use the triton that comes with torch
+numpy>=2.0
+scipy
+pyarrow
+h5py
+cupy-cuda12x                   # CUDA kernels of the graph front-end and the WMMA variants
+nvidia-cuda-nvcc-cu12          # headers for the CuPy WMMA kernels (throughput/civf8.py)
+faiss-cpu                      # some CPU reference scripts
+turbovec                       # CPU reference (src/bench_turbovec.py)
+matplotlib                     # figures
+# Baselines (WSL2 / Linux, see baselines/setup.sh and install_cuvs.sh): cuvs-cu12, rmm-cu12, faiss-gpu-cu12

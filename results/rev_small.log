@@ -1,0 +1,79 @@
+{"ds": "glove", "N": 1183514, "engine": "IVF-RaBitQ", "bits": 4, "n_lists": 1024, "n_probes": 32, "recall@10": 0.796, "QPS": 45380.7, "QPS_std": 3019.7, "gpu_bytes_measured": 35.4, "build_s": 1.2}
+{"ds": "glove", "N": 1183514, "engine": "IVF-RaBitQ", "bits": 4, "n_lists": 1024, "n_probes": 64, "recall@10": 0.8344, "QPS": 33125.2, "QPS_std": 209.9, "gpu_bytes_measured": 35.4, "build_s": 1.2}
+{"ds": "glove", "N": 1183514, "engine": "IVF-RaBitQ", "bits": 4, "n_lists": 1024, "n_probes": 128, "recall@10": 0.8608, "QPS": 21079.9, "QPS_std": 248.2, "gpu_bytes_measured": 35.4, "build_s": 1.2}
+{"ds": "glove", "N": 1183514, "engine": "IVF-RaBitQ", "bits": 4, "n_lists": 1024, "n_probes": 256, "recall@10": 0.8747, "QPS": 12327.8, "QPS_std": 18.6, "gpu_bytes_measured": 35.4, "build_s": 1.2}
+{"ds": "glove", "N": 1183514, "engine": "IVF-RaBitQ", "bits": 4, "n_lists": 1024, "n_probes": 512, "recall@10": 0.8823, "QPS": 6985.6, "QPS_std": 26.8, "gpu_bytes_measured": 35.4, "build_s": 1.2}
+{"ds": "glove", "N": 1183514, "engine": "IVF-RaBitQ", "bits": 4, "n_lists": 4096, "n_probes": 128, "recall@10": 0.8334, "QPS": 45917.9, "QPS_std": 834.8, "gpu_bytes_measured": 0.0, "build_s": 4.2}
+{"ds": "glove", "N": 1183514, "engine": "IVF-RaBitQ", "bits": 4, "n_lists": 4096, "n_probes": 256, "recall@10": 0.859, "QPS": 27675.2, "QPS_std": 200.6, "gpu_bytes_measured": 0.0, "build_s": 4.2}
+{"ds": "glove", "N": 1183514, "engine": "IVF-RaBitQ", "bits": 4, "n_lists": 4096, "n_probes": 512, "recall@10": 0.8756, "QPS": 16010.9, "QPS_std": 60.4, "gpu_bytes_measured": 0.0, "build_s": 4.2}
+{"ds": "glove", "N": 1183514, "engine": "IVF-RaBitQ", "bits": 4, "n_lists": 4096, "n_probes": 1024, "recall@10": 0.887, "QPS": 9240.3, "QPS_std": 26.3, "gpu_bytes_measured": 0.0, "build_s": 4.2}
+{"ds": "glove", "N": 1183514, "engine": "IVF-RaBitQ", "bits": 4, "n_lists": 4096, "n_probes": 2048, "recall@10": 0.8909, "QPS": 5212.2, "QPS_std": 4.9, "gpu_bytes_measured": 0.0, "build_s": 4.2}
+{"ds": "glove", "N": 1183514, "engine": "IVF-RaBitQ", "bits": 7, "n_lists": 1024, "n_probes": 32, "recall@10": 0.8524, "QPS": 39625.5, "QPS_std": 264.7, "gpu_bytes_measured": 0.0, "build_s": 1.0}
+{"ds": "glove", "N": 1183514, "engine": "IVF-RaBitQ", "bits": 7, "n_lists": 1024, "n_probes": 64, "recall@10": 0.9, "QPS": 27209.9, "QPS_std": 296.0, "gpu_bytes_measured": 0.0, "build_s": 1.0}
+{"ds": "glove", "N": 1183514, "engine": "IVF-RaBitQ", "bits": 7, "n_lists": 1024, "n_probes": 128, "recall@10": 0.9369, "QPS": 17128.7, "QPS_std": 61.1, "gpu_bytes_measured": 0.0, "build_s": 1.0}
+{"ds": "glove", "N": 1183514, "engine": "IVF-RaBitQ", "bits": 7, "n_lists": 1024, "n_probes": 256, "recall@10": 0.9609, "QPS": 10087.8, "QPS_std": 33.2, "gpu_bytes_measured": 0.0, "build_s": 1.0}
+{"ds": "glove", "N": 1183514, "engine": "IVF-RaBitQ", "bits": 7, "n_lists": 1024, "n_probes": 512, "recall@10": 0.9729, "QPS": 5762.7, "QPS_std": 16.9, "gpu_bytes_measured": 0.0, "build_s": 1.0}
+{"ds": "glove", "N": 1183514, "engine": "IVF-RaBitQ", "bits": 7, "n_lists": 4096, "n_probes": 128, "recall@10": 0.887, "QPS": 41996.9, "QPS_std": 146.8, "gpu_bytes_measured": 0.0, "build_s": 4.1}
+{"ds": "glove", "N": 1183514, "engine": "IVF-RaBitQ", "bits": 7, "n_lists": 4096, "n_probes": 256, "recall@10": 0.922, "QPS": 24696.0, "QPS_std": 278.8, "gpu_bytes_measured": 0.0, "build_s": 4.1}
+{"ds": "glove", "N": 1183514, "engine": "IVF-RaBitQ", "bits": 7, "n_lists": 4096, "n_probes": 512, "recall@10": 0.9505, "QPS": 14330.5, "QPS_std": 37.0, "gpu_bytes_measured": 0.0, "build_s": 4.1}
+{"ds": "glove", "N": 1183514, "engine": "IVF-RaBitQ", "bits": 7, "n_lists": 4096, "n_probes": 1024, "recall@10": 0.9665, "QPS": 8302.0, "QPS_std": 40.6, "gpu_bytes_measured": 0.0, "build_s": 4.1}
+{"ds": "glove", "N": 1183514, "engine": "IVF-RaBitQ", "bits": 7, "n_lists": 4096, "n_probes": 2048, "recall@10": 0.9742, "QPS": 4632.1, "QPS_std": 15.3, "gpu_bytes_measured": 0.0, "build_s": 4.1}
+{"ds": "glove", "N": 1183514, "engine": "IVF-RaBitQ", "bits": 9, "n_lists": 1024, "n_probes": 32, "recall@10": 0.8534, "QPS": 50466.7, "QPS_std": 1083.5, "gpu_bytes_measured": 0.0, "build_s": 0.9}
+{"ds": "glove", "N": 1183514, "engine": "IVF-RaBitQ", "bits": 9, "n_lists": 1024, "n_probes": 64, "recall@10": 0.9026, "QPS": 32808.8, "QPS_std": 374.6, "gpu_bytes_measured": 0.0, "build_s": 0.9}
+{"ds": "glove", "N": 1183514, "engine": "IVF-RaBitQ", "bits": 9, "n_lists": 1024, "n_probes": 128, "recall@10": 0.9409, "QPS": 20157.0, "QPS_std": 81.0, "gpu_bytes_measured": 0.0, "build_s": 0.9}
+{"ds": "glove", "N": 1183514, "engine": "IVF-RaBitQ", "bits": 9, "n_lists": 1024, "n_probes": 256, "recall@10": 0.9661, "QPS": 11655.3, "QPS_std": 24.9, "gpu_bytes_measured": 0.0, "build_s": 0.9}
+{"ds": "glove", "N": 1183514, "engine": "IVF-RaBitQ", "bits": 9, "n_lists": 1024, "n_probes": 512, "recall@10": 0.9787, "QPS": 6478.2, "QPS_std": 11.7, "gpu_bytes_measured": 0.0, "build_s": 0.9}
+{"ds": "glove", "N": 1183514, "engine": "IVF-RaBitQ", "bits": 9, "n_lists": 4096, "n_probes": 128, "recall@10": 0.8921, "QPS": 47196.5, "QPS_std": 1678.3, "gpu_bytes_measured": 0.0, "build_s": 3.9}
+{"ds": "glove", "N": 1183514, "engine": "IVF-RaBitQ", "bits": 9, "n_lists": 4096, "n_probes": 256, "recall@10": 0.9278, "QPS": 28529.7, "QPS_std": 219.2, "gpu_bytes_measured": 0.0, "build_s": 3.9}
+{"ds": "glove", "N": 1183514, "engine": "IVF-RaBitQ", "bits": 9, "n_lists": 4096, "n_probes": 512, "recall@10": 0.9554, "QPS": 16181.3, "QPS_std": 31.6, "gpu_bytes_measured": 0.0, "build_s": 3.9}
+{"ds": "glove", "N": 1183514, "engine": "IVF-RaBitQ", "bits": 9, "n_lists": 4096, "n_probes": 1024, "recall@10": 0.9726, "QPS": 9269.3, "QPS_std": 20.3, "gpu_bytes_measured": 0.0, "build_s": 3.9}
+{"ds": "glove", "N": 1183514, "engine": "IVF-RaBitQ", "bits": 9, "n_lists": 4096, "n_probes": 2048, "recall@10": 0.9807, "QPS": 5135.6, "QPS_std": 11.6, "gpu_bytes_measured": 0.0, "build_s": 3.9}
+{"ds": "glove", "N": 1183514, "engine": "CAGRA deg32 multi_cta (fp32 dataset)", "itopk": 256, "recall@10": 0.8812, "QPS": 38121.2, "QPS_std": 347.3, "gpu_bytes": 528}
+{"ds": "glove", "N": 1183514, "engine": "CAGRA deg32 multi_cta (fp32 dataset)", "itopk": 512, "recall@10": 0.9292, "QPS": 21115.5, "QPS_std": 26.0, "gpu_bytes": 528}
+{"ds": "glove", "N": 1183514, "engine": "CAGRA deg32 multi_cta (fp32 dataset)", "itopk": 1024, "recall@10": 0.9583, "QPS": 10936.7, "QPS_std": 16.1, "gpu_bytes": 528}
+[ 13734][09:55:42:515752][info  ] CAGRA graph build: reducing IVF-PQ search max_internal_batch_size from 131072 -> 78643 to fit the workspace
+{"ds": "glove", "N": 1183514, "engine": "CAGRA deg64 multi_cta (fp32 dataset)", "itopk": 256, "recall@10": 0.9285, "QPS": 20462.8, "QPS_std": 40.0, "gpu_bytes": 656}
+{"ds": "glove", "N": 1183514, "engine": "CAGRA deg64 multi_cta (fp32 dataset)", "itopk": 512, "recall@10": 0.959, "QPS": 10884.6, "QPS_std": 13.4, "gpu_bytes": 656}
+{"ds": "glove", "N": 1183514, "engine": "CAGRA deg64 multi_cta (fp32 dataset)", "itopk": 1024, "recall@10": 0.9788, "QPS": 5623.2, "QPS_std": 6.0, "gpu_bytes": 656}
+DONE
+  return _core.array(a, dtype, copy, order, blocking=blocking)
+{"ds": "dbp", "N": 228772, "engine": "IVF-RaBitQ", "bits": 4, "n_lists": 512, "n_probes": 16, "recall@10": 0.9225, "QPS": 28888.2, "QPS_std": 167.7, "gpu_bytes_measured": 183.3, "build_s": 3.1}
+{"ds": "dbp", "N": 228772, "engine": "IVF-RaBitQ", "bits": 4, "n_lists": 512, "n_probes": 32, "recall@10": 0.9493, "QPS": 25447.4, "QPS_std": 63.3, "gpu_bytes_measured": 183.3, "build_s": 3.1}
+{"ds": "dbp", "N": 228772, "engine": "IVF-RaBitQ", "bits": 4, "n_lists": 512, "n_probes": 64, "recall@10": 0.9675, "QPS": 20259.4, "QPS_std": 66.0, "gpu_bytes_measured": 183.3, "build_s": 3.1}
+{"ds": "dbp", "N": 228772, "engine": "IVF-RaBitQ", "bits": 4, "n_lists": 512, "n_probes": 128, "recall@10": 0.9746, "QPS": 14705.3, "QPS_std": 789.6, "gpu_bytes_measured": 183.3, "build_s": 3.1}
+{"ds": "dbp", "N": 228772, "engine": "IVF-RaBitQ", "bits": 4, "n_lists": 512, "n_probes": 256, "recall@10": 0.9772, "QPS": 10399.4, "QPS_std": 19.6, "gpu_bytes_measured": 183.3, "build_s": 3.1}
+{"ds": "dbp", "N": 228772, "engine": "IVF-RaBitQ", "bits": 4, "n_lists": 1024, "n_probes": 32, "recall@10": 0.9368, "QPS": 34143.6, "QPS_std": 463.5, "gpu_bytes_measured": 10844.6, "build_s": 5.1}
+{"ds": "dbp", "N": 228772, "engine": "IVF-RaBitQ", "bits": 4, "n_lists": 1024, "n_probes": 64, "recall@10": 0.9577, "QPS": 27149.3, "QPS_std": 189.9, "gpu_bytes_measured": 10844.6, "build_s": 5.1}
+{"ds": "dbp", "N": 228772, "engine": "IVF-RaBitQ", "bits": 4, "n_lists": 1024, "n_probes": 128, "recall@10": 0.9707, "QPS": 20581.7, "QPS_std": 145.1, "gpu_bytes_measured": 10844.6, "build_s": 5.1}
+{"ds": "dbp", "N": 228772, "engine": "IVF-RaBitQ", "bits": 4, "n_lists": 1024, "n_probes": 256, "recall@10": 0.9766, "QPS": 14464.9, "QPS_std": 22.3, "gpu_bytes_measured": 10844.6, "build_s": 5.1}
+{"ds": "dbp", "N": 228772, "engine": "IVF-RaBitQ", "bits": 4, "n_lists": 1024, "n_probes": 512, "recall@10": 0.9778, "QPS": 9541.0, "QPS_std": 17.9, "gpu_bytes_measured": 10844.6, "build_s": 5.1}
+{"ds": "dbp", "N": 228772, "engine": "IVF-RaBitQ", "bits": 7, "n_lists": 512, "n_probes": 16, "recall@10": 0.933, "QPS": 21586.2, "QPS_std": 88.8, "gpu_bytes_measured": 0.0, "build_s": 2.8}
+{"ds": "dbp", "N": 228772, "engine": "IVF-RaBitQ", "bits": 7, "n_lists": 512, "n_probes": 32, "recall@10": 0.9629, "QPS": 18556.0, "QPS_std": 55.5, "gpu_bytes_measured": 0.0, "build_s": 2.8}
+{"ds": "dbp", "N": 228772, "engine": "IVF-RaBitQ", "bits": 7, "n_lists": 512, "n_probes": 64, "recall@10": 0.9839, "QPS": 14970.9, "QPS_std": 5.2, "gpu_bytes_measured": 0.0, "build_s": 2.8}
+{"ds": "dbp", "N": 228772, "engine": "IVF-RaBitQ", "bits": 7, "n_lists": 512, "n_probes": 128, "recall@10": 0.9926, "QPS": 10702.9, "QPS_std": 37.8, "gpu_bytes_measured": 0.0, "build_s": 2.8}
+{"ds": "dbp", "N": 228772, "engine": "IVF-RaBitQ", "bits": 7, "n_lists": 512, "n_probes": 256, "recall@10": 0.9955, "QPS": 6865.2, "QPS_std": 3.9, "gpu_bytes_measured": 0.0, "build_s": 2.8}
+{"ds": "dbp", "N": 228772, "engine": "IVF-RaBitQ", "bits": 7, "n_lists": 1024, "n_probes": 32, "recall@10": 0.9476, "QPS": 26418.0, "QPS_std": 122.6, "gpu_bytes_measured": 0.0, "build_s": 4.9}
+{"ds": "dbp", "N": 228772, "engine": "IVF-RaBitQ", "bits": 7, "n_lists": 1024, "n_probes": 64, "recall@10": 0.9716, "QPS": 20907.8, "QPS_std": 112.1, "gpu_bytes_measured": 0.0, "build_s": 4.9}
+{"ds": "dbp", "N": 228772, "engine": "IVF-RaBitQ", "bits": 7, "n_lists": 1024, "n_probes": 128, "recall@10": 0.9868, "QPS": 15424.0, "QPS_std": 27.6, "gpu_bytes_measured": 0.0, "build_s": 4.9}
+{"ds": "dbp", "N": 228772, "engine": "IVF-RaBitQ", "bits": 7, "n_lists": 1024, "n_probes": 256, "recall@10": 0.9932, "QPS": 10617.4, "QPS_std": 39.1, "gpu_bytes_measured": 0.0, "build_s": 4.9}
+{"ds": "dbp", "N": 228772, "engine": "IVF-RaBitQ", "bits": 7, "n_lists": 1024, "n_probes": 512, "recall@10": 0.9955, "QPS": 6689.3, "QPS_std": 9.2, "gpu_bytes_measured": 0.0, "build_s": 4.9}
+{"ds": "dbp", "N": 228772, "engine": "IVF-RaBitQ", "bits": 9, "n_lists": 512, "n_probes": 16, "recall@10": 0.9375, "QPS": 35057.9, "QPS_std": 184.6, "gpu_bytes_measured": 0.0, "build_s": 2.8}
+{"ds": "dbp", "N": 228772, "engine": "IVF-RaBitQ", "bits": 9, "n_lists": 512, "n_probes": 32, "recall@10": 0.9668, "QPS": 28876.8, "QPS_std": 197.2, "gpu_bytes_measured": 0.0, "build_s": 2.8}
+{"ds": "dbp", "N": 228772, "engine": "IVF-RaBitQ", "bits": 9, "n_lists": 512, "n_probes": 64, "recall@10": 0.9857, "QPS": 21073.3, "QPS_std": 38.5, "gpu_bytes_measured": 0.0, "build_s": 2.8}
+{"ds": "dbp", "N": 228772, "engine": "IVF-RaBitQ", "bits": 9, "n_lists": 512, "n_probes": 128, "recall@10": 0.9952, "QPS": 13574.9, "QPS_std": 35.5, "gpu_bytes_measured": 0.0, "build_s": 2.8}
+{"ds": "dbp", "N": 228772, "engine": "IVF-RaBitQ", "bits": 9, "n_lists": 512, "n_probes": 256, "recall@10": 0.9978, "QPS": 8219.7, "QPS_std": 19.2, "gpu_bytes_measured": 0.0, "build_s": 2.8}
+{"ds": "dbp", "N": 228772, "engine": "IVF-RaBitQ", "bits": 9, "n_lists": 1024, "n_probes": 32, "recall@10": 0.9503, "QPS": 37900.1, "QPS_std": 545.3, "gpu_bytes_measured": 0.0, "build_s": 5.1}
+{"ds": "dbp", "N": 228772, "engine": "IVF-RaBitQ", "bits": 9, "n_lists": 1024, "n_probes": 64, "recall@10": 0.9737, "QPS": 28614.1, "QPS_std": 285.4, "gpu_bytes_measured": 0.0, "build_s": 5.1}
+{"ds": "dbp", "N": 228772, "engine": "IVF-RaBitQ", "bits": 9, "n_lists": 1024, "n_probes": 128, "recall@10": 0.9891, "QPS": 19766.8, "QPS_std": 116.6, "gpu_bytes_measured": 0.0, "build_s": 5.1}
+{"ds": "dbp", "N": 228772, "engine": "IVF-RaBitQ", "bits": 9, "n_lists": 1024, "n_probes": 256, "recall@10": 0.9964, "QPS": 12896.6, "QPS_std": 40.8, "gpu_bytes_measured": 0.0, "build_s": 5.1}
+{"ds": "dbp", "N": 228772, "engine": "IVF-RaBitQ", "bits": 9, "n_lists": 1024, "n_probes": 512, "recall@10": 0.9983, "QPS": 7695.9, "QPS_std": 19.0, "gpu_bytes_measured": 0.0, "build_s": 5.1}
+[ 13778][09:57:01:693720][info  ] CAGRA graph build: reducing IVF-PQ search max_internal_batch_size from 131072 -> 26214 to fit the workspace
+{"ds": "dbp", "N": 228772, "engine": "CAGRA deg32 multi_cta (fp32 dataset)", "itopk": 256, "recall@10": 0.9943, "QPS": 3580.5, "QPS_std": 2.0, "gpu_bytes": 6272}
+{"ds": "dbp", "N": 228772, "engine": "CAGRA deg32 multi_cta (fp32 dataset)", "itopk": 512, "recall@10": 0.9972, "QPS": 1845.9, "QPS_std": 0.7, "gpu_bytes": 6272}
+{"ds": "dbp", "N": 228772, "engine": "CAGRA deg32 multi_cta (fp32 dataset)", "itopk": 1024, "recall@10": 0.9991, "QPS": 952.3, "QPS_std": 0.1, "gpu_bytes": 6272}
+[ 13778][09:57:24:654200][info  ] CAGRA graph build: reducing IVF-PQ search max_internal_batch_size from 131072 -> 26214 to fit the workspace
+{"ds": "dbp", "N": 228772, "engine": "CAGRA deg64 multi_cta (fp32 dataset)", "itopk": 256, "recall@10": 0.9965, "QPS": 1823.8, "QPS_std": 0.5, "gpu_bytes": 6400}
+{"ds": "dbp", "N": 228772, "engine": "CAGRA deg64 multi_cta (fp32 dataset)", "itopk": 512, "recall@10": 0.9986, "QPS": 935.8, "QPS_std": 0.0, "gpu_bytes": 6400}
+{"ds": "dbp", "N": 228772, "engine": "CAGRA deg64 multi_cta (fp32 dataset)", "itopk": 1024, "recall@10": 0.9995, "QPS": 480.8, "QPS_std": 0.1, "gpu_bytes": 6400}
+DONE
+SMALL_DONE

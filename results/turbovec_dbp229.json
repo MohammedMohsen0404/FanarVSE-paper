@@ -1,0 +1,134 @@
+[
+ {
+  "ds": "dbp229",
+  "N": 228772,
+  "engine": "turbovec 2-bit",
+  "k'": 10,
+  "rerank": false,
+  "bytes_per_vec": 388,
+  "recall@10": 0.9106,
+  "QPS": 2460.7,
+  "build_s": 1.1
+ },
+ {
+  "ds": "dbp229",
+  "N": 228772,
+  "engine": "turbovec 2-bit",
+  "k'": 40,
+  "rerank": true,
+  "bytes_per_vec": 388,
+  "recall@10": 1.0,
+  "QPS": 1924.1,
+  "build_s": 1.1
+ },
+ {
+  "ds": "dbp229",
+  "N": 228772,
+  "engine": "turbovec 2-bit",
+  "k'": 100,
+  "rerank": true,
+  "bytes_per_vec": 388,
+  "recall@10": 1.0,
+  "QPS": 1502.9,
+  "build_s": 1.1
+ },
+ {
+  "ds": "dbp229",
+  "N": 228772,
+  "engine": "turbovec 2-bit +calibrate",
+  "k'": 10,
+  "rerank": false,
+  "bytes_per_vec": 388,
+  "recall@10": 0.9132,
+  "QPS": 2347.8,
+  "build_s": 1.2
+ },
+ {
+  "ds": "dbp229",
+  "N": 228772,
+  "engine": "turbovec 2-bit +calibrate",
+  "k'": 40,
+  "rerank": true,
+  "bytes_per_vec": 388,
+  "recall@10": 1.0,
+  "QPS": 1866.1,
+  "build_s": 1.2
+ },
+ {
+  "ds": "dbp229",
+  "N": 228772,
+  "engine": "turbovec 2-bit +calibrate",
+  "k'": 100,
+  "rerank": true,
+  "bytes_per_vec": 388,
+  "recall@10": 1.0,
+  "QPS": 1525.7,
+  "build_s": 1.2
+ },
+ {
+  "ds": "dbp229",
+  "N": 228772,
+  "engine": "turbovec 4-bit",
+  "k'": 10,
+  "rerank": false,
+  "bytes_per_vec": 772,
+  "recall@10": 0.9709,
+  "QPS": 1148.0,
+  "build_s": 1.5
+ },
+ {
+  "ds": "dbp229",
+  "N": 228772,
+  "engine": "turbovec 4-bit",
+  "k'": 40,
+  "rerank": true,
+  "bytes_per_vec": 772,
+  "recall@10": 1.0,
+  "QPS": 997.3,
+  "build_s": 1.5
+ },
+ {
+  "ds": "dbp229",
+  "N": 228772,
+  "engine": "turbovec 4-bit",
+  "k'": 100,
+  "rerank": true,
+  "bytes_per_vec": 772,
+  "recall@10": 1.0,
+  "QPS": 811.8,
+  "build_s": 1.5
+ },
+ {
+  "ds": "dbp229",
+  "N": 228772,
+  "engine": "turbovec 4-bit +calibrate",
+  "k'": 10,
+  "rerank": false,
+  "bytes_per_vec": 772,
+  "recall@10": 0.969,
+  "QPS": 1067.7,
+  "build_s": 1.6
+ },
+ {
+  "ds": "dbp229",
+  "N": 228772,
+  "engine": "turbovec 4-bit +calibrate",
+  "k'": 40,
+  "rerank": true,
+  "bytes_per_vec": 772,
+  "recall@10": 1.0,
+  "QPS": 966.1,
+  "build_s": 1.6
+ },
+ {
+  "ds": "dbp229",
+  "N": 228772,
+  "engine": "turbovec 4-bit +calibrate",
+  "k'": 100,
+  "rerank": true,
+  "bytes_per_vec": 772,
+  "recall@10": 1.0,
+  "QPS": 843.0,
+  "build_s": 1.6
+ }
+]

@@ -1,0 +1,170 @@
+[
+ {
+  "spill_frac": 0.0,
+  "nprobe": 192,
+  "coverage@10": 0.9828,
+  "items_scanned": 48828
+ },
+ {
+  "spill_frac": 0.0,
+  "nprobe": 256,
+  "coverage@10": 0.9872,
+  "items_scanned": 64704
+ },
+ {
+  "spill_frac": 0.0,
+  "nprobe": 320,
+  "coverage@10": 0.9915,
+  "items_scanned": 80507
+ },
+ {
+  "spill_frac": 0.0,
+  "nprobe": 384,
+  "coverage@10": 0.9935,
+  "items_scanned": 96228
+ },
+ {
+  "spill_frac": 0.0,
+  "nprobe": 512,
+  "coverage@10": 0.9961,
+  "items_scanned": 127639
+ },
+ {
+  "spill_frac": 0.0,
+  "nprobe": 640,
+  "coverage@10": 0.9972,
+  "items_scanned": 158920
+ },
+ {
+  "spill_frac": 0.0,
+  "nprobe": 768,
+  "coverage@10": 0.9979,
+  "items_scanned": 190017
+ },
+ {
+  "spill_frac": 0.1,
+  "nprobe": 192,
+  "coverage@10": 0.9841,
+  "items_scanned": 54604
+ },
+ {
+  "spill_frac": 0.1,
+  "nprobe": 256,
+  "coverage@10": 0.9882,
+  "items_scanned": 72331
+ },
+ {
+  "spill_frac": 0.1,
+  "nprobe": 320,
+  "coverage@10": 0.992,
+  "items_scanned": 89964
+ },
+ {
+  "spill_frac": 0.1,
+  "nprobe": 384,
+  "coverage@10": 0.9939,
+  "items_scanned": 107491
+ },
+ {
+  "spill_frac": 0.1,
+  "nprobe": 512,
+  "coverage@10": 0.9964,
+  "items_scanned": 142480
+ },
+ {
+  "spill_frac": 0.1,
+  "nprobe": 640,
+  "coverage@10": 0.9973,
+  "items_scanned": 177297
+ },
+ {
+  "spill_frac": 0.1,
+  "nprobe": 768,
+  "coverage@10": 0.998,
+  "items_scanned": 211895
+ },
+ {
+  "spill_frac": 0.2,
+  "nprobe": 192,
+  "coverage@10": 0.9856,
+  "items_scanned": 60285
+ },
+ {
+  "spill_frac": 0.2,
+  "nprobe": 256,
+  "coverage@10": 0.9893,
+  "items_scanned": 79838
+ },
+ {
+  "spill_frac": 0.2,
+  "nprobe": 320,
+  "coverage@10": 0.9926,
+  "items_scanned": 99277
+ },
+ {
+  "spill_frac": 0.2,
+  "nprobe": 384,
+  "coverage@10": 0.9943,
+  "items_scanned": 118588
+ },
+ {
+  "spill_frac": 0.2,
+  "nprobe": 512,
+  "coverage@10": 0.9967,
+  "items_scanned": 157114
+ },
+ {
+  "spill_frac": 0.2,
+  "nprobe": 640,
+  "coverage@10": 0.9975,
+  "items_scanned": 195429
+ },
+ {
+  "spill_frac": 0.2,
+  "nprobe": 768,
+  "coverage@10": 0.9982,
+  "items_scanned": 233487
+ },
+ {
+  "spill_frac": 0.4,
+  "nprobe": 192,
+  "coverage@10": 0.9876,
+  "items_scanned": 71089
+ },
+ {
+  "spill_frac": 0.4,
+  "nprobe": 256,
+  "coverage@10": 0.9912,
+  "items_scanned": 94120
+ },
+ {
+  "spill_frac": 0.4,
+  "nprobe": 320,
+  "coverage@10": 0.9939,
+  "items_scanned": 117007
+ },
+ {
+  "spill_frac": 0.4,
+  "nprobe": 384,
+  "coverage@10": 0.9955,
+  "items_scanned": 139733
+ },
+ {
+  "spill_frac": 0.4,
+  "nprobe": 512,
+  "coverage@10": 0.9974,
+  "items_scanned": 185035
+ },
+ {
+  "spill_frac": 0.4,
+  "nprobe": 640,
+  "coverage@10": 0.9982,
+  "items_scanned": 230055
+ },
+ {
+  "spill_frac": 0.4,
+  "nprobe": 768,
+  "coverage@10": 0.9986,
+  "items_scanned": 274750
+ }
+]

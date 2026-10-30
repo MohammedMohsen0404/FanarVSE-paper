@@ -1,0 +1,192 @@
+[
+ {
+  "K": 200,
+  "z": 1.5,
+  "queries": 2000,
+  "P_fail_query_exact_sigma": 1.0,
+  "P_fail_query_engine_sigma": 0.9995,
+  "union_bound_K*p": 1,
+  "independent_1-(1-p)^K": 1.0,
+  "exact_given_covered": "1/1",
+  "exact_given_not_covered": "1996/1999"
+ },
+ {
+  "K": 200,
+  "z": 2.0,
+  "queries": 2000,
+  "P_fail_query_exact_sigma": 1.0,
+  "P_fail_query_engine_sigma": 0.9865,
+  "union_bound_K*p": 1,
+  "independent_1-(1-p)^K": 0.99991,
+  "exact_given_covered": "27/27",
+  "exact_given_not_covered": "1973/1973"
+ },
+ {
+  "K": 200,
+  "z": 2.5,
+  "queries": 2000,
+  "P_fail_query_exact_sigma": 0.9195,
+  "P_fail_query_engine_sigma": 0.645,
+  "union_bound_K*p": 1,
+  "independent_1-(1-p)^K": 0.91709,
+  "exact_given_covered": "710/710",
+  "exact_given_not_covered": "1290/1290"
+ },
+ {
+  "K": 200,
+  "z": 3.0,
+  "queries": 2000,
+  "P_fail_query_exact_sigma": 0.4305,
+  "P_fail_query_engine_sigma": 0.166,
+  "union_bound_K*p": 0.53476,
+  "independent_1-(1-p)^K": 0.41461,
+  "exact_given_covered": "1668/1668",
+  "exact_given_not_covered": "332/332"
+ },
+ {
+  "K": 200,
+  "z": 3.5,
+  "queries": 2000,
+  "P_fail_query_exact_sigma": 0.0915,
+  "P_fail_query_engine_sigma": 0.0205,
+  "union_bound_K*p": 0.09122,
+  "independent_1-(1-p)^K": 0.0872,
+  "exact_given_covered": "1959/1959",
+  "exact_given_not_covered": "41/41"
+ },
+ {
+  "K": 200,
+  "z": 4.0,
+  "queries": 2000,
+  "P_fail_query_exact_sigma": 0.0135,
+  "P_fail_query_engine_sigma": 0.003,
+  "union_bound_K*p": 0.01222,
+  "independent_1-(1-p)^K": 0.01215,
+  "exact_given_covered": "1994/1994",
+  "exact_given_not_covered": "6/6"
+ },
+ {
+  "K": 200,
+  "z": 4.36,
+  "queries": 2000,
+  "P_fail_query_exact_sigma": 0.0035,
+  "P_fail_query_engine_sigma": 0.0005,
+  "union_bound_K*p": 0.00247,
+  "independent_1-(1-p)^K": 0.00247,
+  "exact_given_covered": "1999/1999",
+  "exact_given_not_covered": "1/1"
+ },
+ {
+  "K": 200,
+  "z": 5.0,
+  "queries": 2000,
+  "P_fail_query_exact_sigma": 0.0,
+  "P_fail_query_engine_sigma": 0.0,
+  "union_bound_K*p": 0.0001,
+  "independent_1-(1-p)^K": 0.0001,
+  "exact_given_covered": "2000/2000",
+  "exact_given_not_covered": "0/0"
+ },
+ {
+  "K": 400,
+  "z": 1.5,
+  "queries": 2000,
+  "P_fail_query_exact_sigma": 1.0,
+  "P_fail_query_engine_sigma": 1.0,
+  "union_bound_K*p": 1,
+  "independent_1-(1-p)^K": 1.0,
+  "exact_given_covered": "0/0",
+  "exact_given_not_covered": "1997/2000"
+ },
+ {
+  "K": 400,
+  "z": 2.0,
+  "queries": 2000,
+  "P_fail_query_exact_sigma": 1.0,
+  "P_fail_query_engine_sigma": 0.9975,
+  "union_bound_K*p": 1,
+  "independent_1-(1-p)^K": 1.0,
+  "exact_given_covered": "5/5",
+  "exact_given_not_covered": "1995/1995"
+ },
+ {
+  "K": 400,
+  "z": 2.5,
+  "queries": 2000,
+  "P_fail_query_exact_sigma": 0.9935,
+  "P_fail_query_engine_sigma": 0.8915,
+  "union_bound_K*p": 1,
+  "independent_1-(1-p)^K": 0.99313,
+  "exact_given_covered": "217/217",
+  "exact_given_not_covered": "1783/1783"
+ },
+ {
+  "K": 400,
+  "z": 3.0,
+  "queries": 2000,
+  "P_fail_query_exact_sigma": 0.667,
+  "P_fail_query_engine_sigma": 0.331,
+  "union_bound_K*p": 1,
+  "independent_1-(1-p)^K": 0.65732,
+  "exact_given_covered": "1338/1338",
+  "exact_given_not_covered": "662/662"
+ },
+ {
+  "K": 400,
+  "z": 3.5,
+  "queries": 2000,
+  "P_fail_query_exact_sigma": 0.177,
+  "P_fail_query_engine_sigma": 0.0515,
+  "union_bound_K*p": 0.18244,
+  "independent_1-(1-p)^K": 0.1668,
+  "exact_given_covered": "1897/1897",
+  "exact_given_not_covered": "103/103"
+ },
+ {
+  "K": 400,
+  "z": 4.0,
+  "queries": 2000,
+  "P_fail_query_exact_sigma": 0.029,
+  "P_fail_query_engine_sigma": 0.005,
+  "union_bound_K*p": 0.02444,
+  "independent_1-(1-p)^K": 0.02414,
+  "exact_given_covered": "1990/1990",
+  "exact_given_not_covered": "10/10"
+ },
+ {
+  "K": 400,
+  "z": 4.36,
+  "queries": 2000,
+  "P_fail_query_exact_sigma": 0.006,
+  "P_fail_query_engine_sigma": 0.001,
+  "union_bound_K*p": 0.00494,
+  "independent_1-(1-p)^K": 0.00492,
+  "exact_given_covered": "1998/1998",
+  "exact_given_not_covered": "2/2"
+ },
+ {
+  "K": 400,
+  "z": 5.0,
+  "queries": 2000,
+  "P_fail_query_exact_sigma": 0.0,
+  "P_fail_query_engine_sigma": 0.0,
+  "union_bound_K*p": 0.00021,
+  "independent_1-(1-p)^K": 0.00021,
+  "exact_given_covered": "2000/2000",
+  "exact_given_not_covered": "0/0"
+ },
+ {
+  "what": "block-max lemma",
+  "K": 200,
+  "queries": 400,
+  "overlap_with_exact_topK": 1.0,
+  "missed_items_not_within_2e-3_of_Kth": 0
+ },
+ {
+  "what": "block-max lemma",
+  "K": 400,
+  "queries": 400,
+  "overlap_with_exact_topK": 0.999988,
+  "missed_items_not_within_2e-3_of_Kth": 0
+ }
+]

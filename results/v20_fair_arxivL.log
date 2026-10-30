@@ -1,0 +1,92 @@
+﻿  return _core.array(a, dtype, copy, order, blocking=blocking)
+[ 16682][08:00:45:842533][info  ] CAGRA graph build: reducing IVF-PQ search max_internal_batch_size from 131072 -> 78643 to fit the workspace
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 32, "itopk": 32, "algo": "auto"}, "recall": 0.8464, "QPS": 70260.4, "QPS_std": 8009.3, "gpu_bytes": 1664, "build_s": 33.4, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 32, "itopk": 32, "algo": "single_cta"}, "recall": 0.8464, "QPS": 82602.7, "QPS_std": 1324.1, "gpu_bytes": 1664, "build_s": 33.4, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 32, "itopk": 32, "algo": "multi_cta"}, "recall": 0.8455, "QPS": 79177.0, "QPS_std": 1219.3, "gpu_bytes": 1664, "build_s": 33.4, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 32, "itopk": 32, "algo": "multi_kernel"}, "recall": 0.8464, "QPS": 35126.4, "QPS_std": 720.3, "gpu_bytes": 1664, "build_s": 33.4, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 32, "itopk": 64, "algo": "auto"}, "recall": 0.919, "QPS": 48036.7, "QPS_std": 246.6, "gpu_bytes": 1664, "build_s": 33.4, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 32, "itopk": 64, "algo": "single_cta"}, "recall": 0.919, "QPS": 47752.9, "QPS_std": 259.6, "gpu_bytes": 1664, "build_s": 33.4, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 32, "itopk": 64, "algo": "multi_cta"}, "recall": 0.9192, "QPS": 42140.8, "QPS_std": 344.3, "gpu_bytes": 1664, "build_s": 33.4, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 32, "itopk": 64, "algo": "multi_kernel"}, "recall": 0.919, "QPS": 16368.3, "QPS_std": 322.1, "gpu_bytes": 1664, "build_s": 33.4, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 32, "itopk": 128, "algo": "auto"}, "recall": 0.9572, "QPS": 24876.8, "QPS_std": 161.9, "gpu_bytes": 1664, "build_s": 33.4, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 32, "itopk": 128, "algo": "single_cta"}, "recall": 0.9572, "QPS": 24626.3, "QPS_std": 17.7, "gpu_bytes": 1664, "build_s": 33.4, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 32, "itopk": 128, "algo": "multi_cta"}, "recall": 0.9563, "QPS": 22551.9, "QPS_std": 115.1, "gpu_bytes": 1664, "build_s": 33.4, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 32, "itopk": 128, "algo": "multi_kernel"}, "recall": 0.9573, "QPS": 8859.1, "QPS_std": 203.4, "gpu_bytes": 1664, "build_s": 33.4, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 32, "itopk": 256, "algo": "auto"}, "recall": 0.9785, "QPS": 12942.4, "QPS_std": 35.2, "gpu_bytes": 1664, "build_s": 33.4, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 32, "itopk": 256, "algo": "single_cta"}, "recall": 0.9785, "QPS": 12953.3, "QPS_std": 25.5, "gpu_bytes": 1664, "build_s": 33.4, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 32, "itopk": 256, "algo": "multi_cta"}, "recall": 0.9789, "QPS": 11887.0, "QPS_std": 22.0, "gpu_bytes": 1664, "build_s": 33.4, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 32, "itopk": 256, "algo": "multi_kernel"}, "recall": 0.9785, "QPS": 4170.2, "QPS_std": 88.1, "gpu_bytes": 1664, "build_s": 33.4, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 32, "itopk": 384, "algo": "auto"}, "recall": 0.9847, "QPS": 7654.4, "QPS_std": 11.1, "gpu_bytes": 1664, "build_s": 33.4, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 32, "itopk": 384, "algo": "single_cta"}, "recall": 0.9847, "QPS": 7649.8, "QPS_std": 6.3, "gpu_bytes": 1664, "build_s": 33.4, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 32, "itopk": 384, "algo": "multi_cta"}, "recall": 0.985, "QPS": 8043.0, "QPS_std": 25.0, "gpu_bytes": 1664, "build_s": 33.4, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 32, "itopk": 384, "algo": "multi_kernel"}, "recall": 0.9849, "QPS": 2493.0, "QPS_std": 67.4, "gpu_bytes": 1664, "build_s": 33.4, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 32, "itopk": 512, "algo": "auto"}, "recall": 0.989, "QPS": 5921.6, "QPS_std": 7.5, "gpu_bytes": 1664, "build_s": 33.4, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 32, "itopk": 512, "algo": "single_cta"}, "recall": 0.989, "QPS": 5923.4, "QPS_std": 5.3, "gpu_bytes": 1664, "build_s": 33.4, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 32, "itopk": 512, "algo": "multi_cta"}, "recall": 0.989, "QPS": 6157.1, "QPS_std": 7.3, "gpu_bytes": 1664, "build_s": 33.4, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 32, "itopk": 512, "algo": "multi_kernel"}, "recall": 0.9891, "QPS": 1830.8, "QPS_std": 26.9, "gpu_bytes": 1664, "build_s": 33.4, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 32, "itopk": 1024, "algo": "auto"}, "recall": 0.9942, "QPS": 3155.4, "QPS_std": 2.5, "gpu_bytes": 1664, "build_s": 33.4, "rmm_pool": true}
+cagra failed {'graph_degree': 32, 'itopk': 1024, 'algo': 'single_cta'} RAFT failure at file=/__w/cuvs/cuvs/cpp/src/neighbors/detail/cagra/search_single_cta.cuh line=122 function=void cuvs::neighbors::cagra::detail::single
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 32, "itopk": 1024, "algo": "multi_cta"}, "recall": 0.9945, "QPS": 3155.1, "QPS_std": 0.6, "gpu_bytes": 1664, "build_s": 33.4, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 32, "itopk": 1024, "algo": "multi_kernel"}, "recall": 0.9944, "QPS": 719.9, "QPS_std": 9.0, "gpu_bytes": 1664, "build_s": 33.4, "rmm_pool": true}
+[ 16682][08:01:56:655984][info  ] CAGRA graph build: reducing IVF-PQ search max_internal_batch_size from 131072 -> 52428 to fit the workspace
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 64, "itopk": 32, "algo": "auto"}, "recall": 0.9087, "QPS": 40666.2, "QPS_std": 2556.2, "gpu_bytes": 1792, "build_s": 39.5, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 64, "itopk": 32, "algo": "single_cta"}, "recall": 0.9087, "QPS": 44817.6, "QPS_std": 58.3, "gpu_bytes": 1792, "build_s": 39.5, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 64, "itopk": 32, "algo": "multi_cta"}, "recall": 0.9087, "QPS": 41600.7, "QPS_std": 69.8, "gpu_bytes": 1792, "build_s": 39.5, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 64, "itopk": 32, "algo": "multi_kernel"}, "recall": 0.9087, "QPS": 20978.4, "QPS_std": 515.1, "gpu_bytes": 1792, "build_s": 39.5, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 64, "itopk": 64, "algo": "auto"}, "recall": 0.9512, "QPS": 24981.0, "QPS_std": 160.4, "gpu_bytes": 1792, "build_s": 39.5, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 64, "itopk": 64, "algo": "single_cta"}, "recall": 0.9512, "QPS": 25150.1, "QPS_std": 48.6, "gpu_bytes": 1792, "build_s": 39.5, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 64, "itopk": 64, "algo": "multi_cta"}, "recall": 0.9524, "QPS": 22536.4, "QPS_std": 376.1, "gpu_bytes": 1792, "build_s": 39.5, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 64, "itopk": 64, "algo": "multi_kernel"}, "recall": 0.9513, "QPS": 12107.1, "QPS_std": 201.7, "gpu_bytes": 1792, "build_s": 39.5, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 64, "itopk": 128, "algo": "auto"}, "recall": 0.9743, "QPS": 12663.3, "QPS_std": 77.1, "gpu_bytes": 1792, "build_s": 39.5, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 64, "itopk": 128, "algo": "single_cta"}, "recall": 0.9743, "QPS": 12343.2, "QPS_std": 443.2, "gpu_bytes": 1792, "build_s": 39.5, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 64, "itopk": 128, "algo": "multi_cta"}, "recall": 0.9758, "QPS": 12003.2, "QPS_std": 28.0, "gpu_bytes": 1792, "build_s": 39.5, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 64, "itopk": 128, "algo": "multi_kernel"}, "recall": 0.9744, "QPS": 5678.0, "QPS_std": 163.6, "gpu_bytes": 1792, "build_s": 39.5, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 64, "itopk": 256, "algo": "auto"}, "recall": 0.9869, "QPS": 6681.1, "QPS_std": 38.9, "gpu_bytes": 1792, "build_s": 39.5, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 64, "itopk": 256, "algo": "single_cta"}, "recall": 0.9869, "QPS": 6634.2, "QPS_std": 67.6, "gpu_bytes": 1792, "build_s": 39.5, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 64, "itopk": 256, "algo": "multi_cta"}, "recall": 0.9885, "QPS": 6051.4, "QPS_std": 151.2, "gpu_bytes": 1792, "build_s": 39.5, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 64, "itopk": 256, "algo": "multi_kernel"}, "recall": 0.9869, "QPS": 2809.5, "QPS_std": 57.2, "gpu_bytes": 1792, "build_s": 39.5, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 64, "itopk": 384, "algo": "auto"}, "recall": 0.992, "QPS": 1881.3, "QPS_std": 3.4, "gpu_bytes": 1792, "build_s": 39.5, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 64, "itopk": 384, "algo": "single_cta"}, "recall": 0.992, "QPS": 1872.3, "QPS_std": 4.2, "gpu_bytes": 1792, "build_s": 39.5, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 64, "itopk": 384, "algo": "multi_cta"}, "recall": 0.9924, "QPS": 4163.0, "QPS_std": 5.4, "gpu_bytes": 1792, "build_s": 39.5, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 64, "itopk": 384, "algo": "multi_kernel"}, "recall": 0.9921, "QPS": 1751.0, "QPS_std": 16.0, "gpu_bytes": 1792, "build_s": 39.5, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 64, "itopk": 512, "algo": "auto"}, "recall": 0.9941, "QPS": 1472.4, "QPS_std": 6.1, "gpu_bytes": 1792, "build_s": 39.5, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 64, "itopk": 512, "algo": "single_cta"}, "recall": 0.9941, "QPS": 1476.1, "QPS_std": 4.3, "gpu_bytes": 1792, "build_s": 39.5, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 64, "itopk": 512, "algo": "multi_cta"}, "recall": 0.9943, "QPS": 3164.5, "QPS_std": 0.9, "gpu_bytes": 1792, "build_s": 39.5, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 64, "itopk": 512, "algo": "multi_kernel"}, "recall": 0.994, "QPS": 1315.6, "QPS_std": 4.8, "gpu_bytes": 1792, "build_s": 39.5, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 64, "itopk": 1024, "algo": "auto"}, "recall": 0.9973, "QPS": 1615.5, "QPS_std": 0.5, "gpu_bytes": 1792, "build_s": 39.5, "rmm_pool": true}
+cagra failed {'graph_degree': 64, 'itopk': 1024, 'algo': 'single_cta'} RAFT failure at file=/__w/cuvs/cuvs/cpp/src/neighbors/detail/cagra/search_single_cta.cuh line=122 function=void cuvs::neighbors::cagra::detail::single
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 64, "itopk": 1024, "algo": "multi_cta"}, "recall": 0.9975, "QPS": 1616.1, "QPS_std": 0.3, "gpu_bytes": 1792, "build_s": 39.5, "rmm_pool": true}
+{"ds": "arxivL", "engine": "CAGRA", "cfg": {"graph_degree": 64, "itopk": 1024, "algo": "multi_kernel"}, "recall": 0.997, "QPS": 588.3, "QPS_std": 2.3, "gpu_bytes": 1792, "build_s": 39.5, "rmm_pool": true}
+[ 16682][08:03:38:566553][info  ] Using streaming construction: dataset size (6.43 GB) exceeds comfortable GPU memory limit
+{"ds": "arxivL", "engine": "IVF-RaBitQ", "cfg": {"bits": 4, "n_lists": 4096, "n_probes": 32, "mode": "QUANT4"}, "recall": 0.8463, "QPS": 24517.0, "QPS_std": 338.9, "gpu_bytes": 396.0, "build_s": 76.5, "rmm_pool": true}
+{"ds": "arxivL", "engine": "IVF-RaBitQ", "cfg": {"bits": 4, "n_lists": 4096, "n_probes": 64, "mode": "QUANT4"}, "recall": 0.8826, "QPS": 23984.0, "QPS_std": 51.0, "gpu_bytes": 396.0, "build_s": 76.5, "rmm_pool": true}
+{"ds": "arxivL", "engine": "IVF-RaBitQ", "cfg": {"bits": 4, "n_lists": 4096, "n_probes": 128, "mode": "QUANT4"}, "recall": 0.9119, "QPS": 19422.0, "QPS_std": 51.1, "gpu_bytes": 396.0, "build_s": 76.5, "rmm_pool": true}
+{"ds": "arxivL", "engine": "IVF-RaBitQ", "cfg": {"bits": 4, "n_lists": 4096, "n_probes": 256, "mode": "QUANT4"}, "recall": 0.933, "QPS": 14086.3, "QPS_std": 68.0, "gpu_bytes": 396.0, "build_s": 76.5, "rmm_pool": true}
+{"ds": "arxivL", "engine": "IVF-RaBitQ", "cfg": {"bits": 4, "n_lists": 4096, "n_probes": 512, "mode": "QUANT4"}, "recall": 0.9479, "QPS": 8779.2, "QPS_std": 14.6, "gpu_bytes": 396.0, "build_s": 76.5, "rmm_pool": true}
+{"ds": "arxivL", "engine": "IVF-RaBitQ", "cfg": {"bits": 4, "n_lists": 4096, "n_probes": 1024, "mode": "QUANT4"}, "recall": 0.9574, "QPS": 5334.2, "QPS_std": 8.4, "gpu_bytes": 396.0, "build_s": 76.5, "rmm_pool": true}
+{"ds": "arxivL", "engine": "IVF-RaBitQ", "cfg": {"bits": 4, "n_lists": 4096, "n_probes": 2048, "mode": "QUANT4"}, "recall": 0.9621, "QPS": 3069.9, "QPS_std": 1.7, "gpu_bytes": 396.0, "build_s": 76.5, "rmm_pool": true}
+[ 16682][08:05:02:057955][info  ] Using streaming construction: dataset size (6.43 GB) exceeds comfortable GPU memory limit
+{"ds": "arxivL", "engine": "IVF-RaBitQ", "cfg": {"bits": 5, "n_lists": 4096, "n_probes": 32, "mode": "QUANT4"}, "recall": 0.854, "QPS": 19686.8, "QPS_std": 32.5, "gpu_bytes": 492.0, "build_s": 68.2, "rmm_pool": true}
+{"ds": "arxivL", "engine": "IVF-RaBitQ", "cfg": {"bits": 5, "n_lists": 4096, "n_probes": 64, "mode": "QUANT4"}, "recall": 0.8922, "QPS": 21529.1, "QPS_std": 75.0, "gpu_bytes": 492.0, "build_s": 68.2, "rmm_pool": true}
+{"ds": "arxivL", "engine": "IVF-RaBitQ", "cfg": {"bits": 5, "n_lists": 4096, "n_probes": 128, "mode": "QUANT4"}, "recall": 0.9227, "QPS": 18752.8, "QPS_std": 58.2, "gpu_bytes": 492.0, "build_s": 68.2, "rmm_pool": true}
+{"ds": "arxivL", "engine": "IVF-RaBitQ", "cfg": {"bits": 5, "n_lists": 4096, "n_probes": 256, "mode": "QUANT4"}, "recall": 0.9467, "QPS": 14120.7, "QPS_std": 36.3, "gpu_bytes": 492.0, "build_s": 68.2, "rmm_pool": true}
+{"ds": "arxivL", "engine": "IVF-RaBitQ", "cfg": {"bits": 5, "n_lists": 4096, "n_probes": 512, "mode": "QUANT4"}, "recall": 0.9643, "QPS": 8862.0, "QPS_std": 24.8, "gpu_bytes": 492.0, "build_s": 68.2, "rmm_pool": true}
+{"ds": "arxivL", "engine": "IVF-RaBitQ", "cfg": {"bits": 5, "n_lists": 4096, "n_probes": 1024, "mode": "QUANT4"}, "recall": 0.9751, "QPS": 5347.4, "QPS_std": 1.4, "gpu_bytes": 492.0, "build_s": 68.2, "rmm_pool": true}
+{"ds": "arxivL", "engine": "IVF-RaBitQ", "cfg": {"bits": 5, "n_lists": 4096, "n_probes": 2048, "mode": "QUANT4"}, "recall": 0.9804, "QPS": 3050.0, "QPS_std": 3.7, "gpu_bytes": 492.0, "build_s": 68.2, "rmm_pool": true}
+[ 16682][08:06:17:154309][info  ] Using streaming construction: dataset size (6.43 GB) exceeds comfortable GPU memory limit
+{"ds": "arxivL", "engine": "IVF-RaBitQ", "cfg": {"bits": 7, "n_lists": 4096, "n_probes": 32, "mode": "QUANT8"}, "recall": 0.8589, "QPS": 6952.5, "QPS_std": 14.8, "gpu_bytes": 684.0, "build_s": 68.0, "rmm_pool": true}
+{"ds": "arxivL", "engine": "IVF-RaBitQ", "cfg": {"bits": 7, "n_lists": 4096, "n_probes": 64, "mode": "QUANT8"}, "recall": 0.8975, "QPS": 9051.7, "QPS_std": 24.4, "gpu_bytes": 684.0, "build_s": 68.0, "rmm_pool": true}
+{"ds": "arxivL", "engine": "IVF-RaBitQ", "cfg": {"bits": 7, "n_lists": 4096, "n_probes": 128, "mode": "QUANT8"}, "recall": 0.9309, "QPS": 8966.7, "QPS_std": 12.5, "gpu_bytes": 684.0, "build_s": 68.0, "rmm_pool": true}
+{"ds": "arxivL", "engine": "IVF-RaBitQ", "cfg": {"bits": 7, "n_lists": 4096, "n_probes": 256, "mode": "QUANT8"}, "recall": 0.9563, "QPS": 7799.7, "QPS_std": 10.8, "gpu_bytes": 684.0, "build_s": 68.0, "rmm_pool": true}
+{"ds": "arxivL", "engine": "IVF-RaBitQ", "cfg": {"bits": 7, "n_lists": 4096, "n_probes": 512, "mode": "QUANT8"}, "recall": 0.9744, "QPS": 5494.5, "QPS_std": 2.8, "gpu_bytes": 684.0, "build_s": 68.0, "rmm_pool": true}
+{"ds": "arxivL", "engine": "IVF-RaBitQ", "cfg": {"bits": 7, "n_lists": 4096, "n_probes": 1024, "mode": "QUANT8"}, "recall": 0.9862, "QPS": 3407.6, "QPS_std": 2.3, "gpu_bytes": 684.0, "build_s": 68.0, "rmm_pool": true}
+{"ds": "arxivL", "engine": "IVF-RaBitQ", "cfg": {"bits": 7, "n_lists": 4096, "n_probes": 2048, "mode": "QUANT8"}, "recall": 0.9928, "QPS": 1919.9, "QPS_std": 0.8, "gpu_bytes": 684.0, "build_s": 68.0, "rmm_pool": true}
+[ 16682][08:07:37:154588][info  ] Using streaming construction: dataset size (6.43 GB) exceeds comfortable GPU memory limit
+{"ds": "arxivL", "engine": "IVF-RaBitQ", "cfg": {"bits": 9, "n_lists": 4096, "n_probes": 32, "mode": "QUANT8"}, "recall": 0.8605, "QPS": 6624.8, "QPS_std": 31.7, "gpu_bytes": 876.0, "build_s": 68.0, "rmm_pool": true}
+{"ds": "arxivL", "engine": "IVF-RaBitQ", "cfg": {"bits": 9, "n_lists": 4096, "n_probes": 64, "mode": "QUANT8"}, "recall": 0.9024, "QPS": 8485.1, "QPS_std": 7.0, "gpu_bytes": 876.0, "build_s": 68.0, "rmm_pool": true}
+{"ds": "arxivL", "engine": "IVF-RaBitQ", "cfg": {"bits": 9, "n_lists": 4096, "n_probes": 128, "mode": "QUANT8"}, "recall": 0.936, "QPS": 9108.3, "QPS_std": 23.4, "gpu_bytes": 876.0, "build_s": 68.0, "rmm_pool": true}
+{"ds": "arxivL", "engine": "IVF-RaBitQ", "cfg": {"bits": 9, "n_lists": 4096, "n_probes": 256, "mode": "QUANT8"}, "recall": 0.9615, "QPS": 8211.3, "QPS_std": 17.3, "gpu_bytes": 876.0, "build_s": 68.0, "rmm_pool": true}
+{"ds": "arxivL", "engine": "IVF-RaBitQ", "cfg": {"bits": 9, "n_lists": 4096, "n_probes": 512, "mode": "QUANT8"}, "recall": 0.9803, "QPS": 5944.7, "QPS_std": 5.3, "gpu_bytes": 876.0, "build_s": 68.0, "rmm_pool": true}
+{"ds": "arxivL", "engine": "IVF-RaBitQ", "cfg": {"bits": 9, "n_lists": 4096, "n_probes": 1024, "mode": "QUANT8"}, "recall": 0.9904, "QPS": 3670.7, "QPS_std": 4.0, "gpu_bytes": 876.0, "build_s": 68.0, "rmm_pool": true}
+{"ds": "arxivL", "engine": "IVF-RaBitQ", "cfg": {"bits": 9, "n_lists": 4096, "n_probes": 2048, "mode": "QUANT8"}, "recall": 0.9958, "QPS": 2024.1, "QPS_std": 0.9, "gpu_bytes": 876.0, "build_s": 68.0, "rmm_pool": true}
+DONE

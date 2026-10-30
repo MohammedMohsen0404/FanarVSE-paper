@@ -1,0 +1,128 @@
+[
+ {
+  "K": 200,
+  "nprobe": 32,
+  "batch": 1,
+  "recall@10": 0.9887,
+  "latency_ms_p50": 3.422,
+  "latency_ms_p99": 4.074,
+  "QPS_sync": 290.0
+ },
+ {
+  "K": 200,
+  "nprobe": 32,
+  "batch": 4,
+  "recall@10": 0.9885,
+  "latency_ms_p50": 5.342,
+  "latency_ms_p99": 14.593,
+  "QPS_sync": 700.6
+ },
+ {
+  "K": 200,
+  "nprobe": 32,
+  "batch": 16,
+  "recall@10": 0.9884,
+  "latency_ms_p50": 6.773,
+  "latency_ms_p99": 298.529,
+  "QPS_sync": 1098.5
+ },
+ {
+  "K": 200,
+  "nprobe": 32,
+  "batch": 64,
+  "recall@10": 0.9847,
+  "latency_ms_p50": 14.593,
+  "latency_ms_p99": 17.112,
+  "QPS_sync": 4328.8
+ },
+ {
+  "K": 200,
+  "nprobe": 32,
+  "batch": 100,
+  "recall@10": 0.9846,
+  "latency_ms_p50": 20.129,
+  "latency_ms_p99": 23.265,
+  "QPS_sync": 4929.0
+ },
+ {
+  "K": 200,
+  "nprobe": 32,
+  "batch": 250,
+  "recall@10": 0.9846,
+  "latency_ms_p50": 43.86,
+  "latency_ms_p99": 46.159,
+  "QPS_sync": 5687.9
+ },
+ {
+  "K": 200,
+  "nprobe": 32,
+  "batch": 500,
+  "recall@10": 0.9846,
+  "latency_ms_p50": 84.765,
+  "latency_ms_p99": 88.265,
+  "QPS_sync": 5884.1
+ },
+ {
+  "K": 400,
+  "nprobe": 32,
+  "batch": 1,
+  "recall@10": 0.9913,
+  "latency_ms_p50": 3.568,
+  "latency_ms_p99": 10.827,
+  "QPS_sync": 260.7
+ },
+ {
+  "K": 400,
+  "nprobe": 32,
+  "batch": 4,
+  "recall@10": 0.992,
+  "latency_ms_p50": 5.527,
+  "latency_ms_p99": 6.495,
+  "QPS_sync": 728.2
+ },
+ {
+  "K": 400,
+  "nprobe": 32,
+  "batch": 16,
+  "recall@10": 0.9929,
+  "latency_ms_p50": 7.775,
+  "latency_ms_p99": 34.386,
+  "QPS_sync": 1796.4
+ },
+ {
+  "K": 400,
+  "nprobe": 32,
+  "batch": 64,
+  "recall@10": 0.9922,
+  "latency_ms_p50": 17.58,
+  "latency_ms_p99": 18.939,
+  "QPS_sync": 3639.7
+ },
+ {
+  "K": 400,
+  "nprobe": 32,
+  "batch": 100,
+  "recall@10": 0.9922,
+  "latency_ms_p50": 24.609,
+  "latency_ms_p99": 26.8,
+  "QPS_sync": 4050.3
+ },
+ {
+  "K": 400,
+  "nprobe": 32,
+  "batch": 250,
+  "recall@10": 0.9922,
+  "latency_ms_p50": 55.992,
+  "latency_ms_p99": 57.906,
+  "QPS_sync": 4475.0
+ },
+ {
+  "K": 400,
+  "nprobe": 32,
+  "batch": 500,
+  "recall@10": 0.9922,
+  "latency_ms_p50": 108.559,
+  "latency_ms_p99": 110.268,
+  "QPS_sync": 4621.0
+ }
+]

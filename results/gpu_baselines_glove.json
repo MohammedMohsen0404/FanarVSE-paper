@@ -1,0 +1,145 @@
+[
+ {
+  "ds": "glove",
+  "N": 1183514,
+  "engine": "FAISS-GPU Flat fp32",
+  "param": null,
+  "batch": 2000,
+  "recall@10": 1.0,
+  "QPS": 9002.6,
+  "index_bytes_per_vec": 400,
+  "build_s": 0
+ },
+ {
+  "ds": "glove",
+  "N": 1183514,
+  "engine": "FAISS-GPU Flat fp16",
+  "param": null,
+  "batch": 2000,
+  "recall@10": 0.9995,
+  "QPS": 5284.0,
+  "index_bytes_per_vec": 200,
+  "build_s": 0.14
+ },
+ {
+  "ds": "glove",
+  "N": 1183514,
+  "engine": "FAISS-GPU IVF-Flat",
+  "param": 16,
+  "batch": 2000,
+  "recall@10": 0.7827,
+  "QPS": 36204.3,
+  "index_bytes_per_vec": 408,
+  "build_s": 2.09
+ },
+ {
+  "ds": "glove",
+  "N": 1183514,
+  "engine": "FAISS-GPU IVF-Flat",
+  "param": 32,
+  "batch": 2000,
+  "recall@10": 0.8469,
+  "QPS": 19007.0,
+  "index_bytes_per_vec": 408,
+  "build_s": 2.09
+ },
+ {
+  "ds": "glove",
+  "N": 1183514,
+  "engine": "FAISS-GPU IVF-Flat",
+  "param": 64,
+  "batch": 2000,
+  "recall@10": 0.8965,
+  "QPS": 9912.1,
+  "index_bytes_per_vec": 408,
+  "build_s": 2.09
+ },
+ {
+  "ds": "glove",
+  "N": 1183514,
+  "engine": "FAISS-GPU IVF-Flat",
+  "param": 128,
+  "batch": 2000,
+  "recall@10": 0.9357,
+  "QPS": 5134.4,
+  "index_bytes_per_vec": 408,
+  "build_s": 2.09
+ },
+ {
+  "ds": "glove",
+  "N": 1183514,
+  "engine": "FAISS-GPU IVF-PQ M=20",
+  "param": 32,
+  "batch": 2000,
+  "recall@10": 0.4701,
+  "QPS": 63850.0,
+  "index_bytes_per_vec": 28,
+  "build_s": 8.85
+ },
+ {
+  "ds": "glove",
+  "N": 1183514,
+  "engine": "FAISS-GPU IVF-PQ M=20",
+  "param": 64,
+  "batch": 2000,
+  "recall@10": 0.4804,
+  "QPS": 33991.7,
+  "index_bytes_per_vec": 28,
+  "build_s": 8.85
+ },
+ {
+  "ds": "glove",
+  "N": 1183514,
+  "engine": "FAISS-GPU IVF-PQ M=20",
+  "param": 128,
+  "batch": 2000,
+  "recall@10": 0.4863,
+  "QPS": 17795.7,
+  "index_bytes_per_vec": 28,
+  "build_s": 8.85
+ },
+ {
+  "ds": "glove",
+  "N": 1183514,
+  "engine": "FAISS-GPU IVF-PQ M=20 +rerank40",
+  "param": 64,
+  "batch": 2000,
+  "recall@10": 0.7619,
+  "QPS": 24960.4,
+  "index_bytes_per_vec": 28,
+  "build_s": 8.85
+ },
+ {
+  "ds": "glove",
+  "N": 1183514,
+  "engine": "FAISS-GPU IVF-PQ M=20 +rerank40",
+  "param": 128,
+  "batch": 2000,
+  "recall@10": 0.7791,
+  "QPS": 15731.1,
+  "index_bytes_per_vec": 28,
+  "build_s": 8.85
+ },
+ {
+  "ds": "glove",
+  "N": 1183514,
+  "engine": "FAISS-GPU IVF-PQ M=20 +rerank100",
+  "param": 64,
+  "batch": 2000,
+  "recall@10": 0.8518,
+  "QPS": 18215.2,
+  "index_bytes_per_vec": 28,
+  "build_s": 8.85
+ },
+ {
+  "ds": "glove",
+  "N": 1183514,
+  "engine": "FAISS-GPU IVF-PQ M=20 +rerank100",
+  "param": 128,
+  "batch": 2000,
+  "recall@10": 0.8778,
+  "QPS": 13648.8,
+  "index_bytes_per_vec": 28,
+  "build_s": 8.85
+ }
+]

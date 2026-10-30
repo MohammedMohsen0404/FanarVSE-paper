@@ -1,0 +1,106 @@
+{"engine": "FAISS-GPU flat fp16", "k": 10, "recall": 1.0, "QPS": 1257.9, "QPS_std": 466.0}
+{"engine": "FAISS-GPU flat fp16", "k": 100, "recall": 1.0, "QPS": 1567.8, "QPS_std": 2.7}
+  return _core.array(a, dtype, copy, order, blocking=blocking)
+[ 12400][08:56:27:531379][info  ] CAGRA graph build: reducing IVF-PQ search max_internal_batch_size from 131072 -> 52428 to fit the workspace
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 256, "k": 10, "batch": 1, "algo": "auto", "rmm_pool": true, "recall": 0.9815, "QPS": 1510.3, "QPS_std": 62.9, "latency_ms": 0.662}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 256, "k": 10, "batch": 1, "algo": "single_cta", "rmm_pool": true, "recall": 0.9735, "QPS": 365.4, "QPS_std": 1.7, "latency_ms": 2.737}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 256, "k": 10, "batch": 1, "algo": "multi_cta", "rmm_pool": true, "recall": 0.981, "QPS": 1552.2, "QPS_std": 77.8, "latency_ms": 0.644}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 256, "k": 10, "batch": 1, "algo": "multi_kernel", "rmm_pool": true, "recall": 0.9735, "QPS": 54.4, "QPS_std": 0.6, "latency_ms": 18.37}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 256, "k": 10, "batch": 16, "algo": "auto", "rmm_pool": true, "recall": 0.9862, "QPS": 5484.4, "QPS_std": 141.0, "latency_ms": 2.917}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 256, "k": 10, "batch": 16, "algo": "single_cta", "rmm_pool": true, "recall": 0.9823, "QPS": 5093.9, "QPS_std": 32.1, "latency_ms": 3.141}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 256, "k": 10, "batch": 16, "algo": "multi_cta", "rmm_pool": true, "recall": 0.986, "QPS": 5595.2, "QPS_std": 99.2, "latency_ms": 2.86}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 256, "k": 10, "batch": 16, "algo": "multi_kernel", "rmm_pool": true, "recall": 0.9823, "QPS": 768.0, "QPS_std": 2.5, "latency_ms": 20.833}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 256, "k": 10, "batch": 100, "algo": "auto", "rmm_pool": true, "recall": 0.9831, "QPS": 7633.3, "QPS_std": 24.3, "latency_ms": 13.101}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 256, "k": 10, "batch": 100, "algo": "single_cta", "rmm_pool": true, "recall": 0.9831, "QPS": 7628.9, "QPS_std": 22.5, "latency_ms": 13.108}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 256, "k": 10, "batch": 100, "algo": "multi_cta", "rmm_pool": true, "recall": 0.9867, "QPS": 6343.5, "QPS_std": 5.2, "latency_ms": 15.764}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 256, "k": 10, "batch": 100, "algo": "multi_kernel", "rmm_pool": true, "recall": 0.9831, "QPS": 2289.0, "QPS_std": 30.8, "latency_ms": 43.687}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 256, "k": 10, "batch": 500, "algo": "auto", "rmm_pool": true, "recall": 0.9831, "QPS": 7841.8, "QPS_std": 14.2, "latency_ms": 63.761}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 256, "k": 10, "batch": 500, "algo": "single_cta", "rmm_pool": true, "recall": 0.9831, "QPS": 7820.5, "QPS_std": 5.9, "latency_ms": 63.934}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 256, "k": 10, "batch": 500, "algo": "multi_cta", "rmm_pool": true, "recall": 0.9876, "QPS": 6515.3, "QPS_std": 11.9, "latency_ms": 76.743}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 256, "k": 10, "batch": 500, "algo": "multi_kernel", "rmm_pool": true, "recall": 0.9831, "QPS": 3320.6, "QPS_std": 22.4, "latency_ms": 150.576}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 512, "k": 10, "batch": 1, "algo": "auto", "rmm_pool": true, "recall": 0.9895, "QPS": 1292.5, "QPS_std": 13.2, "latency_ms": 0.774}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 512, "k": 10, "batch": 1, "algo": "single_cta", "rmm_pool": true, "recall": 0.9835, "QPS": 171.1, "QPS_std": 0.6, "latency_ms": 5.845}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 512, "k": 10, "batch": 1, "algo": "multi_cta", "rmm_pool": true, "recall": 0.9895, "QPS": 1283.1, "QPS_std": 18.9, "latency_ms": 0.779}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 512, "k": 10, "batch": 1, "algo": "multi_kernel", "rmm_pool": true, "recall": 0.9835, "QPS": 26.1, "QPS_std": 0.3, "latency_ms": 38.311}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 512, "k": 10, "batch": 16, "algo": "auto", "rmm_pool": true, "recall": 0.9929, "QPS": 2760.1, "QPS_std": 60.0, "latency_ms": 5.797}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 512, "k": 10, "batch": 16, "algo": "single_cta", "rmm_pool": true, "recall": 0.9888, "QPS": 2082.9, "QPS_std": 15.8, "latency_ms": 7.682}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 512, "k": 10, "batch": 16, "algo": "multi_cta", "rmm_pool": true, "recall": 0.9929, "QPS": 2826.9, "QPS_std": 21.3, "latency_ms": 5.66}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 512, "k": 10, "batch": 16, "algo": "multi_kernel", "rmm_pool": true, "recall": 0.9888, "QPS": 340.7, "QPS_std": 10.1, "latency_ms": 46.965}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 512, "k": 10, "batch": 100, "algo": "auto", "rmm_pool": true, "recall": 0.9902, "QPS": 3271.0, "QPS_std": 9.6, "latency_ms": 30.572}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 512, "k": 10, "batch": 100, "algo": "single_cta", "rmm_pool": true, "recall": 0.9902, "QPS": 3277.6, "QPS_std": 3.9, "latency_ms": 30.51}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 512, "k": 10, "batch": 100, "algo": "multi_cta", "rmm_pool": true, "recall": 0.9928, "QPS": 3291.8, "QPS_std": 1.5, "latency_ms": 30.379}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 512, "k": 10, "batch": 100, "algo": "multi_kernel", "rmm_pool": true, "recall": 0.9902, "QPS": 1051.0, "QPS_std": 6.2, "latency_ms": 95.146}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 256, "k": 100, "batch": 500, "algo": "auto", "rmm_pool": true, "recall": 0.975, "QPS": 6939.9, "QPS_std": 10.5, "latency_ms": 72.047}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 256, "k": 100, "batch": 500, "algo": "single_cta", "rmm_pool": true, "recall": 0.975, "QPS": 6923.5, "QPS_std": 1.0, "latency_ms": 72.218}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 256, "k": 100, "batch": 500, "algo": "multi_cta", "rmm_pool": true, "recall": 0.9765, "QPS": 6488.3, "QPS_std": 6.6, "latency_ms": 77.062}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 256, "k": 100, "batch": 500, "algo": "multi_kernel", "rmm_pool": true, "recall": 0.975, "QPS": 3341.3, "QPS_std": 72.4, "latency_ms": 149.642}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 512, "k": 100, "batch": 500, "algo": "auto", "rmm_pool": true, "recall": 0.9875, "QPS": 1468.9, "QPS_std": 0.4, "latency_ms": 340.395}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 512, "k": 100, "batch": 500, "algo": "single_cta", "rmm_pool": true, "recall": 0.9875, "QPS": 1467.2, "QPS_std": 5.1, "latency_ms": 340.784}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 512, "k": 100, "batch": 500, "algo": "multi_cta", "rmm_pool": true, "recall": 0.9898, "QPS": 3360.6, "QPS_std": 4.1, "latency_ms": 148.785}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 512, "k": 100, "batch": 500, "algo": "multi_kernel", "rmm_pool": true, "recall": 0.9875, "QPS": 1471.8, "QPS_std": 14.0, "latency_ms": 339.721}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 1024, "k": 100, "batch": 500, "algo": "auto", "rmm_pool": true, "recall": 0.9956, "QPS": 1733.8, "QPS_std": 1.2, "latency_ms": 288.389}
+{"itopk": 1024, "k": 100, "batch": 500, "algo": "single_cta", "error": "RAFT failure at file=/__w/cuvs/cuvs/cpp/src/neighbors/detail/cagra/search_single_cta.cuh line=122 function=void cuvs::neighbors::cagra::detail::single"}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 1024, "k": 100, "batch": 500, "algo": "multi_cta", "rmm_pool": true, "recall": 0.9956, "QPS": 1733.2, "QPS_std": 0.7, "latency_ms": 288.477}
+{"engine": "CAGRA", "graph_degree": 32, "itopk": 1024, "k": 100, "batch": 500, "algo": "multi_kernel", "rmm_pool": true, "recall": 0.9938, "QPS": 656.0, "QPS_std": 6.7, "latency_ms": 762.195}
+DONE
+[ 12449][08:59:07:561680][info  ] Using streaming construction: dataset size (5.71 GB) exceeds comfortable GPU memory limit
+bits 9 n_lists 1024 build 24.7 s, GPU B/vec 1880.7
+{"engine": "IVF-RaBitQ", "bits": 9, "n_lists": 1024, "n_probes": 64, "mode": "QUANT8", "recall": 0.9774, "QPS": 8568.8, "QPS_std": 63.6, "gpu_bytes_measured": 1880.7, "gpu_bytes_payload": 1728.0, "build_s": 24.7}
+{"engine": "IVF-RaBitQ", "bits": 9, "n_lists": 1024, "n_probes": 96, "mode": "QUANT8", "recall": 0.9858, "QPS": 6829.6, "QPS_std": 41.9, "gpu_bytes_measured": 1880.7, "gpu_bytes_payload": 1728.0, "build_s": 24.7}
+{"engine": "IVF-RaBitQ", "bits": 9, "n_lists": 1024, "n_probes": 128, "mode": "QUANT8", "recall": 0.9897, "QPS": 5668.0, "QPS_std": 17.3, "gpu_bytes_measured": 1880.7, "gpu_bytes_payload": 1728.0, "build_s": 24.7}
+{"engine": "IVF-RaBitQ", "bits": 9, "n_lists": 1024, "n_probes": 160, "mode": "QUANT8", "recall": 0.9924, "QPS": 4867.6, "QPS_std": 22.8, "gpu_bytes_measured": 1880.7, "gpu_bytes_payload": 1728.0, "build_s": 24.7}
+{"engine": "IVF-RaBitQ", "bits": 9, "n_lists": 1024, "n_probes": 192, "mode": "QUANT8", "recall": 0.9944, "QPS": 4262.6, "QPS_std": 8.6, "gpu_bytes_measured": 1880.7, "gpu_bytes_payload": 1728.0, "build_s": 24.7}
+{"engine": "IVF-RaBitQ", "bits": 9, "n_lists": 1024, "n_probes": 256, "mode": "QUANT8", "recall": 0.996, "QPS": 3433.9, "QPS_std": 8.9, "gpu_bytes_measured": 1880.7, "gpu_bytes_payload": 1728.0, "build_s": 24.7}
+{"engine": "IVF-RaBitQ", "bits": 9, "n_lists": 1024, "n_probes": 384, "mode": "QUANT8", "recall": 0.9974, "QPS": 2461.7, "QPS_std": 2.2, "gpu_bytes_measured": 1880.7, "gpu_bytes_payload": 1728.0, "build_s": 24.7}
+[ 12493][08:59:47:326244][info  ] Using streaming construction: dataset size (5.71 GB) exceeds comfortable GPU memory limit
+bits 8 n_lists 1024 build 13.6 s, GPU B/vec 1681.1
+{"engine": "IVF-RaBitQ", "bits": 8, "n_lists": 1024, "n_probes": 64, "mode": "QUANT8", "recall": 0.9778, "QPS": 7410.3, "QPS_std": 13.8, "gpu_bytes_measured": 1681.1, "gpu_bytes_payload": 1536.0, "build_s": 13.6}
+{"engine": "IVF-RaBitQ", "bits": 8, "n_lists": 1024, "n_probes": 96, "mode": "QUANT8", "recall": 0.9854, "QPS": 6363.9, "QPS_std": 8.6, "gpu_bytes_measured": 1681.1, "gpu_bytes_payload": 1536.0, "build_s": 13.6}
+{"engine": "IVF-RaBitQ", "bits": 8, "n_lists": 1024, "n_probes": 128, "mode": "QUANT8", "recall": 0.9895, "QPS": 5539.2, "QPS_std": 14.8, "gpu_bytes_measured": 1681.1, "gpu_bytes_payload": 1536.0, "build_s": 13.6}
+{"engine": "IVF-RaBitQ", "bits": 8, "n_lists": 1024, "n_probes": 160, "mode": "QUANT8", "recall": 0.9922, "QPS": 4852.3, "QPS_std": 13.3, "gpu_bytes_measured": 1681.1, "gpu_bytes_payload": 1536.0, "build_s": 13.6}
+{"engine": "IVF-RaBitQ", "bits": 8, "n_lists": 1024, "n_probes": 192, "mode": "QUANT8", "recall": 0.9936, "QPS": 4351.0, "QPS_std": 4.4, "gpu_bytes_measured": 1681.1, "gpu_bytes_payload": 1536.0, "build_s": 13.6}
+{"engine": "IVF-RaBitQ", "bits": 8, "n_lists": 1024, "n_probes": 256, "mode": "QUANT8", "recall": 0.9953, "QPS": 3604.2, "QPS_std": 4.4, "gpu_bytes_measured": 1681.1, "gpu_bytes_payload": 1536.0, "build_s": 13.6}
+{"engine": "IVF-RaBitQ", "bits": 8, "n_lists": 1024, "n_probes": 384, "mode": "QUANT8", "recall": 0.9965, "QPS": 2638.5, "QPS_std": 4.7, "gpu_bytes_measured": 1681.1, "gpu_bytes_payload": 1536.0, "build_s": 13.6}
+[ 12537][09:00:16:651541][info  ] Using streaming construction: dataset size (5.71 GB) exceeds comfortable GPU memory limit
+bits 7 n_lists 1024 build 21.1 s, GPU B/vec 1489.9
+{"engine": "IVF-RaBitQ", "bits": 7, "n_lists": 1024, "n_probes": 64, "mode": "QUANT8", "recall": 0.9764, "QPS": 6236.5, "QPS_std": 24.9, "gpu_bytes_measured": 1489.9, "gpu_bytes_payload": 1344.0, "build_s": 21.1}
+{"engine": "IVF-RaBitQ", "bits": 7, "n_lists": 1024, "n_probes": 96, "mode": "QUANT8", "recall": 0.9839, "QPS": 5312.1, "QPS_std": 22.2, "gpu_bytes_measured": 1489.9, "gpu_bytes_payload": 1344.0, "build_s": 21.1}
+{"engine": "IVF-RaBitQ", "bits": 7, "n_lists": 1024, "n_probes": 128, "mode": "QUANT8", "recall": 0.9878, "QPS": 4595.2, "QPS_std": 2.8, "gpu_bytes_measured": 1489.9, "gpu_bytes_payload": 1344.0, "build_s": 21.1}
+{"engine": "IVF-RaBitQ", "bits": 7, "n_lists": 1024, "n_probes": 160, "mode": "QUANT8", "recall": 0.9901, "QPS": 4064.8, "QPS_std": 17.0, "gpu_bytes_measured": 1489.9, "gpu_bytes_payload": 1344.0, "build_s": 21.1}
+{"engine": "IVF-RaBitQ", "bits": 7, "n_lists": 1024, "n_probes": 192, "mode": "QUANT8", "recall": 0.9913, "QPS": 3634.8, "QPS_std": 11.1, "gpu_bytes_measured": 1489.9, "gpu_bytes_payload": 1344.0, "build_s": 21.1}
+{"engine": "IVF-RaBitQ", "bits": 7, "n_lists": 1024, "n_probes": 256, "mode": "QUANT8", "recall": 0.9931, "QPS": 3007.8, "QPS_std": 4.7, "gpu_bytes_measured": 1489.9, "gpu_bytes_payload": 1344.0, "build_s": 21.1}
+{"engine": "IVF-RaBitQ", "bits": 7, "n_lists": 1024, "n_probes": 384, "mode": "QUANT8", "recall": 0.9945, "QPS": 2219.9, "QPS_std": 4.0, "gpu_bytes_measured": 1489.9, "gpu_bytes_payload": 1344.0, "build_s": 21.1}
+[ 12580][09:00:54:700730][info  ] Using streaming construction: dataset size (5.71 GB) exceeds comfortable GPU memory limit
+bits 9 n_lists 4096 build 81.8 s, GPU B/vec 1851.3
+{"engine": "IVF-RaBitQ", "bits": 9, "n_lists": 4096, "n_probes": 128, "mode": "QUANT8", "recall": 0.9714, "QPS": 14969.6, "QPS_std": 118.8, "gpu_bytes_measured": 1851.3, "gpu_bytes_payload": 1728.0, "build_s": 81.8}
+{"engine": "IVF-RaBitQ", "bits": 9, "n_lists": 4096, "n_probes": 256, "mode": "QUANT8", "recall": 0.9863, "QPS": 9928.1, "QPS_std": 48.7, "gpu_bytes_measured": 1851.3, "gpu_bytes_payload": 1728.0, "build_s": 81.8}
+{"engine": "IVF-RaBitQ", "bits": 9, "n_lists": 4096, "n_probes": 384, "mode": "QUANT8", "recall": 0.9922, "QPS": 7466.3, "QPS_std": 35.0, "gpu_bytes_measured": 1851.3, "gpu_bytes_payload": 1728.0, "build_s": 81.8}
+{"engine": "IVF-RaBitQ", "bits": 9, "n_lists": 4096, "n_probes": 512, "mode": "QUANT8", "recall": 0.9945, "QPS": 6129.1, "QPS_std": 26.3, "gpu_bytes_measured": 1851.3, "gpu_bytes_payload": 1728.0, "build_s": 81.8}
+{"engine": "IVF-RaBitQ", "bits": 9, "n_lists": 4096, "n_probes": 768, "mode": "QUANT8", "recall": 0.9965, "QPS": 4578.4, "QPS_std": 20.4, "gpu_bytes_measured": 1851.3, "gpu_bytes_payload": 1728.0, "build_s": 81.8}
+{"engine": "IVF-RaBitQ", "bits": 9, "n_lists": 4096, "n_probes": 1024, "mode": "QUANT8", "recall": 0.9976, "QPS": 3659.5, "QPS_std": 3.5, "gpu_bytes_measured": 1851.3, "gpu_bytes_payload": 1728.0, "build_s": 81.8}
+[ 12623][09:02:26:294805][info  ] Using streaming construction: dataset size (5.71 GB) exceeds comfortable GPU memory limit
+bits 8 n_lists 4096 build 81.9 s, GPU B/vec 1660.1
+{"engine": "IVF-RaBitQ", "bits": 8, "n_lists": 4096, "n_probes": 128, "mode": "QUANT8", "recall": 0.9708, "QPS": 11304.6, "QPS_std": 31.5, "gpu_bytes_measured": 1660.1, "gpu_bytes_payload": 1536.0, "build_s": 81.9}
+{"engine": "IVF-RaBitQ", "bits": 8, "n_lists": 4096, "n_probes": 256, "mode": "QUANT8", "recall": 0.9856, "QPS": 8112.3, "QPS_std": 49.3, "gpu_bytes_measured": 1660.1, "gpu_bytes_payload": 1536.0, "build_s": 81.9}
+{"engine": "IVF-RaBitQ", "bits": 8, "n_lists": 4096, "n_probes": 384, "mode": "QUANT8", "recall": 0.9909, "QPS": 6407.8, "QPS_std": 15.5, "gpu_bytes_measured": 1660.1, "gpu_bytes_payload": 1536.0, "build_s": 81.9}
+{"engine": "IVF-RaBitQ", "bits": 8, "n_lists": 4096, "n_probes": 512, "mode": "QUANT8", "recall": 0.9932, "QPS": 5412.7, "QPS_std": 22.4, "gpu_bytes_measured": 1660.1, "gpu_bytes_payload": 1536.0, "build_s": 81.9}
+{"engine": "IVF-RaBitQ", "bits": 8, "n_lists": 4096, "n_probes": 768, "mode": "QUANT8", "recall": 0.9955, "QPS": 4094.1, "QPS_std": 9.6, "gpu_bytes_measured": 1660.1, "gpu_bytes_payload": 1536.0, "build_s": 81.9}
+{"engine": "IVF-RaBitQ", "bits": 8, "n_lists": 4096, "n_probes": 1024, "mode": "QUANT8", "recall": 0.9962, "QPS": 3344.7, "QPS_std": 4.9, "gpu_bytes_measured": 1660.1, "gpu_bytes_payload": 1536.0, "build_s": 81.9}
+[ 12668][09:03:59:947612][info  ] Using streaming construction: dataset size (5.71 GB) exceeds comfortable GPU memory limit
+bits 7 n_lists 4096 build 83.0 s, GPU B/vec 1468.8
+{"engine": "IVF-RaBitQ", "bits": 7, "n_lists": 4096, "n_probes": 128, "mode": "QUANT8", "recall": 0.9694, "QPS": 11381.9, "QPS_std": 126.7, "gpu_bytes_measured": 1468.8, "gpu_bytes_payload": 1344.0, "build_s": 83.0}
+{"engine": "IVF-RaBitQ", "bits": 7, "n_lists": 4096, "n_probes": 256, "mode": "QUANT8", "recall": 0.9839, "QPS": 8038.7, "QPS_std": 23.2, "gpu_bytes_measured": 1468.8, "gpu_bytes_payload": 1344.0, "build_s": 83.0}
+{"engine": "IVF-RaBitQ", "bits": 7, "n_lists": 4096, "n_probes": 384, "mode": "QUANT8", "recall": 0.9891, "QPS": 6339.9, "QPS_std": 7.4, "gpu_bytes_measured": 1468.8, "gpu_bytes_payload": 1344.0, "build_s": 83.0}
+{"engine": "IVF-RaBitQ", "bits": 7, "n_lists": 4096, "n_probes": 512, "mode": "QUANT8", "recall": 0.9915, "QPS": 5348.6, "QPS_std": 37.8, "gpu_bytes_measured": 1468.8, "gpu_bytes_payload": 1344.0, "build_s": 83.0}
+{"engine": "IVF-RaBitQ", "bits": 7, "n_lists": 4096, "n_probes": 768, "mode": "QUANT8", "recall": 0.9929, "QPS": 4072.1, "QPS_std": 5.1, "gpu_bytes_measured": 1468.8, "gpu_bytes_payload": 1344.0, "build_s": 83.0}
+{"engine": "IVF-RaBitQ", "bits": 7, "n_lists": 4096, "n_probes": 1024, "mode": "QUANT8", "recall": 0.9939, "QPS": 3322.0, "QPS_std": 2.1, "gpu_bytes_measured": 1468.8, "gpu_bytes_payload": 1344.0, "build_s": 83.0}
+[ 12715][09:05:34:277631][info  ] Using streaming construction: dataset size (5.71 GB) exceeds comfortable GPU memory limit
+bits 6 n_lists 1024 build 21.3 s, GPU B/vec 1304.9
+{"engine": "IVF-RaBitQ", "bits": 6, "n_lists": 1024, "n_probes": 64, "mode": "QUANT8", "recall": 0.9719, "QPS": 6657.3, "QPS_std": 31.8, "gpu_bytes_measured": 1304.9, "gpu_bytes_payload": 1152.0, "build_s": 21.3}
+{"engine": "IVF-RaBitQ", "bits": 6, "n_lists": 1024, "n_probes": 96, "mode": "QUANT8", "recall": 0.98, "QPS": 5639.0, "QPS_std": 16.4, "gpu_bytes_measured": 1304.9, "gpu_bytes_payload": 1152.0, "build_s": 21.3}
+{"engine": "IVF-RaBitQ", "bits": 6, "n_lists": 1024, "n_probes": 128, "mode": "QUANT8", "recall": 0.9838, "QPS": 4852.1, "QPS_std": 7.8, "gpu_bytes_measured": 1304.9, "gpu_bytes_payload": 1152.0, "build_s": 21.3}
+{"engine": "IVF-RaBitQ", "bits": 6, "n_lists": 1024, "n_probes": 160, "mode": "QUANT8", "recall": 0.9862, "QPS": 4250.1, "QPS_std": 19.3, "gpu_bytes_measured": 1304.9, "gpu_bytes_payload": 1152.0, "build_s": 21.3}
+{"engine": "IVF-RaBitQ", "bits": 6, "n_lists": 1024, "n_probes": 192, "mode": "QUANT8", "recall": 0.9882, "QPS": 3805.1, "QPS_std": 7.5, "gpu_bytes_measured": 1304.9, "gpu_bytes_payload": 1152.0, "build_s": 21.3}
+{"engine": "IVF-RaBitQ", "bits": 6, "n_lists": 1024, "n_probes": 256, "mode": "QUANT8", "recall": 0.9897, "QPS": 3137.5, "QPS_std": 2.7, "gpu_bytes_measured": 1304.9, "gpu_bytes_payload": 1152.0, "build_s": 21.3}
+{"engine": "IVF-RaBitQ", "bits": 6, "n_lists": 1024, "n_probes": 384, "mode": "QUANT8", "recall": 0.991, "QPS": 2309.0, "QPS_std": 7.0, "gpu_bytes_measured": 1304.9, "gpu_bytes_payload": 1152.0, "build_s": 21.3}
+ALLDONE

@@ -1,0 +1,117 @@
+[
+ {
+  "engine": "FAISS-GPU Flat fp16",
+  "N": 998000,
+  "recall@10": 0.9998,
+  "QPS": 604.6,
+  "gpu_bytes": 3072
+ },
+ {
+  "engine": "CAGRA deg32 (fp16 dataset)",
+  "N": 998000,
+  "itopk": 32,
+  "recall@10": 0.8898,
+  "QPS": 7456.0,
+  "gpu_bytes": 3200,
+  "build_s": 27.8
+ },
+ {
+  "engine": "CAGRA deg32 (fp16 dataset)",
+  "N": 998000,
+  "itopk": 64,
+  "recall@10": 0.9449,
+  "QPS": 26799.1,
+  "gpu_bytes": 3200,
+  "build_s": 27.8
+ },
+ {
+  "engine": "CAGRA deg32 (fp16 dataset)",
+  "N": 998000,
+  "itopk": 128,
+  "recall@10": 0.9712,
+  "QPS": 14878.1,
+  "gpu_bytes": 3200,
+  "build_s": 27.8
+ },
+ {
+  "engine": "CAGRA deg32 (fp16 dataset)",
+  "N": 998000,
+  "itopk": 256,
+  "recall@10": 0.9839,
+  "QPS": 7888.5,
+  "gpu_bytes": 3200,
+  "build_s": 27.8
+ },
+ {
+  "engine": "cuVS IVF-PQ pq96 +refine40",
+  "N": 998000,
+  "nprobe": 64,
+  "recall@10": 0.8273,
+  "QPS": 1923.8,
+  "gpu_bytes": 104,
+  "build_s": 37.4
+ },
+ {
+  "engine": "cuVS IVF-PQ pq96 +refine100",
+  "N": 998000,
+  "nprobe": 64,
+  "recall@10": 0.8795,
+  "QPS": 2207.6,
+  "gpu_bytes": 104,
+  "build_s": 37.4
+ },
+ {
+  "engine": "cuVS IVF-PQ pq96 +refine40",
+  "N": 998000,
+  "nprobe": 128,
+  "recall@10": 0.8296,
+  "QPS": 1802.1,
+  "gpu_bytes": 104,
+  "build_s": 37.4
+ },
+ {
+  "engine": "cuVS IVF-PQ pq96 +refine100",
+  "N": 998000,
+  "nprobe": 128,
+  "recall@10": 0.8841,
+  "QPS": 1464.6,
+  "gpu_bytes": 104,
+  "build_s": 37.4
+ },
+ {
+  "engine": "cuVS IVF-PQ pq48 +refine40",
+  "N": 998000,
+  "nprobe": 64,
+  "recall@10": 0.7053,
+  "QPS": 3535.8,
+  "gpu_bytes": 56,
+  "build_s": 35.0
+ },
+ {
+  "engine": "cuVS IVF-PQ pq48 +refine100",
+  "N": 998000,
+  "nprobe": 64,
+  "recall@10": 0.7745,
+  "QPS": 2604.5,
+  "gpu_bytes": 56,
+  "build_s": 35.0
+ },
+ {
+  "engine": "cuVS IVF-PQ pq48 +refine40",
+  "N": 998000,
+  "nprobe": 128,
+  "recall@10": 0.7054,
+  "QPS": 2143.7,
+  "gpu_bytes": 56,
+  "build_s": 35.0
+ },
+ {
+  "engine": "cuVS IVF-PQ pq48 +refine100",
+  "N": 998000,
+  "nprobe": 128,
+  "recall@10": 0.7749,
+  "QPS": 1706.8,
+  "gpu_bytes": 56,
+  "build_s": 35.0
+ }
+]

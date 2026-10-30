@@ -1,0 +1,26 @@
+[
+ {
+  "N": 998000,
+  "stage1_full_scan_ms_per_500q": 85.37,
+  "stage1_QPS_full_scan": 5856.7,
+  "stage1_gpu_MB": 36.2
+ },
+ {
+  "N": 1996000,
+  "stage1_full_scan_ms_per_500q": 143.98,
+  "stage1_QPS_full_scan": 3472.8,
+  "stage1_gpu_MB": 72.3
+ },
+ {
+  "N": 4990000,
+  "stage1_full_scan_ms_per_500q": 327.68,
+  "stage1_QPS_full_scan": 1525.9,
+  "stage1_gpu_MB": 180.8
+ },
+ {
+  "N": 9980000,
+  "stage1_full_scan_ms_per_500q": 633.23,
+  "stage1_QPS_full_scan": 789.6,
+  "stage1_gpu_MB": 361.7
+ }
+]

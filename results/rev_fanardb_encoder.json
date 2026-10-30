@@ -1,0 +1,74 @@
+[
+ {
+  "encoder": "viterbi (full, 1024 states)",
+  "chunk": 1024,
+  "vec_per_s": 7865.7,
+  "c_stage1": 0.85017,
+  "mse": 0.27785,
+  "proj_min_10M": 21.2,
+  "proj_min_100M": 211.9
+ },
+ {
+  "encoder": "viterbi (full, 1024 states)",
+  "chunk": 2048,
+  "vec_per_s": 8395.6,
+  "c_stage1": 0.85017,
+  "mse": 0.27785,
+  "proj_min_10M": 19.9,
+  "proj_min_100M": 198.5
+ },
+ {
+  "encoder": "viterbi (full, 1024 states)",
+  "chunk": 4096,
+  "vec_per_s": 8524.2,
+  "c_stage1": 0.85017,
+  "mse": 0.27785,
+  "proj_min_10M": 19.6,
+  "proj_min_100M": 195.5
+ },
+ {
+  "encoder": "beam 1",
+  "chunk": 4096,
+  "vec_per_s": 52789.5,
+  "c_stage1": 0.44733,
+  "mse": 0.8747,
+  "proj_min_10M": 3.2,
+  "proj_min_100M": 31.6
+ },
+ {
+  "encoder": "beam 4",
+  "chunk": 4096,
+  "vec_per_s": 63457.2,
+  "c_stage1": 0.75174,
+  "mse": 0.43567,
+  "proj_min_10M": 2.6,
+  "proj_min_100M": 26.3
+ },
+ {
+  "encoder": "beam 16",
+  "chunk": 4096,
+  "vec_per_s": 48166.5,
+  "c_stage1": 0.82012,
+  "mse": 0.32803,
+  "proj_min_10M": 3.5,
+  "proj_min_100M": 34.6
+ },
+ {
+  "encoder": "beam 64",
+  "chunk": 4096,
+  "vec_per_s": 20789.0,
+  "c_stage1": 0.83961,
+  "mse": 0.29571,
+  "proj_min_10M": 8.0,
+  "proj_min_100M": 80.2
+ },
+ {
+  "encoder": "beam 256",
+  "chunk": 4096,
+  "vec_per_s": 5983.2,
+  "c_stage1": 0.84621,
+  "mse": 0.28456,
+  "proj_min_10M": 27.9,
+  "proj_min_100M": 278.6
+ }
+]

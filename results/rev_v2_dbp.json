@@ -1,0 +1,90 @@
+[
+ {
+  "ds": "dbp229k",
+  "dims": 384,
+  "kp": 40,
+  "batch": 500,
+  "workers": 4,
+  "gpu_bytes": 50,
+  "recall@10": 0.9531,
+  "QPS": 32426.4,
+  "QPS_std": 3148.9
+ },
+ {
+  "ds": "dbp229k",
+  "dims": 384,
+  "kp": 40,
+  "batch": 500,
+  "workers": 8,
+  "gpu_bytes": 50,
+  "recall@10": 0.9531,
+  "QPS": 35639.4,
+  "QPS_std": 228.4
+ },
+ {
+  "ds": "dbp229k",
+  "dims": 384,
+  "kp": 100,
+  "batch": 500,
+  "workers": 4,
+  "gpu_bytes": 50,
+  "recall@10": 0.9913,
+  "QPS": 12498.1,
+  "QPS_std": 1461.7
+ },
+ {
+  "ds": "dbp229k",
+  "dims": 384,
+  "kp": 100,
+  "batch": 500,
+  "workers": 8,
+  "gpu_bytes": 50,
+  "recall@10": 0.9913,
+  "QPS": 12836.6,
+  "QPS_std": 1894.6
+ },
+ {
+  "ds": "dbp229k",
+  "dims": 768,
+  "kp": 40,
+  "batch": 500,
+  "workers": 4,
+  "gpu_bytes": 98,
+  "recall@10": 0.9884,
+  "QPS": 21347.8,
+  "QPS_std": 288.8
+ },
+ {
+  "ds": "dbp229k",
+  "dims": 768,
+  "kp": 40,
+  "batch": 500,
+  "workers": 8,
+  "gpu_bytes": 98,
+  "recall@10": 0.9884,
+  "QPS": 21066.7,
+  "QPS_std": 406.6
+ },
+ {
+  "ds": "dbp229k",
+  "dims": 768,
+  "kp": 100,
+  "batch": 500,
+  "workers": 4,
+  "gpu_bytes": 98,
+  "recall@10": 0.9992,
+  "QPS": 13584.2,
+  "QPS_std": 491.6
+ },
+ {
+  "ds": "dbp229k",
+  "dims": 768,
+  "kp": 100,
+  "batch": 500,
+  "workers": 8,
+  "gpu_bytes": 98,
+  "recall@10": 0.9992,
+  "QPS": 12248.9,
+  "QPS_std": 888.6
+ }
+]

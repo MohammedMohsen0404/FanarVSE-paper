@@ -1,0 +1,386 @@
+[
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 128,
+  "algo": "single_cta",
+  "batch": 500,
+  "recall@10": 0.9701,
+  "QPS": 13839
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 128,
+  "algo": "single_cta",
+  "batch": 2000,
+  "recall@10": 0.9701,
+  "QPS": 14936
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 128,
+  "algo": "single_cta",
+  "batch": 4000,
+  "recall@10": 0.9701,
+  "QPS": 15078
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 128,
+  "algo": "multi_cta",
+  "batch": 500,
+  "recall@10": 0.9747,
+  "QPS": 12616
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 128,
+  "algo": "multi_cta",
+  "batch": 2000,
+  "recall@10": 0.9737,
+  "QPS": 12850
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 128,
+  "algo": "multi_cta",
+  "batch": 4000,
+  "recall@10": 0.9747,
+  "QPS": 12987
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 128,
+  "algo": "multi_kernel",
+  "batch": 500,
+  "recall@10": 0.9701,
+  "QPS": 6521
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 128,
+  "algo": "multi_kernel",
+  "batch": 2000,
+  "recall@10": 0.9701,
+  "QPS": 7515
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 128,
+  "algo": "multi_kernel",
+  "batch": 4000,
+  "recall@10": 0.9701,
+  "QPS": 8073
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 128,
+  "algo": "auto",
+  "batch": 500,
+  "recall@10": 0.9701,
+  "QPS": 14356
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 128,
+  "algo": "auto",
+  "batch": 2000,
+  "recall@10": 0.9701,
+  "QPS": 14949
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 128,
+  "algo": "auto",
+  "batch": 4000,
+  "recall@10": 0.9701,
+  "QPS": 15048
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 256,
+  "algo": "single_cta",
+  "batch": 500,
+  "recall@10": 0.9834,
+  "QPS": 7836
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 256,
+  "algo": "single_cta",
+  "batch": 2000,
+  "recall@10": 0.9834,
+  "QPS": 7855
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 256,
+  "algo": "single_cta",
+  "batch": 4000,
+  "recall@10": 0.9834,
+  "QPS": 7948
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 256,
+  "algo": "multi_cta",
+  "batch": 500,
+  "recall@10": 0.9872,
+  "QPS": 6539
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 256,
+  "algo": "multi_cta",
+  "batch": 2000,
+  "recall@10": 0.9862,
+  "QPS": 6597
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 256,
+  "algo": "multi_cta",
+  "batch": 4000,
+  "recall@10": 0.9874,
+  "QPS": 6634
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 256,
+  "algo": "multi_kernel",
+  "batch": 500,
+  "recall@10": 0.9834,
+  "QPS": 3399
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 256,
+  "algo": "multi_kernel",
+  "batch": 2000,
+  "recall@10": 0.9834,
+  "QPS": 3794
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 256,
+  "algo": "multi_kernel",
+  "batch": 4000,
+  "recall@10": 0.9834,
+  "QPS": 3991
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 256,
+  "algo": "auto",
+  "batch": 500,
+  "recall@10": 0.9834,
+  "QPS": 7837
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 256,
+  "algo": "auto",
+  "batch": 2000,
+  "recall@10": 0.9834,
+  "QPS": 7903
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 256,
+  "algo": "auto",
+  "batch": 4000,
+  "recall@10": 0.9834,
+  "QPS": 7936
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 384,
+  "algo": "single_cta",
+  "batch": 500,
+  "recall@10": 0.9878,
+  "QPS": 4733
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 384,
+  "algo": "single_cta",
+  "batch": 2000,
+  "recall@10": 0.9878,
+  "QPS": 4933
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 384,
+  "algo": "single_cta",
+  "batch": 4000,
+  "recall@10": 0.9878,
+  "QPS": 4953
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 384,
+  "algo": "multi_cta",
+  "batch": 500,
+  "recall@10": 0.9909,
+  "QPS": 4430
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 384,
+  "algo": "multi_cta",
+  "batch": 2000,
+  "recall@10": 0.9904,
+  "QPS": 4459
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 384,
+  "algo": "multi_cta",
+  "batch": 4000,
+  "recall@10": 0.9912,
+  "QPS": 4480
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 384,
+  "algo": "multi_kernel",
+  "batch": 500,
+  "recall@10": 0.9878,
+  "QPS": 2056
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 384,
+  "algo": "multi_kernel",
+  "batch": 2000,
+  "recall@10": 0.9878,
+  "QPS": 2419
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 384,
+  "algo": "multi_kernel",
+  "batch": 4000,
+  "recall@10": 0.9878,
+  "QPS": 2497
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 384,
+  "algo": "auto",
+  "batch": 500,
+  "recall@10": 0.9878,
+  "QPS": 4729
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 384,
+  "algo": "auto",
+  "batch": 2000,
+  "recall@10": 0.9878,
+  "QPS": 4938
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 384,
+  "algo": "auto",
+  "batch": 4000,
+  "recall@10": 0.9878,
+  "QPS": 4952
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 512,
+  "algo": "single_cta",
+  "batch": 500,
+  "recall@10": 0.9903,
+  "QPS": 3766
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 512,
+  "algo": "single_cta",
+  "batch": 2000,
+  "recall@10": 0.9903,
+  "QPS": 3842
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 512,
+  "algo": "single_cta",
+  "batch": 4000,
+  "recall@10": 0.9903,
+  "QPS": 3860
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 512,
+  "algo": "multi_cta",
+  "batch": 500,
+  "recall@10": 0.993,
+  "QPS": 3368
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 512,
+  "algo": "multi_cta",
+  "batch": 2000,
+  "recall@10": 0.9928,
+  "QPS": 3390
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 512,
+  "algo": "multi_cta",
+  "batch": 4000,
+  "recall@10": 0.9932,
+  "QPS": 3397
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 512,
+  "algo": "multi_kernel",
+  "batch": 500,
+  "recall@10": 0.9903,
+  "QPS": 1540
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 512,
+  "algo": "multi_kernel",
+  "batch": 2000,
+  "recall@10": 0.9903,
+  "QPS": 1794
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 512,
+  "algo": "multi_kernel",
+  "batch": 4000,
+  "recall@10": 0.9903,
+  "QPS": 1869
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 512,
+  "algo": "auto",
+  "batch": 500,
+  "recall@10": 0.9903,
+  "QPS": 1484
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 512,
+  "algo": "auto",
+  "batch": 2000,
+  "recall@10": 0.9903,
+  "QPS": 1477
+ },
+ {
+  "engine": "CAGRA deg32 fp16",
+  "itopk": 512,
+  "algo": "auto",
+  "batch": 4000,
+  "recall@10": 0.9903,
+  "QPS": 1475
+ }
+]

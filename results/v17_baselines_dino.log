@@ -1,0 +1,15 @@
+﻿[ 15621][04:16:26:732031][info  ] CAGRA graph build: reducing IVF-PQ search max_internal_batch_size from 131072 -> 52428 to fit the workspace
+{"ds": "dino", "engine": "CAGRA", "cfg": {"graph_degree": 32, "itopk": 32}, "recall": 0.9737, "QPS": 51275.8, "QPS_std": 921.1, "gpu_bytes": 3200, "build_s": 11.5}
+{"ds": "dino", "engine": "CAGRA", "cfg": {"graph_degree": 32, "itopk": 64}, "recall": 0.9871, "QPS": 30000.3, "QPS_std": 224.2, "gpu_bytes": 3200, "build_s": 11.5}
+{"ds": "dino", "engine": "CAGRA", "cfg": {"graph_degree": 32, "itopk": 128}, "recall": 0.9928, "QPS": 17761.0, "QPS_std": 111.3, "gpu_bytes": 3200, "build_s": 11.5}
+{"ds": "dino", "engine": "CAGRA", "cfg": {"graph_degree": 32, "itopk": 256}, "recall": 0.9944, "QPS": 10163.1, "QPS_std": 42.2, "gpu_bytes": 3200, "build_s": 11.5}
+{"ds": "dino", "engine": "CAGRA", "cfg": {"graph_degree": 32, "itopk": 512}, "recall": 0.9952, "QPS": 5022.0, "QPS_std": 8.6, "gpu_bytes": 3200, "build_s": 11.5}
+[ 15621][04:16:40:793318][info  ] CAGRA graph build: reducing IVF-PQ search max_internal_batch_size from 131072 -> 26214 to fit the workspace
+{"ds": "dino", "engine": "CAGRA", "cfg": {"graph_degree": 64, "itopk": 32}, "recall": 0.9864, "QPS": 25698.4, "QPS_std": 212.4, "gpu_bytes": 3328, "build_s": 12.3}
+{"ds": "dino", "engine": "CAGRA", "cfg": {"graph_degree": 64, "itopk": 64}, "recall": 0.9911, "QPS": 15037.7, "QPS_std": 4.7, "gpu_bytes": 3328, "build_s": 12.3}
+{"ds": "dino", "engine": "CAGRA", "cfg": {"graph_degree": 64, "itopk": 128}, "recall": 0.9925, "QPS": 8809.1, "QPS_std": 27.2, "gpu_bytes": 3328, "build_s": 12.3}
+{"ds": "dino", "engine": "CAGRA", "cfg": {"graph_degree": 64, "itopk": 256}, "recall": 0.9948, "QPS": 5095.9, "QPS_std": 6.7, "gpu_bytes": 3328, "build_s": 12.3}
+{"ds": "dino", "engine": "CAGRA", "cfg": {"graph_degree": 64, "itopk": 512}, "recall": 0.9953, "QPS": 2725.4, "QPS_std": 1.9, "gpu_bytes": 3328, "build_s": 12.3}
+[ 15621][04:16:55:236066][info  ] Using streaming construction: dataset size (1.47 GB) exceeds comfortable GPU memory limit
+terminate called after throwing an instance of 'cuda::__4::cuda_error'
+  what():  /__w/cuvs/cuvs/python/libcuvs/build/py3-none-linux_x86_64/_deps/cccl-src/lib/cmake/libcudacxx/../../../libcudacxx/include/cuda/__driver/driver_api.h:171 out of memory(2): Failed to allocate host memory

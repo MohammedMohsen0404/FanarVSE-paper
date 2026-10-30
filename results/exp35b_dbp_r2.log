@@ -1,0 +1,12 @@
+{"ds": "dbp", "N": 50000, "rate": 2, "codebook": "scalar-Lloyd-2", "mean_cos": 0.9387, "nprobe": 8, "R@10": 0.8225, "R@10_rerank20": 0.8649, "R@10_rerank40": 0.8651}
+{"ds": "dbp", "N": 50000, "rate": 2, "codebook": "scalar-Lloyd-2", "mean_cos": 0.9387, "nprobe": 16, "R@10": 0.8605, "R@10_rerank20": 0.9141, "R@10_rerank40": 0.9143}
+{"ds": "dbp", "N": 50000, "rate": 2, "codebook": "scalar-Lloyd-2", "mean_cos": 0.9387, "nprobe": 32, "R@10": 0.8864, "R@10_rerank20": 0.9484, "R@10_rerank40": 0.9487}
+{"ds": "dbp", "N": 50000, "rate": 2, "codebook": "scalar-Lloyd-2", "mean_cos": 0.9387, "nprobe": 64, "R@10": 0.9048, "R@10_rerank20": 0.9737, "R@10_rerank40": 0.974}
+{"ds": "dbp", "N": 50000, "rate": 2, "codebook": "D4-256", "mean_cos": 0.9453, "nprobe": 8, "R@10": 0.8249, "R@10_rerank20": 0.865, "R@10_rerank40": 0.8651}
+{"ds": "dbp", "N": 50000, "rate": 2, "codebook": "D4-256", "mean_cos": 0.9453, "nprobe": 16, "R@10": 0.8641, "R@10_rerank20": 0.9141, "R@10_rerank40": 0.9143}
+{"ds": "dbp", "N": 50000, "rate": 2, "codebook": "D4-256", "mean_cos": 0.9453, "nprobe": 32, "R@10": 0.8889, "R@10_rerank20": 0.9485, "R@10_rerank40": 0.9487}
+{"ds": "dbp", "N": 50000, "rate": 2, "codebook": "D4-256", "mean_cos": 0.9453, "nprobe": 64, "R@10": 0.9073, "R@10_rerank20": 0.9738, "R@10_rerank40": 0.974}
+{"ds": "dbp", "N": 50000, "rate": 2, "codebook": "E8x2", "mean_cos": 0.9449, "nprobe": 8, "R@10": 0.8252, "R@10_rerank20": 0.865, "R@10_rerank40": 0.8651}
+{"ds": "dbp", "N": 50000, "rate": 2, "codebook": "E8x2", "mean_cos": 0.9449, "nprobe": 16, "R@10": 0.8648, "R@10_rerank20": 0.9142, "R@10_rerank40": 0.9143}
+{"ds": "dbp", "N": 50000, "rate": 2, "codebook": "E8x2", "mean_cos": 0.9449, "nprobe": 32, "R@10": 0.8909, "R@10_rerank20": 0.9486, "R@10_rerank40": 0.9487}
+{"ds": "dbp", "N": 50000, "rate": 2, "codebook": "E8x2", "mean_cos": 0.9449, "nprobe": 64, "R@10": 0.9085, "R@10_rerank20": 0.9734, "R@10_rerank40": 0.974}

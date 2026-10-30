@@ -1,0 +1,15 @@
+﻿{"engine": "FAISS-GPU Flat fp16", "recall@10": 0.9998, "QPS": 1597.9, "QPS_std": 8.2, "gpu_bytes": 3072}
+  return _core.array(a, dtype, copy, order, blocking=blocking)
+[   426][03:21:08:619782][info  ] CAGRA graph build: reducing IVF-PQ search max_internal_batch_size from 131072 -> 52428 to fit the workspace
+{"engine": "CAGRA deg32 (fp16 dataset)", "itopk": 64, "recall@10": 0.9475, "QPS": 26697.3, "QPS_std": 128.0, "gpu_bytes": 3200, "build_s": 27.2}
+{"engine": "CAGRA deg32 (fp16 dataset)", "itopk": 128, "recall@10": 0.9712, "QPS": 14827.2, "QPS_std": 35.3, "gpu_bytes": 3200, "build_s": 27.2}
+{"engine": "CAGRA deg32 (fp16 dataset)", "itopk": 256, "recall@10": 0.9837, "QPS": 7897.6, "QPS_std": 5.8, "gpu_bytes": 3200, "build_s": 27.2}
+{"engine": "CAGRA deg32 (fp16 dataset)", "itopk": 512, "recall@10": 0.9908, "QPS": 3841.3, "QPS_std": 3.6, "gpu_bytes": 3200, "build_s": 27.2}
+{"engine": "CAGRA deg32 (fp16 dataset)", "itopk": 1024, "recall@10": 0.9969, "QPS": 1731.5, "QPS_std": 0.7, "gpu_bytes": 3200, "build_s": 27.2}
+[   426][03:21:48:879674][info  ] CAGRA graph build: reducing IVF-PQ search max_internal_batch_size from 131072 -> 26214 to fit the workspace
+{"engine": "CAGRA deg64 (fp16 dataset)", "itopk": 256, "recall@10": 0.9896, "QPS": 3923.1, "QPS_std": 3.3, "gpu_bytes": 3328, "build_s": 32.7}
+{"engine": "CAGRA deg64 (fp16 dataset)", "itopk": 512, "recall@10": 0.9946, "QPS": 2014.2, "QPS_std": 0.3, "gpu_bytes": 3328, "build_s": 32.7}
+{"engine": "CAGRA deg64 (fp16 dataset)", "itopk": 1024, "recall@10": 0.9978, "QPS": 889.7, "QPS_std": 0.4, "gpu_bytes": 3328, "build_s": 32.7}
+{"engine": "cuVS IVF-PQ pq96 +refine100", "nprobe": 128, "recall@10": 0.8859, "QPS": 1458.1, "QPS_std": 4.8, "gpu_bytes": 104, "build_s": 164.6}
+{"engine": "cuVS IVF-PQ pq96 +refine200", "nprobe": 256, "recall@10": 0.9177, "QPS": 651.4, "QPS_std": 2.1, "gpu_bytes": 104, "build_s": 164.6}
+DONE

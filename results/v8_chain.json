@@ -1,0 +1,74 @@
+[
+ {
+  "step": "paper engine: 64 cells, 4-bit stage 2 (820 B)",
+  "nprobe": 32,
+  "K": 400,
+  "recall@10": 0.9922,
+  "QPS": 5339.0,
+  "QPS_std": 18.0,
+  "reads": 5.85
+ },
+ {
+  "step": "+ tiered stage 2 (552 B)",
+  "nprobe": 32,
+  "K": 400,
+  "recall@10": 0.9922,
+  "QPS": 6822.8,
+  "QPS_std": 63.6,
+  "reads": 6.61
+ },
+ {
+  "step": "+ 4,096 cells, one-launch work list, block-max selection",
+  "nprobe": 768,
+  "K": 400,
+  "recall@10": 0.9929,
+  "QPS": 8623.1,
+  "QPS_std": 41.8,
+  "reads": 6.61
+ },
+ {
+  "step": "+ threshold-and-emit selection",
+  "nprobe": 768,
+  "K": 400,
+  "recall@10": 0.9929,
+  "QPS": 9430.9,
+  "QPS_std": 316.2,
+  "reads": 6.61
+ },
+ {
+  "step": "+ decode-once kernel, adaptive first pass",
+  "nprobe": 768,
+  "K": 400,
+  "recall@10": 0.9929,
+  "QPS": 12182.0,
+  "QPS_std": 441.6,
+  "reads": 6.61
+ },
+ {
+  "step": "+ stage 3 on the GPU",
+  "nprobe": 768,
+  "K": 400,
+  "recall@10": 0.9929,
+  "QPS": 13399.7,
+  "QPS_std": 20.7,
+  "reads": 6.61
+ },
+ {
+  "step": "+ guess-and-verify threshold, fp16 queries, fused stage 2",
+  "nprobe": 768,
+  "K": 400,
+  "recall@10": 0.9929,
+  "QPS": 14891.5,
+  "QPS_std": 113.7,
+  "reads": 6.61
+ },
+ {
+  "step": "+ compact first pass, zero-copy stage 3",
+  "nprobe": 768,
+  "K": 400,
+  "recall@10": 0.9929,
+  "QPS": 16664.4,
+  "QPS_std": 48.0,
+  "reads": 6.61
+ }
+]

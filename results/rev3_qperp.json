@@ -1,0 +1,62 @@
+[
+ {
+  "sigma": "||q|| (engine)",
+  "fmin": 0.0,
+  "z": 2.0,
+  "recall@10": 0.9929,
+  "reads_mean": 6.61,
+  "reads_p99": 16.0,
+  "uncovered_query_share": 0.9955,
+  "std_Z": 0.914
+ },
+ {
+  "sigma": "plugin",
+  "fmin": 0.0,
+  "z": 2.0,
+  "recall@10": 0.9929,
+  "reads_mean": 5.56,
+  "reads_p99": 14.0,
+  "uncovered_query_share": 1.0,
+  "std_Z": 1.008
+ },
+ {
+  "sigma": "plugin",
+  "fmin": 0.25,
+  "z": 2.0,
+  "recall@10": 0.9929,
+  "reads_mean": 5.57,
+  "reads_p99": 14.0,
+  "uncovered_query_share": 1.0,
+  "std_Z": 1.008
+ },
+ {
+  "sigma": "||q|| (engine)",
+  "fmin": 0.0,
+  "z": 4.9,
+  "recall@10": 0.9929,
+  "reads_mean": 17.94,
+  "reads_p99": 41.00999999999999,
+  "uncovered_query_share": 0.0005,
+  "std_Z": 0.914
+ },
+ {
+  "sigma": "plugin",
+  "fmin": 0.0,
+  "z": 4.9,
+  "recall@10": 0.9929,
+  "reads_mean": 14.74,
+  "reads_p99": 35.0,
+  "uncovered_query_share": 0.0005,
+  "std_Z": 1.008
+ },
+ {
+  "sigma": "plugin",
+  "fmin": 0.25,
+  "z": 4.9,
+  "recall@10": 0.9929,
+  "reads_mean": 14.75,
+  "reads_p99": 35.0,
+  "uncovered_query_share": 0.0005,
+  "std_Z": 1.008
+ }
+]

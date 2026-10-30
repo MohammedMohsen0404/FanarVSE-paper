@@ -1,0 +1,56 @@
+[
+ {
+  "ds": "glove",
+  "kp": 10,
+  "batch": 500,
+  "gpu_bytes": 52,
+  "recall@10": 0.8207,
+  "QPS": 28106.9,
+  "QPS_std": 732.5
+ },
+ {
+  "ds": "glove",
+  "kp": 10,
+  "batch": 1000,
+  "gpu_bytes": 52,
+  "recall@10": 0.8207,
+  "QPS": 32791.2,
+  "QPS_std": 212.7
+ },
+ {
+  "ds": "glove",
+  "kp": 20,
+  "batch": 500,
+  "gpu_bytes": 52,
+  "recall@10": 0.9737,
+  "QPS": 28369.8,
+  "QPS_std": 78.9
+ },
+ {
+  "ds": "glove",
+  "kp": 20,
+  "batch": 1000,
+  "gpu_bytes": 52,
+  "recall@10": 0.9737,
+  "QPS": 28391.6,
+  "QPS_std": 236.5
+ },
+ {
+  "ds": "glove",
+  "kp": 50,
+  "batch": 500,
+  "gpu_bytes": 52,
+  "recall@10": 0.999,
+  "QPS": 20543.9,
+  "QPS_std": 46.2
+ },
+ {
+  "ds": "glove",
+  "kp": 50,
+  "batch": 1000,
+  "gpu_bytes": 52,
+  "recall@10": 0.999,
+  "QPS": 20432.4,
+  "QPS_std": 135.3
+ }
+]

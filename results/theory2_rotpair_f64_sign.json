@@ -1,0 +1,25 @@
+[
+ {
+  "D": 1536,
+  "codebook": "sign",
+  "rotations": 1000,
+  "pairs": 60,
+  "mean_Z_abs_max": 0.0588,
+  "frac_bias_p<0.01": 0.0,
+  "expected_frac": 0.01,
+  "std_per_pair_min": 0.9417,
+  "std_per_pair_max": 1.0314,
+  "std_se": 0.0224,
+  "frac_KS_law_p<0.01": 0.0,
+  "frac_KS_gauss_p<0.01": 0.0,
+  "fisher_p_bias": 0.985,
+  "fisher_p_KS_law": 0.952,
+  "fisher_p_KS_gauss": 0.953,
+  "top1_mean_Z": -0.0086,
+  "top1_std_Z": 0.9978,
+  "top10_mean_Z": 0.0087,
+  "top10_std_Z": 0.997,
+  "random_mean_Z": -0.0145,
+  "random_std_Z": 0.9898
+ }
+]

@@ -1,0 +1,1260 @@
+[
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 32,
+   "algo": "auto"
+  },
+  "recall": 0.9054,
+  "QPS": 83384.2,
+  "QPS_std": 1247.8,
+  "gpu_bytes": 1664,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 32,
+   "algo": "single_cta"
+  },
+  "recall": 0.9054,
+  "QPS": 81131.2,
+  "QPS_std": 2597.5,
+  "gpu_bytes": 1664,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 32,
+   "algo": "multi_cta"
+  },
+  "recall": 0.9009,
+  "QPS": 79788.8,
+  "QPS_std": 1033.0,
+  "gpu_bytes": 1664,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 32,
+   "algo": "multi_kernel"
+  },
+  "recall": 0.9054,
+  "QPS": 34240.1,
+  "QPS_std": 2096.5,
+  "gpu_bytes": 1664,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 64,
+   "algo": "auto"
+  },
+  "recall": 0.9577,
+  "QPS": 47418.4,
+  "QPS_std": 198.1,
+  "gpu_bytes": 1664,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 64,
+   "algo": "single_cta"
+  },
+  "recall": 0.9577,
+  "QPS": 48431.6,
+  "QPS_std": 505.6,
+  "gpu_bytes": 1664,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 64,
+   "algo": "multi_cta"
+  },
+  "recall": 0.9581,
+  "QPS": 42647.0,
+  "QPS_std": 333.7,
+  "gpu_bytes": 1664,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 64,
+   "algo": "multi_kernel"
+  },
+  "recall": 0.9577,
+  "QPS": 16522.7,
+  "QPS_std": 139.3,
+  "gpu_bytes": 1664,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 128,
+   "algo": "auto"
+  },
+  "recall": 0.9838,
+  "QPS": 24582.8,
+  "QPS_std": 130.3,
+  "gpu_bytes": 1664,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 128,
+   "algo": "single_cta"
+  },
+  "recall": 0.9838,
+  "QPS": 24646.1,
+  "QPS_std": 97.4,
+  "gpu_bytes": 1664,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 128,
+   "algo": "multi_cta"
+  },
+  "recall": 0.9844,
+  "QPS": 23379.3,
+  "QPS_std": 50.7,
+  "gpu_bytes": 1664,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 128,
+   "algo": "multi_kernel"
+  },
+  "recall": 0.9838,
+  "QPS": 8393.7,
+  "QPS_std": 73.2,
+  "gpu_bytes": 1664,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 256,
+   "algo": "auto"
+  },
+  "recall": 0.9944,
+  "QPS": 12973.4,
+  "QPS_std": 36.9,
+  "gpu_bytes": 1664,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 256,
+   "algo": "single_cta"
+  },
+  "recall": 0.9944,
+  "QPS": 12961.4,
+  "QPS_std": 16.9,
+  "gpu_bytes": 1664,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 256,
+   "algo": "multi_cta"
+  },
+  "recall": 0.9948,
+  "QPS": 12380.9,
+  "QPS_std": 19.7,
+  "gpu_bytes": 1664,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 256,
+   "algo": "multi_kernel"
+  },
+  "recall": 0.9944,
+  "QPS": 4029.3,
+  "QPS_std": 54.1,
+  "gpu_bytes": 1664,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 384,
+   "algo": "auto"
+  },
+  "recall": 0.997,
+  "QPS": 7656.7,
+  "QPS_std": 6.6,
+  "gpu_bytes": 1664,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 384,
+   "algo": "single_cta"
+  },
+  "recall": 0.997,
+  "QPS": 7693.1,
+  "QPS_std": 14.4,
+  "gpu_bytes": 1664,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 384,
+   "algo": "multi_cta"
+  },
+  "recall": 0.997,
+  "QPS": 8510.4,
+  "QPS_std": 3.4,
+  "gpu_bytes": 1664,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 384,
+   "algo": "multi_kernel"
+  },
+  "recall": 0.997,
+  "QPS": 2554.3,
+  "QPS_std": 19.1,
+  "gpu_bytes": 1664,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 512,
+   "algo": "auto"
+  },
+  "recall": 0.9979,
+  "QPS": 5967.5,
+  "QPS_std": 14.5,
+  "gpu_bytes": 1664,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 512,
+   "algo": "single_cta"
+  },
+  "recall": 0.9979,
+  "QPS": 5971.3,
+  "QPS_std": 14.8,
+  "gpu_bytes": 1664,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 512,
+   "algo": "multi_cta"
+  },
+  "recall": 0.9981,
+  "QPS": 6519.0,
+  "QPS_std": 10.7,
+  "gpu_bytes": 1664,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 512,
+   "algo": "multi_kernel"
+  },
+  "recall": 0.9979,
+  "QPS": 1883.7,
+  "QPS_std": 12.6,
+  "gpu_bytes": 1664,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 1024,
+   "algo": "auto"
+  },
+  "recall": 0.9989,
+  "QPS": 3402.7,
+  "QPS_std": 1.1,
+  "gpu_bytes": 1664,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 1024,
+   "algo": "multi_cta"
+  },
+  "recall": 0.9991,
+  "QPS": 3401.4,
+  "QPS_std": 0.7,
+  "gpu_bytes": 1664,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 32,
+   "itopk": 1024,
+   "algo": "multi_kernel"
+  },
+  "recall": 0.9989,
+  "QPS": 758.6,
+  "QPS_std": 6.9,
+  "gpu_bytes": 1664,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 32,
+   "algo": "auto"
+  },
+  "recall": 0.9507,
+  "QPS": 44675.8,
+  "QPS_std": 280.1,
+  "gpu_bytes": 1792,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 32,
+   "algo": "single_cta"
+  },
+  "recall": 0.9507,
+  "QPS": 45268.6,
+  "QPS_std": 513.2,
+  "gpu_bytes": 1792,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 32,
+   "algo": "multi_cta"
+  },
+  "recall": 0.952,
+  "QPS": 41343.0,
+  "QPS_std": 339.9,
+  "gpu_bytes": 1792,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 32,
+   "algo": "multi_kernel"
+  },
+  "recall": 0.9507,
+  "QPS": 23003.3,
+  "QPS_std": 825.1,
+  "gpu_bytes": 1792,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 64,
+   "algo": "auto"
+  },
+  "recall": 0.9823,
+  "QPS": 25136.0,
+  "QPS_std": 137.3,
+  "gpu_bytes": 1792,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 64,
+   "algo": "single_cta"
+  },
+  "recall": 0.9823,
+  "QPS": 24805.5,
+  "QPS_std": 170.0,
+  "gpu_bytes": 1792,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 64,
+   "algo": "multi_cta"
+  },
+  "recall": 0.9823,
+  "QPS": 22938.4,
+  "QPS_std": 276.3,
+  "gpu_bytes": 1792,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 64,
+   "algo": "multi_kernel"
+  },
+  "recall": 0.9823,
+  "QPS": 11415.4,
+  "QPS_std": 518.2,
+  "gpu_bytes": 1792,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 128,
+   "algo": "auto"
+  },
+  "recall": 0.9944,
+  "QPS": 12814.8,
+  "QPS_std": 27.2,
+  "gpu_bytes": 1792,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 128,
+   "algo": "single_cta"
+  },
+  "recall": 0.9944,
+  "QPS": 12781.4,
+  "QPS_std": 36.4,
+  "gpu_bytes": 1792,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 128,
+   "algo": "multi_cta"
+  },
+  "recall": 0.9944,
+  "QPS": 12366.2,
+  "QPS_std": 59.3,
+  "gpu_bytes": 1792,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 128,
+   "algo": "multi_kernel"
+  },
+  "recall": 0.9944,
+  "QPS": 5966.0,
+  "QPS_std": 136.9,
+  "gpu_bytes": 1792,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 256,
+   "algo": "auto"
+  },
+  "recall": 0.9979,
+  "QPS": 6747.9,
+  "QPS_std": 15.7,
+  "gpu_bytes": 1792,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 256,
+   "algo": "single_cta"
+  },
+  "recall": 0.9979,
+  "QPS": 6745.7,
+  "QPS_std": 10.2,
+  "gpu_bytes": 1792,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 256,
+   "algo": "multi_cta"
+  },
+  "recall": 0.9978,
+  "QPS": 6440.3,
+  "QPS_std": 16.2,
+  "gpu_bytes": 1792,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 256,
+   "algo": "multi_kernel"
+  },
+  "recall": 0.9979,
+  "QPS": 2948.1,
+  "QPS_std": 87.6,
+  "gpu_bytes": 1792,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 384,
+   "algo": "auto"
+  },
+  "recall": 0.9987,
+  "QPS": 4489.7,
+  "QPS_std": 9.4,
+  "gpu_bytes": 1792,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 384,
+   "algo": "single_cta"
+  },
+  "recall": 0.9987,
+  "QPS": 4492.5,
+  "QPS_std": 4.3,
+  "gpu_bytes": 1792,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 384,
+   "algo": "multi_cta"
+  },
+  "recall": 0.999,
+  "QPS": 4387.2,
+  "QPS_std": 4.3,
+  "gpu_bytes": 1792,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 384,
+   "algo": "multi_kernel"
+  },
+  "recall": 0.9987,
+  "QPS": 1820.7,
+  "QPS_std": 18.2,
+  "gpu_bytes": 1792,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 512,
+   "algo": "auto"
+  },
+  "recall": 0.999,
+  "QPS": 3394.1,
+  "QPS_std": 4.7,
+  "gpu_bytes": 1792,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 512,
+   "algo": "single_cta"
+  },
+  "recall": 0.999,
+  "QPS": 3388.2,
+  "QPS_std": 2.4,
+  "gpu_bytes": 1792,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 512,
+   "algo": "multi_cta"
+  },
+  "recall": 0.999,
+  "QPS": 3341.2,
+  "QPS_std": 3.6,
+  "gpu_bytes": 1792,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 512,
+   "algo": "multi_kernel"
+  },
+  "recall": 0.999,
+  "QPS": 1389.7,
+  "QPS_std": 16.8,
+  "gpu_bytes": 1792,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 1024,
+   "algo": "auto"
+  },
+  "recall": 0.9994,
+  "QPS": 1721.9,
+  "QPS_std": 0.5,
+  "gpu_bytes": 1792,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 1024,
+   "algo": "multi_cta"
+  },
+  "recall": 0.9994,
+  "QPS": 1722.4,
+  "QPS_std": 0.3,
+  "gpu_bytes": 1792,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "CAGRA",
+  "cfg": {
+   "graph_degree": 64,
+   "itopk": 1024,
+   "algo": "multi_kernel"
+  },
+  "recall": 0.9994,
+  "QPS": 604.5,
+  "QPS_std": 1.4,
+  "gpu_bytes": 1792,
+  "build_s": 2.3,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 4,
+   "n_lists": 512,
+   "n_probes": 8,
+   "mode": "QUANT4"
+  },
+  "recall": 0.7037,
+  "QPS": 112436.7,
+  "QPS_std": 1543.1,
+  "gpu_bytes": 396.0,
+  "build_s": 1.1,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 4,
+   "n_lists": 512,
+   "n_probes": 16,
+   "mode": "QUANT4"
+  },
+  "recall": 0.785,
+  "QPS": 84912.2,
+  "QPS_std": 2068.5,
+  "gpu_bytes": 396.0,
+  "build_s": 1.1,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 4,
+   "n_lists": 512,
+   "n_probes": 32,
+   "mode": "QUANT4"
+  },
+  "recall": 0.8487,
+  "QPS": 68032.1,
+  "QPS_std": 2663.6,
+  "gpu_bytes": 396.0,
+  "build_s": 1.1,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 4,
+   "n_lists": 512,
+   "n_probes": 64,
+   "mode": "QUANT4"
+  },
+  "recall": 0.9013,
+  "QPS": 48016.2,
+  "QPS_std": 1229.5,
+  "gpu_bytes": 396.0,
+  "build_s": 1.1,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 4,
+   "n_lists": 512,
+   "n_probes": 128,
+   "mode": "QUANT4"
+  },
+  "recall": 0.9384,
+  "QPS": 32513.2,
+  "QPS_std": 162.3,
+  "gpu_bytes": 396.0,
+  "build_s": 1.1,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 4,
+   "n_lists": 512,
+   "n_probes": 256,
+   "mode": "QUANT4"
+  },
+  "recall": 0.9556,
+  "QPS": 21437.2,
+  "QPS_std": 169.4,
+  "gpu_bytes": 396.0,
+  "build_s": 1.1,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 4,
+   "n_lists": 512,
+   "n_probes": 512,
+   "mode": "QUANT4"
+  },
+  "recall": 0.9607,
+  "QPS": 13914.5,
+  "QPS_std": 9.5,
+  "gpu_bytes": 396.0,
+  "build_s": 1.1,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 5,
+   "n_lists": 512,
+   "n_probes": 8,
+   "mode": "QUANT4"
+  },
+  "recall": 0.7082,
+  "QPS": 125491.9,
+  "QPS_std": 822.4,
+  "gpu_bytes": 492.0,
+  "build_s": 1.1,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 5,
+   "n_lists": 512,
+   "n_probes": 16,
+   "mode": "QUANT4"
+  },
+  "recall": 0.7923,
+  "QPS": 97933.2,
+  "QPS_std": 1958.5,
+  "gpu_bytes": 492.0,
+  "build_s": 1.1,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 5,
+   "n_lists": 512,
+   "n_probes": 32,
+   "mode": "QUANT4"
+  },
+  "recall": 0.8607,
+  "QPS": 78250.7,
+  "QPS_std": 2508.8,
+  "gpu_bytes": 492.0,
+  "build_s": 1.1,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 5,
+   "n_lists": 512,
+   "n_probes": 64,
+   "mode": "QUANT4"
+  },
+  "recall": 0.9137,
+  "QPS": 51164.8,
+  "QPS_std": 112.1,
+  "gpu_bytes": 492.0,
+  "build_s": 1.1,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 5,
+   "n_lists": 512,
+   "n_probes": 128,
+   "mode": "QUANT4"
+  },
+  "recall": 0.9527,
+  "QPS": 34151.7,
+  "QPS_std": 49.4,
+  "gpu_bytes": 492.0,
+  "build_s": 1.1,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 5,
+   "n_lists": 512,
+   "n_probes": 256,
+   "mode": "QUANT4"
+  },
+  "recall": 0.9727,
+  "QPS": 22178.6,
+  "QPS_std": 80.6,
+  "gpu_bytes": 492.0,
+  "build_s": 1.1,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 5,
+   "n_lists": 512,
+   "n_probes": 512,
+   "mode": "QUANT4"
+  },
+  "recall": 0.9782,
+  "QPS": 14081.4,
+  "QPS_std": 8.5,
+  "gpu_bytes": 492.0,
+  "build_s": 1.1,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 7,
+   "n_lists": 512,
+   "n_probes": 8,
+   "mode": "QUANT8"
+  },
+  "recall": 0.7083,
+  "QPS": 94523.0,
+  "QPS_std": 909.4,
+  "gpu_bytes": 684.0,
+  "build_s": 1.0,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 7,
+   "n_lists": 512,
+   "n_probes": 16,
+   "mode": "QUANT8"
+  },
+  "recall": 0.7938,
+  "QPS": 72329.6,
+  "QPS_std": 840.7,
+  "gpu_bytes": 684.0,
+  "build_s": 1.0,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 7,
+   "n_lists": 512,
+   "n_probes": 32,
+   "mode": "QUANT8"
+  },
+  "recall": 0.8625,
+  "QPS": 55529.8,
+  "QPS_std": 832.7,
+  "gpu_bytes": 684.0,
+  "build_s": 1.0,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 7,
+   "n_lists": 512,
+   "n_probes": 64,
+   "mode": "QUANT8"
+  },
+  "recall": 0.9214,
+  "QPS": 40376.7,
+  "QPS_std": 339.8,
+  "gpu_bytes": 684.0,
+  "build_s": 1.0,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 7,
+   "n_lists": 512,
+   "n_probes": 128,
+   "mode": "QUANT8"
+  },
+  "recall": 0.9654,
+  "QPS": 26818.6,
+  "QPS_std": 18.0,
+  "gpu_bytes": 684.0,
+  "build_s": 1.0,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 7,
+   "n_lists": 512,
+   "n_probes": 256,
+   "mode": "QUANT8"
+  },
+  "recall": 0.9874,
+  "QPS": 17196.1,
+  "QPS_std": 51.7,
+  "gpu_bytes": 684.0,
+  "build_s": 1.0,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 7,
+   "n_lists": 512,
+   "n_probes": 512,
+   "mode": "QUANT8"
+  },
+  "recall": 0.9938,
+  "QPS": 10897.5,
+  "QPS_std": 10.2,
+  "gpu_bytes": 684.0,
+  "build_s": 1.0,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 9,
+   "n_lists": 512,
+   "n_probes": 8,
+   "mode": "QUANT8"
+  },
+  "recall": 0.7119,
+  "QPS": 138803.3,
+  "QPS_std": 8189.1,
+  "gpu_bytes": 876.0,
+  "build_s": 1.1,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 9,
+   "n_lists": 512,
+   "n_probes": 16,
+   "mode": "QUANT8"
+  },
+  "recall": 0.796,
+  "QPS": 108323.5,
+  "QPS_std": 309.6,
+  "gpu_bytes": 876.0,
+  "build_s": 1.1,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 9,
+   "n_lists": 512,
+   "n_probes": 32,
+   "mode": "QUANT8"
+  },
+  "recall": 0.8639,
+  "QPS": 77530.6,
+  "QPS_std": 991.8,
+  "gpu_bytes": 876.0,
+  "build_s": 1.1,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 9,
+   "n_lists": 512,
+   "n_probes": 64,
+   "mode": "QUANT8"
+  },
+  "recall": 0.9228,
+  "QPS": 51332.7,
+  "QPS_std": 848.6,
+  "gpu_bytes": 876.0,
+  "build_s": 1.1,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 9,
+   "n_lists": 512,
+   "n_probes": 128,
+   "mode": "QUANT8"
+  },
+  "recall": 0.9665,
+  "QPS": 33470.2,
+  "QPS_std": 265.1,
+  "gpu_bytes": 876.0,
+  "build_s": 1.1,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 9,
+   "n_lists": 512,
+   "n_probes": 256,
+   "mode": "QUANT8"
+  },
+  "recall": 0.9901,
+  "QPS": 21023.6,
+  "QPS_std": 25.1,
+  "gpu_bytes": 876.0,
+  "build_s": 1.1,
+  "rmm_pool": true
+ },
+ {
+  "ds": "arxiv",
+  "engine": "IVF-RaBitQ",
+  "cfg": {
+   "bits": 9,
+   "n_lists": 512,
+   "n_probes": 512,
+   "mode": "QUANT8"
+  },
+  "recall": 0.9965,
+  "QPS": 13214.5,
+  "QPS_std": 27.8,
+  "gpu_bytes": 876.0,
+  "build_s": 1.1,
+  "rmm_pool": true
+ }
+]

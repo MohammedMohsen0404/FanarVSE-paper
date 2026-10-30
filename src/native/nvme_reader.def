@@ -1,0 +1,7 @@
+LIBRARY nvme_reader.dll
+
+EXPORTS
+alloc_bufs
+make_port
+open_tier
+read_rows

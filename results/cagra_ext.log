@@ -1,0 +1,20 @@
+﻿{"ds": "glove", "N": 1183514, "engine": "CAGRA deg32 (fp32 dataset)", "itopk": 128, "recall@10": 0.8288, "QPS": 71698.2, "QPS_std": 2366.7, "index_bytes_per_vec": 528, "build_s": 5.07}
+{"ds": "glove", "N": 1183514, "engine": "CAGRA deg32 (fp32 dataset)", "itopk": 256, "recall@10": 0.8845, "QPS": 33231.1, "QPS_std": 327.0, "index_bytes_per_vec": 528, "build_s": 5.07}
+{"ds": "glove", "N": 1183514, "engine": "CAGRA deg32 (fp32 dataset)", "itopk": 512, "recall@10": 0.9259, "QPS": 12583.6, "QPS_std": 10.2, "index_bytes_per_vec": 528, "build_s": 5.07}
+{"ds": "glove", "N": 1183514, "engine": "CAGRA deg32 (fp32 dataset)", "itopk": 1024, "recall@10": 0.9584, "QPS": 10654.7, "QPS_std": 24.3, "index_bytes_per_vec": 528, "build_s": 5.07}
+[   433][03:29:37:699126][info  ] CAGRA graph build: reducing IVF-PQ search max_internal_batch_size from 131072 -> 78643 to fit the workspace
+{"ds": "glove", "N": 1183514, "engine": "CAGRA deg64 (fp32 dataset)", "itopk": 256, "recall@10": 0.9289, "QPS": 20274.5, "QPS_std": 77.3, "index_bytes_per_vec": 656, "build_s": 9.9}
+{"ds": "glove", "N": 1183514, "engine": "CAGRA deg64 (fp32 dataset)", "itopk": 512, "recall@10": 0.957, "QPS": 8392.3, "QPS_std": 17.6, "index_bytes_per_vec": 656, "build_s": 9.9}
+{"ds": "glove", "N": 1183514, "engine": "CAGRA deg64 (fp32 dataset)", "itopk": 1024, "recall@10": 0.9812, "QPS": 5558.0, "QPS_std": 2.1, "index_bytes_per_vec": 656, "build_s": 9.9}
+DONE
+  return _core.array(a, dtype, copy, order, blocking=blocking)
+[   477][03:30:20:503764][info  ] CAGRA graph build: reducing IVF-PQ search max_internal_batch_size from 131072 -> 26214 to fit the workspace
+{"ds": "dbp", "N": 228772, "engine": "CAGRA deg32 (fp32 dataset)", "itopk": 128, "recall@10": 0.9854, "QPS": 8068.4, "QPS_std": 16.5, "index_bytes_per_vec": 6272, "build_s": 9.56}
+{"ds": "dbp", "N": 228772, "engine": "CAGRA deg32 (fp32 dataset)", "itopk": 256, "recall@10": 0.9924, "QPS": 4354.7, "QPS_std": 4.3, "index_bytes_per_vec": 6272, "build_s": 9.56}
+{"ds": "dbp", "N": 228772, "engine": "CAGRA deg32 (fp32 dataset)", "itopk": 512, "recall@10": 0.9964, "QPS": 2216.5, "QPS_std": 0.8, "index_bytes_per_vec": 6272, "build_s": 9.56}
+{"ds": "dbp", "N": 228772, "engine": "CAGRA deg32 (fp32 dataset)", "itopk": 1024, "recall@10": 0.9989, "QPS": 950.0, "QPS_std": 0.2, "index_bytes_per_vec": 6272, "build_s": 9.56}
+[   477][03:30:49:421522][info  ] CAGRA graph build: reducing IVF-PQ search max_internal_batch_size from 131072 -> 26214 to fit the workspace
+{"ds": "dbp", "N": 228772, "engine": "CAGRA deg64 (fp32 dataset)", "itopk": 256, "recall@10": 0.9962, "QPS": 2147.5, "QPS_std": 0.9, "index_bytes_per_vec": 6400, "build_s": 10.39}
+{"ds": "dbp", "N": 228772, "engine": "CAGRA deg64 (fp32 dataset)", "itopk": 512, "recall@10": 0.9981, "QPS": 1129.2, "QPS_std": 1.0, "index_bytes_per_vec": 6400, "build_s": 10.39}
+{"ds": "dbp", "N": 228772, "engine": "CAGRA deg64 (fp32 dataset)", "itopk": 1024, "recall@10": 0.9994, "QPS": 480.3, "QPS_std": 0.1, "index_bytes_per_vec": 6400, "build_s": 10.39}
+DONE

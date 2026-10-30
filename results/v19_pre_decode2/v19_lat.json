@@ -1,0 +1,202 @@
+[
+ {
+  "nprobe": 256,
+  "K": 200,
+  "recall@10": 0.9822,
+  "batch": 1,
+  "median_ms": 0.81,
+  "p99_ms": 1.02
+ },
+ {
+  "nprobe": 256,
+  "K": 200,
+  "recall@10": 0.9822,
+  "batch": 4,
+  "median_ms": 1.23,
+  "p99_ms": 1.52
+ },
+ {
+  "nprobe": 256,
+  "K": 200,
+  "recall@10": 0.9822,
+  "batch": 16,
+  "median_ms": 3.95,
+  "p99_ms": 4.25
+ },
+ {
+  "nprobe": 256,
+  "K": 200,
+  "recall@10": 0.9822,
+  "batch": 100,
+  "median_ms": 8.54,
+  "p99_ms": 12.59
+ },
+ {
+  "nprobe": 256,
+  "K": 200,
+  "recall@10": 0.9822,
+  "batch": 500,
+  "median_ms": 17.36,
+  "p99_ms": 23.94
+ },
+ {
+  "nprobe": 384,
+  "K": 200,
+  "recall@10": 0.9875,
+  "batch": 1,
+  "median_ms": 0.86,
+  "p99_ms": 1.06
+ },
+ {
+  "nprobe": 384,
+  "K": 200,
+  "recall@10": 0.9875,
+  "batch": 4,
+  "median_ms": 1.57,
+  "p99_ms": 1.73
+ },
+ {
+  "nprobe": 384,
+  "K": 200,
+  "recall@10": 0.9875,
+  "batch": 16,
+  "median_ms": 4.3,
+  "p99_ms": 4.55
+ },
+ {
+  "nprobe": 384,
+  "K": 200,
+  "recall@10": 0.9875,
+  "batch": 100,
+  "median_ms": 8.66,
+  "p99_ms": 13.08
+ },
+ {
+  "nprobe": 384,
+  "K": 200,
+  "recall@10": 0.9875,
+  "batch": 500,
+  "median_ms": 18.55,
+  "p99_ms": 24.81
+ },
+ {
+  "nprobe": 384,
+  "K": 400,
+  "recall@10": 0.9919,
+  "batch": 1,
+  "median_ms": 0.92,
+  "p99_ms": 1.03
+ },
+ {
+  "nprobe": 384,
+  "K": 400,
+  "recall@10": 0.9919,
+  "batch": 4,
+  "median_ms": 1.57,
+  "p99_ms": 1.84
+ },
+ {
+  "nprobe": 384,
+  "K": 400,
+  "recall@10": 0.9919,
+  "batch": 16,
+  "median_ms": 4.67,
+  "p99_ms": 4.92
+ },
+ {
+  "nprobe": 384,
+  "K": 400,
+  "recall@10": 0.9919,
+  "batch": 100,
+  "median_ms": 10.29,
+  "p99_ms": 10.48
+ },
+ {
+  "nprobe": 384,
+  "K": 400,
+  "recall@10": 0.9919,
+  "batch": 500,
+  "median_ms": 22.92,
+  "p99_ms": 23.02
+ },
+ {
+  "nprobe": 512,
+  "K": 400,
+  "recall@10": 0.9939,
+  "batch": 1,
+  "median_ms": 0.96,
+  "p99_ms": 1.2
+ },
+ {
+  "nprobe": 512,
+  "K": 400,
+  "recall@10": 0.9939,
+  "batch": 4,
+  "median_ms": 1.88,
+  "p99_ms": 1.98
+ },
+ {
+  "nprobe": 512,
+  "K": 400,
+  "recall@10": 0.9939,
+  "batch": 16,
+  "median_ms": 4.88,
+  "p99_ms": 5.06
+ },
+ {
+  "nprobe": 512,
+  "K": 400,
+  "recall@10": 0.9939,
+  "batch": 100,
+  "median_ms": 10.38,
+  "p99_ms": 10.52
+ },
+ {
+  "nprobe": 512,
+  "K": 400,
+  "recall@10": 0.9939,
+  "batch": 500,
+  "median_ms": 24.15,
+  "p99_ms": 24.34
+ },
+ {
+  "nprobe": 768,
+  "K": 400,
+  "recall@10": 0.9959,
+  "batch": 1,
+  "median_ms": 1.12,
+  "p99_ms": 1.37
+ },
+ {
+  "nprobe": 768,
+  "K": 400,
+  "recall@10": 0.9959,
+  "batch": 4,
+  "median_ms": 2.3,
+  "p99_ms": 2.48
+ },
+ {
+  "nprobe": 768,
+  "K": 400,
+  "recall@10": 0.9959,
+  "batch": 16,
+  "median_ms": 5.09,
+  "p99_ms": 5.29
+ },
+ {
+  "nprobe": 768,
+  "K": 400,
+  "recall@10": 0.9959,
+  "batch": 100,
+  "median_ms": 10.59,
+  "p99_ms": 10.75
+ },
+ {
+  "nprobe": 768,
+  "K": 400,
+  "recall@10": 0.9959,
+  "batch": 500,
+  "median_ms": 26.43,
+  "p99_ms": 26.6
+ }
+]

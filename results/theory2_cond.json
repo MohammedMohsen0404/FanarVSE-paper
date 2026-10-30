@@ -1,0 +1,166 @@
+[
+ {
+  "what": "all pairs",
+  "pairs": 200000,
+  "mean": -0.0016,
+  "std": 1.0015,
+  "excess_kurt": -0.0017,
+  "kurt_law": -0.0039,
+  "P>1": 0.31778,
+  "P>1_law": 0.31747,
+  "P>1_gauss": 0.31731,
+  "P>2": 0.04591,
+  "P>2_law": 0.04546,
+  "P>2_gauss": 0.0455,
+  "P>3": 0.00273,
+  "P>3_law": 0.00267,
+  "P>3_gauss": 0.0027,
+  "max|Z|": 4.723,
+  "support_sqrt(m)": 39.179,
+  "KS_law": 0.00279,
+  "KS_gauss": 0.0028,
+  "KS_p_law": 0.0892,
+  "KS_p_gauss": 0.086,
+  "corr(Z, true score)": -0.0054,
+  "corr(Z, c)": -0.0004
+ },
+ {
+  "what": "by c (quintile)",
+  "c_lo": 0.992,
+  "c_hi": 0.9948,
+  "n": 40002,
+  "mean": -0.0057,
+  "std": 1.0,
+  "P>2": 0.04535,
+  "P>3": 0.00237
+ },
+ {
+  "what": "by c (quintile)",
+  "c_lo": 0.9948,
+  "c_hi": 0.9951,
+  "n": 40011,
+  "mean": 0.0016,
+  "std": 0.9971,
+  "P>2": 0.04446,
+  "P>3": 0.0029
+ },
+ {
+  "what": "by c (quintile)",
+  "c_lo": 0.9951,
+  "c_hi": 0.9952,
+  "n": 40010,
+  "mean": 0.0032,
+  "std": 0.9974,
+  "P>2": 0.04541,
+  "P>3": 0.00257
+ },
+ {
+  "what": "by c (quintile)",
+  "c_lo": 0.9952,
+  "c_hi": 0.9954,
+  "n": 40023,
+  "mean": -0.0062,
+  "std": 1.0078,
+  "P>2": 0.04832,
+  "P>3": 0.00312
+ },
+ {
+  "what": "by c (quintile)",
+  "c_lo": 0.9954,
+  "c_hi": 0.996,
+  "n": 40008,
+  "mean": -0.001,
+  "std": 1.0052,
+  "P>2": 0.04597,
+  "P>3": 0.00265
+ },
+ {
+  "what": "by true rank among candidates",
+  "rank": "1-1",
+  "n": 1000,
+  "mean": -0.018,
+  "std": 0.9847,
+  "P>2": 0.042,
+  "P>3": 0.001,
+  "std_used(engine sigma)": 0.7268
+ },
+ {
+  "what": "by true rank among candidates",
+  "rank": "2-10",
+  "n": 9000,
+  "mean": -0.0029,
+  "std": 1.0073,
+  "P>2": 0.04722,
+  "P>3": 0.00256,
+  "std_used(engine sigma)": 0.8194
+ },
+ {
+  "what": "by true rank among candidates",
+  "rank": "11-11",
+  "n": 1000,
+  "mean": -0.0187,
+  "std": 1.0048,
+  "P>2": 0.048,
+  "P>3": 0.002,
+  "std_used(engine sigma)": 0.8396
+ },
+ {
+  "what": "by true rank among candidates",
+  "rank": "12-50",
+  "n": 39000,
+  "mean": -0.0052,
+  "std": 1.0024,
+  "P>2": 0.046,
+  "P>3": 0.00277,
+  "std_used(engine sigma)": 0.8652
+ },
+ {
+  "what": "by true rank among candidates",
+  "rank": "51-200",
+  "n": 150000,
+  "mean": -0.0004,
+  "std": 1.001,
+  "P>2": 0.04582,
+  "P>3": 0.00274,
+  "std_used(engine sigma)": 0.9049
+ },
+ {
+  "what": "by ||q_perp|| (quartile)",
+  "lo": 0.2071,
+  "hi": 0.8706,
+  "mean": -0.0069,
+  "std": 1.0084,
+  "std_used": 0.8257
+ },
+ {
+  "what": "by ||q_perp|| (quartile)",
+  "lo": 0.8706,
+  "hi": 0.9019,
+  "mean": -0.0004,
+  "std": 0.9967,
+  "std_used": 0.8847
+ },
+ {
+  "what": "by ||q_perp|| (quartile)",
+  "lo": 0.9019,
+  "hi": 0.9253,
+  "mean": 0.0001,
+  "std": 1.0014,
+  "std_used": 0.9149
+ },
+ {
+  "what": "by ||q_perp|| (quartile)",
+  "lo": 0.9253,
+  "hi": 0.9901,
+  "mean": 0.0008,
+  "std": 0.9995,
+  "std_used": 0.9404
+ },
+ {
+  "what": "within-query error dependence",
+  "K": 200,
+  "K*var(mean_q Z)": 1.685,
+  "implied_mean_pairwise_corr": 0.00344,
+  "note": "1 = uncorrelated; >1 positively correlated errors among a query's candidates"
+ }
+]

@@ -1,0 +1,45 @@
+{"dataset": "glove", "N": 1183514, "d": 100, "participation_ratio": 88.9, "pred": {"1": {"tau_med": 0.614, "bits_pred_PR": 62.6, "bits_pred_PR_p10_p90": [28.8, 92.0]}, "10": {"tau_med": 0.5117, "bits_pred_PR": 86.0, "bits_pred_PR_p10_p90": [49.4, 108.2]}, "100": {"tau_med": 0.4349, "bits_pred_PR": 106.8, "bits_pred_PR_p10_p90": [70.1, 125.8]}}}
+{"dataset": "glove", "R": 8, "codebook": "sign", "bits": 8, "mean_c": 0.821, "top1_in_top20": 0.0015, "top10_in_top200": 0.0078, "top100_in_top2000": 0.0628}
+{"dataset": "glove", "R": 8, "codebook": "trellis", "bits": 17, "mean_c": 0.9633, "top1_in_top20": 0.003, "top10_in_top200": 0.0242, "top100_in_top2000": 0.1213}
+{"dataset": "glove", "R": 8, "codebook": "lm2", "bits": 16, "mean_c": 0.9566, "top1_in_top20": 0.0035, "top10_in_top200": 0.0241, "top100_in_top2000": 0.1167}
+{"dataset": "glove", "R": 16, "codebook": "sign", "bits": 16, "mean_c": 0.8096, "top1_in_top20": 0.006, "top10_in_top200": 0.0372, "top100_in_top2000": 0.1613}
+{"dataset": "glove", "R": 16, "codebook": "trellis", "bits": 25, "mean_c": 0.9207, "top1_in_top20": 0.0215, "top10_in_top200": 0.0877, "top100_in_top2000": 0.2509}
+{"dataset": "glove", "R": 16, "codebook": "lm2", "bits": 32, "mean_c": 0.9471, "top1_in_top20": 0.0275, "top10_in_top200": 0.1018, "top100_in_top2000": 0.2731}
+{"dataset": "glove", "R": 24, "codebook": "sign", "bits": 24, "mean_c": 0.806, "top1_in_top20": 0.0245, "top10_in_top200": 0.0989, "top100_in_top2000": 0.2721}
+{"dataset": "glove", "R": 24, "codebook": "trellis", "bits": 33, "mean_c": 0.8989, "top1_in_top20": 0.0685, "top10_in_top200": 0.1808, "top100_in_top2000": 0.376}
+{"dataset": "glove", "R": 24, "codebook": "lm2", "bits": 48, "mean_c": 0.9442, "top1_in_top20": 0.1015, "top10_in_top200": 0.2315, "top100_in_top2000": 0.4284}
+{"dataset": "glove", "R": 32, "codebook": "sign", "bits": 32, "mean_c": 0.8042, "top1_in_top20": 0.075, "top10_in_top200": 0.1859, "top100_in_top2000": 0.3684}
+{"dataset": "glove", "R": 32, "codebook": "trellis", "bits": 41, "mean_c": 0.8863, "top1_in_top20": 0.144, "top10_in_top200": 0.2802, "top100_in_top2000": 0.4727}
+{"dataset": "glove", "R": 32, "codebook": "lm2", "bits": 64, "mean_c": 0.943, "top1_in_top20": 0.2155, "top10_in_top200": 0.3593, "top100_in_top2000": 0.5457}
+{"dataset": "glove", "R": 48, "codebook": "sign", "bits": 48, "mean_c": 0.8023, "top1_in_top20": 0.2155, "top10_in_top200": 0.3634, "top100_in_top2000": 0.5236}
+{"dataset": "glove", "R": 48, "codebook": "trellis", "bits": 57, "mean_c": 0.8727, "top1_in_top20": 0.335, "top10_in_top200": 0.4709, "top100_in_top2000": 0.6269}
+{"dataset": "glove", "R": 48, "codebook": "lm2", "bits": 96, "mean_c": 0.9415, "top1_in_top20": 0.4625, "top10_in_top200": 0.5942, "top100_in_top2000": 0.7246}
+{"dataset": "glove", "R": 64, "codebook": "sign", "bits": 64, "mean_c": 0.801, "top1_in_top20": 0.4, "top10_in_top200": 0.5134, "top100_in_top2000": 0.6431}
+{"dataset": "glove", "R": 64, "codebook": "trellis", "bits": 73, "mean_c": 0.8661, "top1_in_top20": 0.528, "top10_in_top200": 0.6364, "top100_in_top2000": 0.7521}
+{"dataset": "glove", "R": 64, "codebook": "lm2", "bits": 128, "mean_c": 0.9406, "top1_in_top20": 0.686, "top10_in_top200": 0.7768, "top100_in_top2000": 0.8578}
+{"dataset": "glove", "R": 100, "codebook": "sign", "bits": 100, "mean_c": 0.8, "top1_in_top20": 0.679, "top10_in_top200": 0.7586, "top100_in_top2000": 0.8387}
+{"dataset": "glove", "R": 100, "codebook": "trellis", "bits": 109, "mean_c": 0.8585, "top1_in_top20": 0.8155, "top10_in_top200": 0.883, "top100_in_top2000": 0.9295}
+{"dataset": "glove", "R": 100, "codebook": "lm2", "bits": 200, "mean_c": 0.9398, "top1_in_top20": 0.9645, "top10_in_top200": 0.9893, "top100_in_top2000": 0.9963}
+{"dataset": "oai", "N": 228000, "d": 1536, "participation_ratio": 124.3, "pred": {"1": {"tau_med": 0.5699, "bits_pred_PR": 100.8, "bits_pred_PR_p10_p90": [58.0, 135.5]}, "10": {"tau_med": 0.4591, "bits_pred_PR": 139.6, "bits_pred_PR_p10_p90": [104.1, 168.6]}, "100": {"tau_med": 0.3664, "bits_pred_PR": 180.1, "bits_pred_PR_p10_p90": [145.5, 209.1]}}}
+{"dataset": "oai", "R": 32, "codebook": "sign", "bits": 32, "mean_c": 0.8023, "top1_in_top20": 0.111, "top10_in_top200": 0.2685, "top100_in_top2000": 0.5381}
+{"dataset": "oai", "R": 32, "codebook": "trellis", "bits": 41, "mean_c": 0.8847, "top1_in_top20": 0.1915, "top10_in_top200": 0.3648, "top100_in_top2000": 0.6232}
+{"dataset": "oai", "R": 32, "codebook": "lm2", "bits": 64, "mean_c": 0.9418, "top1_in_top20": 0.2695, "top10_in_top200": 0.4506, "top100_in_top2000": 0.6929}
+{"dataset": "oai", "R": 64, "codebook": "sign", "bits": 64, "mean_c": 0.8012, "top1_in_top20": 0.4305, "top10_in_top200": 0.5982, "top100_in_top2000": 0.786}
+{"dataset": "oai", "R": 64, "codebook": "trellis", "bits": 73, "mean_c": 0.8659, "top1_in_top20": 0.5335, "top10_in_top200": 0.6846, "top100_in_top2000": 0.8488}
+{"dataset": "oai", "R": 64, "codebook": "lm2", "bits": 128, "mean_c": 0.9408, "top1_in_top20": 0.671, "top10_in_top200": 0.7826, "top100_in_top2000": 0.9027}
+{"dataset": "oai", "R": 96, "codebook": "sign", "bits": 96, "mean_c": 0.8006, "top1_in_top20": 0.661, "top10_in_top200": 0.7839, "top100_in_top2000": 0.8995}
+{"dataset": "oai", "R": 96, "codebook": "trellis", "bits": 105, "mean_c": 0.859, "top1_in_top20": 0.734, "top10_in_top200": 0.8431, "top100_in_top2000": 0.9368}
+{"dataset": "oai", "R": 96, "codebook": "lm2", "bits": 192, "mean_c": 0.9404, "top1_in_top20": 0.8325, "top10_in_top200": 0.9165, "top100_in_top2000": 0.9694}
+{"dataset": "oai", "R": 128, "codebook": "sign", "bits": 128, "mean_c": 0.7992, "top1_in_top20": 0.79, "top10_in_top200": 0.881, "top100_in_top2000": 0.9515}
+{"dataset": "oai", "R": 128, "codebook": "trellis", "bits": 137, "mean_c": 0.8555, "top1_in_top20": 0.845, "top10_in_top200": 0.9228, "top100_in_top2000": 0.9731}
+{"dataset": "oai", "R": 128, "codebook": "lm2", "bits": 256, "mean_c": 0.9391, "top1_in_top20": 0.9115, "top10_in_top200": 0.9663, "top100_in_top2000": 0.9902}
+{"dataset": "oai", "R": 192, "codebook": "sign", "bits": 192, "mean_c": 0.7986, "top1_in_top20": 0.895, "top10_in_top200": 0.9559, "top100_in_top2000": 0.9868}
+{"dataset": "oai", "R": 192, "codebook": "trellis", "bits": 201, "mean_c": 0.852, "top1_in_top20": 0.9375, "top10_in_top200": 0.9773, "top100_in_top2000": 0.9944}
+{"dataset": "oai", "R": 192, "codebook": "lm2", "bits": 384, "mean_c": 0.9389, "top1_in_top20": 0.9765, "top10_in_top200": 0.9933, "top100_in_top2000": 0.999}
+{"dataset": "oai", "R": 256, "codebook": "sign", "bits": 256, "mean_c": 0.7986, "top1_in_top20": 0.952, "top10_in_top200": 0.9826, "top100_in_top2000": 0.9958}
+{"dataset": "oai", "R": 256, "codebook": "trellis", "bits": 265, "mean_c": 0.8504, "top1_in_top20": 0.97, "top10_in_top200": 0.992, "top100_in_top2000": 0.9984}
+{"dataset": "oai", "R": 256, "codebook": "lm2", "bits": 512, "mean_c": 0.9389, "top1_in_top20": 0.993, "top10_in_top200": 0.9982, "top100_in_top2000": 0.9998}
+{"dataset": "oai", "R": 384, "codebook": "sign", "bits": 384, "mean_c": 0.7985, "top1_in_top20": 0.9795, "top10_in_top200": 0.996, "top100_in_top2000": 0.9992}
+{"dataset": "oai", "R": 384, "codebook": "trellis", "bits": 393, "mean_c": 0.8486, "top1_in_top20": 0.989, "top10_in_top200": 0.9985, "top100_in_top2000": 0.9999}
+{"dataset": "oai", "R": 384, "codebook": "lm2", "bits": 768, "mean_c": 0.9386, "top1_in_top20": 0.998, "top10_in_top200": 0.9998, "top100_in_top2000": 1.0}
+DONE

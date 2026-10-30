@@ -1,0 +1,48 @@
+[
+ {
+  "codes": "full-1536",
+  "decoder": "standard (RaBitQ/TurboQuant)",
+  "recall@10_estimator": 0.8275,
+  "recall@10_rerank40": 0.9978,
+  "recall@10_rerank100": 1.0
+ },
+ {
+  "codes": "full-1536",
+  "decoder": "Bussgang LMMSE raw",
+  "mse_std": 0.3631,
+  "mse_lmmse": 0.1882,
+  "recall@10_estimator": 0.7933,
+  "recall@10_rerank40": 0.9932,
+  "recall@10_rerank100": 0.9994
+ },
+ {
+  "codes": "full-1536",
+  "decoder": "Bussgang direction + unbiased scale",
+  "recall@10_estimator": 0.7928,
+  "recall@10_rerank40": 0.9941,
+  "recall@10_rerank100": 1.0
+ },
+ {
+  "codes": "pca-256",
+  "decoder": "standard (RaBitQ/TurboQuant)",
+  "recall@10_estimator": 0.6031,
+  "recall@10_rerank40": 0.908,
+  "recall@10_rerank100": 0.9768
+ },
+ {
+  "codes": "pca-256",
+  "decoder": "Bussgang LMMSE raw",
+  "mse_std": 0.3618,
+  "mse_lmmse": 0.306,
+  "recall@10_estimator": 0.5407,
+  "recall@10_rerank40": 0.8507,
+  "recall@10_rerank100": 0.9449
+ },
+ {
+  "codes": "pca-256",
+  "decoder": "Bussgang direction + unbiased scale",
+  "recall@10_estimator": 0.5693,
+  "recall@10_rerank40": 0.883,
+  "recall@10_rerank100": 0.9618
+ }
+]

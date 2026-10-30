@@ -1,0 +1,66 @@
+[
+ {
+  "os": "Windows",
+  "what": "FanarDB np8 K200",
+  "recall@10": 0.962,
+  "QPS": 10641.5,
+  "QPS_std": 28.1,
+  "reads_mean": 5.73
+ },
+ {
+  "os": "Windows",
+  "what": "FanarDB np32 K200",
+  "recall@10": 0.9846,
+  "QPS": 7116.6,
+  "QPS_std": 13.9,
+  "reads_mean": 5.74
+ },
+ {
+  "os": "Windows",
+  "what": "FanarDB np32 K400",
+  "recall@10": 0.9922,
+  "QPS": 5295.4,
+  "QPS_std": 9.1,
+  "reads_mean": 5.85
+ },
+ {
+  "os": "Windows",
+  "what": "FanarDB latency batch 1",
+  "ms_p50": 3.545
+ },
+ {
+  "os": "Windows",
+  "what": "FanarDB latency batch 16",
+  "ms_p50": 6.894
+ },
+ {
+  "os": "Windows",
+  "what": "kernel launch, async (us)",
+  "value": 6.48
+ },
+ {
+  "os": "Windows",
+  "what": "kernel launch + sync round trip (us)",
+  "value": 38.05
+ },
+ {
+  "os": "Windows",
+  "what": "H2D pinned 256MB (GB/s)",
+  "value": 10.19
+ },
+ {
+  "os": "Windows",
+  "what": "D2H pinned 256MB (GB/s)",
+  "value": 9.33
+ },
+ {
+  "os": "Windows",
+  "what": "fp16 GEMM 2000x1536x100k (TFLOP/s)",
+  "value": 17.66
+ },
+ {
+  "os": "Windows",
+  "what": "host gather of 12k random fp16 rows (ms)",
+  "value": 2.31
+ }
+]

@@ -1,0 +1,3 @@
+12
+{"R": 256, "stage1_s": 8.3, "tiered_s": 4.1, "cells_s": 11.6, "cell_reencode_s": 4.3, "total_s": 28.3, "recall@10": 0.9959, "QPS": 16646}
+{"R": 384, "stage1_s": 8.9, "tiered_s": 4.1, "cells_s": 12.0, "cell_reencode_s": 5.6, "total_s": 30.6, "recall@10": 0.9992, "QPS": 6574}

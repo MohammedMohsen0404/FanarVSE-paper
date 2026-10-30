@@ -1,0 +1,83 @@
+[
+ {
+  "N_millions": 1.0,
+  "gpu_GB": 0.55,
+  "nprobe": 512,
+  "K": 400,
+  "QPS": 17826,
+  "QPS_std": 394,
+  "reads": 6.61
+ },
+ {
+  "N_millions": 1.0,
+  "gpu_GB": 0.55,
+  "nprobe": 768,
+  "K": 400,
+  "QPS": 17019,
+  "QPS_std": 142,
+  "reads": 6.61
+ },
+ {
+  "N_millions": 1.0,
+  "gpu_GB": 0.55,
+  "nprobe": 1024,
+  "K": 800,
+  "QPS": 12148,
+  "QPS_std": 50,
+  "reads": 6.66
+ },
+ {
+  "N_millions": 2.0,
+  "gpu_GB": 1.1,
+  "nprobe": 512,
+  "K": 400,
+  "QPS": 12792,
+  "QPS_std": 67,
+  "reads": 6.59
+ },
+ {
+  "N_millions": 2.0,
+  "gpu_GB": 1.1,
+  "nprobe": 768,
+  "K": 400,
+  "QPS": 11532,
+  "QPS_std": 121,
+  "reads": 6.57
+ },
+ {
+  "N_millions": 2.0,
+  "gpu_GB": 1.1,
+  "nprobe": 1024,
+  "K": 800,
+  "QPS": 8875,
+  "QPS_std": 37,
+  "reads": 6.62
+ },
+ {
+  "N_millions": 3.99,
+  "gpu_GB": 2.2,
+  "nprobe": 512,
+  "K": 400,
+  "QPS": 8475,
+  "QPS_std": 34,
+  "reads": 10.88
+ },
+ {
+  "N_millions": 3.99,
+  "gpu_GB": 2.2,
+  "nprobe": 768,
+  "K": 400,
+  "QPS": 7488,
+  "QPS_std": 16,
+  "reads": 10.89
+ },
+ {
+  "N_millions": 3.99,
+  "gpu_GB": 2.2,
+  "nprobe": 1024,
+  "K": 800,
+  "QPS": 5395,
+  "QPS_std": 10,
+  "reads": 10.95
+ }
+]
